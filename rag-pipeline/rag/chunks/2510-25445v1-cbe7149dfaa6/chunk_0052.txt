@@ -1,0 +1,27 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 31-32
+Chunk: 52
+
+Safety & Misalign- ment [137, 138] Risk of "perverse instantia- tion" where agents exploit literal, rigid goals with unin- tended consequences.
+
+Risk of goal drift, prompt hacking, and value mis- generalization where agents pursue correlated but incor- rect proxies.
+
+Define "meaningful human control" by paradigm. Symbolic: Clear interrupt signals. Neural: Confidence thresholding for automatic deferral and nu- anced steering mechanisms.
+
+Autonomy vs. Con- trol [127, 128] Human oversight is typically designed as explicit veto points or permission gates within a deterministic loop.
+
+Human oversight is fuzzy, often implemented as "human-in-the-loop" feed- back, which can be ignored or gamed by the agent.
+
+Security & Re- silience [175, 176] Vulnerabilities include logic bombs, sensor spoofing, and exploiting algorithmic flaws.
+
+Paradigm-specific defense: Symbolic: Formal verifi- cation, intrusion detection. Neural: Advanced prompt hardening, detection of out- of-distribution inputs, data provenance.
+
+Vulnerabilities include prompt injection, train- ing data poisoning, and adversarial attacks on em- beddings.
+
+31
+
+[PAGE 32]
+
+Addressing the ethical and governance issues of Agentic AI is essential to harness its trans- formative potential. However, this analysis demonstrates that a nuanced, paradigm-specific ap- proach is not just beneficial but necessary. Blanket policies will inevitably fail. The path forward requires technical standards, legal frameworks, and ethical guidelines that are as sophisticated and differentiated as the technologies they aim to govern. This paradigm-specific framing, however, remains incomplete without explicit considera- tion of policy frameworks that account for the degrees of agency and autonomy in Agentic AI systems, an issue we address next.

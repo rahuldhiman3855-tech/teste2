@@ -1,0 +1,107 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 75-77
+Chunk: 51
+
+Sr. No
+
+Sr. No
+
+Voice Alert Notification
+
+Voice Alert Notification
+
+28 "Check Oil Pressure"
+
+41 "Low ambient temperature"
+
+29 "Check Fuel level"
+
+42 Take out the key fob
+
+30 "Have a Tea Break"
+
+43 "Engage Park Brake and Take Key Fob Out "
+
+31 "Check Water in Fuel"
+
+44 "Park Lights ON please check"
+
+32 "Smart Key Battery Low"
+
+45 "Head Lights ON please check"
+
+33 "Fasten Passenger seat belt"
+
+46 Alert Table missing in requirement Doc
+
+34 "Cruise ON! Set the Speed"
+
+47 Alert Table missing in requirement Doc
+
+35 "Key not found"
+
+48 "HV system fault, please stop the vehicle & contact service center"
+
+36 "Express cooling on"
+
+49 "Vehicle will shift to Neutral in next 5 mins for your Safety"
+
+37 "Express Cooling OFF"
+
+38 "Express cooling on windows may roll down"
+
+50 "HV system fault, contact service center"
+
+39 "Express cooling off roll up the windows if down"
+
+40 "Roll up the windows if down"
+
+75
+
+[PAGE 76]
+
+SETTINGS Overview
+
+Figure 56 : Settings
+
+6 SETTINGS
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_076_img_001.jpeg]
+
+Overview
+
+The system allows you to view and setup the following settings from the infotainment system:
+
+• Audio Settings
+
+• Connectivity
+
+• Phone Settings
+
+• Software Update
+
+• System
+
+• Voice Assistant
+
+76
+
+[PAGE 77]
+
+Audio Settings SETTINGS
+
+Figure 57 : Audio Settings Screen - 1
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_077_img_001.jpeg]
+
+Audio Settings
+
+The system allows you to manage your in-vehicle audio experience. With Audio Settings you can:
+
+• Setup Volume for Media, Phone, Ringtone and System
+
+• Control Bass, Middle and Treble using Audio Equalizer
+
+• Manage in-vehicle volume distribution among the speakers using Balance and Fader settings
+
+Figure 58 : Audio Settings - 2

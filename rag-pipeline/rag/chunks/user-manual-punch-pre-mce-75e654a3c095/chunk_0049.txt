@@ -1,0 +1,59 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 71-73
+Chunk: 49
+
+If the vehicle is equipped with this feature, you can ON/OFF DRL (Daytime Running Lamps) from the infotainment system.
+
+To set the Approach lights illumination time:
+
+To ON/OFF DRL:
+
+1. In the Vehicle Settings screen, navigate to and select the Approach Lamps option. The system displays the various illumination time options.
+
+1. In the Vehicle Setup screen, navigate to and select the Lights option.
+
+2. In the Lighting screen tap on DRL tap the DRL bar icon to ON/OFF DRLs.
+
+2. Navigate to and select the required illumination time option from 30 seconds/60 seconds/90 seconds.
+
+71
+
+[PAGE 72]
+
+VEHICLE FUNCTIONS TATA Assist Call (Breakdown Call)*
+
+Figure 52 : Daytime Running Lamps
+
+TATA Assist Call (Breakdown Call)*
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_072_img_001.jpeg]
+
+In case of vehicle break down, the infotainment system helps you to reach you to TATA Motors service centre.
+
+Note: This feature requires active inbuilt internet connectivity in the car.
+
+1. Tap the Break Call application, from the App launcher Screen.
+
+2. Tap B Call button, the infotainment system dials the TATA Break Down Service centre.
+
+3. Swipe right on the ‘Slide to End Call’ bar to disconnect the call.
+
+Figure 53 : Break Down Call
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_072_img_002.jpeg]
+
+72
+
+[PAGE 73]
+
+Emergency Call VEHICLE FUNCTIONS
+
+Emergency Call
+
+Voice Alerts
+
+Voice Alert system alerts or informs you regarding the condition of some critical components or actions performed in your vehicle like warning for door open, change in drive mode and more.
+
+In case of Emergency, the infotainment system helps you to call Emergency SOS number.
+
+Note: This feature requires active inbuilt internet connectivity in the car.

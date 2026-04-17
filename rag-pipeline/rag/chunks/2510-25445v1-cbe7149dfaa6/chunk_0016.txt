@@ -1,0 +1,35 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 9-12
+Chunk: 16
+
+The most advanced manifestation of the neural paradigm is multi-agent orchestration. Frame- works like AutoGen [67] and LangGraph [81] coordinate diverse, modular agents through struc-
+
+9
+
+[PAGE 10]
+
+[IMAGE: rag/assets/2510-25445v1-cbe7149dfaa6/page_010_img_001.png]
+
+Figure 4: The shift toward learned behavior: Architectural contrast between vanilla DRL (single-task optimization) and meta-DRL (dual-loop generalization). The latter improves adaptability across tasks through meta-optimization loops, moving from ex- plicit programming toward learned, emergent capabilities.
+
+10
+
+[PAGE 11]
+
+[IMAGE: rag/assets/2510-25445v1-cbe7149dfaa6/page_011_img_001.png]
+
+Figure 5: The journey from symbolic to neural agency: The evolution of a per- sonal assistant from a deterministic rule-based (MDP) system, to an uncertainty-aware (POMDP) system, and finally to a modern LLM-orchestrated agent. This journey bridges the two paradigms, ending with a system that exhibits intelligent behavior through entirely different mechanisms.
+
+11
+
+[PAGE 12]
+
+Table 3: Orchestration Mechanisms of Modern Neural Agentic Frameworks
+
+Framework Primary Mecha- nism Functional Paradigm and Repre- sentative Applications
+
+LangChain [41, 62, 63, 64, 65] Prompt Chaining Orchestrates linear sequences of LLM calls and API tools. Replaces symbolic planning with stochastic generation of next steps. Applica- tions: Multi-step workflow automa- tions, automated medical reporting [66].
+
+AutoGen [67, 68] Multi-Agent Conversation Facilitates structured dialogues be- tween collaborative LLM agents. Replaces monolithic control with emergent problem-solving through conversation. Applications: Col- laborative task solving, economic research coordination [69].

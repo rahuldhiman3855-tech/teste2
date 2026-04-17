@@ -1,0 +1,29 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 41-41
+Chunk: 72
+
+[65] T. Taulli and G. Deshmukh. Building generative AI agents: Using LangGraph, AutoGen, and CrewAI. APress, Berlin, Germany, 2025.
+
+[66] J. Huh, H.J. Park, and J.C. Ye. Breast ultrasound report generation using langchain. arXiv [eess.IV], 2023.
+
+[67] Q. Wu et al. Autogen: Enabling next-gen llm applications via multi-agent conversation. arXiv [cs.AI], 2023.
+
+[68] V. Dibia. Multi-Agent Systems with AutoGen. Manning Publications, New York, NY, 2025.
+
+[69] H. Dawid, P. Harting, H. Wang, Z. Wang, and J. Yi. Agentic workflows for economic research: Design and implementation. arXiv [econ.GN], 2025.
+
+[70] P. Venkadesh, S. V. Divya, and K. S. Kumar. Unlocking ai creativity: A multi-agent approach with crewai. Journal of Trends in Computer Science and Smart Technology, 6(4):338–356, 2024.
+
+[71] Z. Duan and J. Wang. Exploration of llm multi-agent application implementation based on langgraph+crewai. arXiv [cs.MA], 2024.
+
+[72] M. Kothapalli. Integrating web applications with azure openai services: A focus on se- mantic kernel. Int. J. Sci. Res. (Raipur), 13(3):1918–1923, 2024.
+
+[73] L.A. Meyer. Building AI Applications with Microsoft Semantic Kernel: Easily integrate generative AI capabilities and copilot experiences into your applications. Packt Publish- ing, Birmingham, England, 2024.
+
+[74] D. Costea. Microsoft Semantic Kernel in Action. Manning Publications, Shelton, Con- necticut, USA, 2025.
+
+[75] A. Gheorghiu. Building Data-Driven Applications with LlamaIndex: A practical guide to retrieval-augmented generation (RAG) to enhance LLM applications. Packt Publishing, Birmingham, England, 2024.
+
+[76] J. Ramirez-Medina, M. Ataei, and A. Amirfazli. Accelerating scientific research through a multi-llm framework. arXiv [physics.app-ph], 2025.

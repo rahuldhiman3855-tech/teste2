@@ -1,0 +1,23 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 43-43
+Chunk: 76
+
+[109] Mahi Ratan Reddy Deva. A review of api management systems and their role in seamless integration between software applications. Asian Journal of Computer Science Engineer- ing, 10(2), 2025.
+
+[110] Joshua Ofoeda, Richard Boateng, and John Effah. Application programming interface (api) research: A review of the past to inform the future. International Journal of Enter- prise Information Systems, 15:76–95, 07 2019.
+
+[111] Lei Liu, Xun Li, Yuzhou Liu, and Huaxiao Liu. Application programming interface rec- ommendation according to the knowledge indexed by app feature mined from app stores. J. Softw. (Malden), 33(11), 2021.
+
+[112] Maxime Lamothe, Yann-Gaël Guéhéneuc, and Weiyi Shang. A systematic review of api evolution literature. ACM Computing Surveys, 54:1–36, 10 2021.
+
+[113] Rishi Saripalle, Christopher Runyan, and Mitchell Russell. Using HL7 FHIR to achieve interoperability in patient health record. J. Biomed. Inform., 94(103188):103188, 2019.
+
+[114] Miguel Pedrera-Jiménez, Noelia García-Barrio, Santiago Frid, David Moner, Diego Boscá-Tomás, Raimundo Lozano-Rubí, Dipak Kalra, Thomas Beale, Adolfo Muñoz- Carrero, and Pablo Serrano-Balazote. Can OpenEHR, ISO 13606, and HL7 FHIR work together? an agnostic approach for the selection and application of electronic health record standards to the next-generation health data spaces. J. Med. Internet Res., 25:e48702, 2023.
+
+[115] Hua Zhong, Shan Jiang, and Sarfraz Khurshid. An approach for API synthesis using large language models. 2025.
+
+[116] Shishir G Patil, Tianjun Zhang, Xin Wang, and Joseph E Gonzalez. Gorilla: Large lan- guage model connected with massive APIs. 2023.
+
+[117] Hana Derouiche, Zaki Brahmi, and Haithem Mazeni. Agentic AI frameworks: Architec- tures, protocols, and design challenges. 2025.

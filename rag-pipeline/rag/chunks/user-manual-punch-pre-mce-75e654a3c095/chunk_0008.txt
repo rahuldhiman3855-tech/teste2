@@ -1,0 +1,60 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 12-13
+Chunk: 8
+
+12. Wireless Android Auto™ and Wireless Apple CarPlay™ compatibility for infotainment system.
+
+13. Drive Next Application for real-time driving behavior analysis.
+
+Key Features of the multimedia system are:
+
+1. 8-inch display with 1920x 720 resolution
+
+14. Display OFF feature for distraction free night drive.
+
+2. 4 channels (Non JBL Brand Audio) output supported with internal audio amplifier interface.
+
+15. Speed Dependent Volume Control
+
+16. Infotainment controls from Steering Wheel Switch Board
+
+17. Current and Live Location sharing application
+
+Note: Channel output is based on vehicle variant.
+
+18. Emergency and Break down calling feature.
+
+3. AM and FM Tuner bands with 20 memories each
+
+4. USB, iPod, Wi-Fi/Hotspot and Bluetooth Audio multimedia support
+
+5. Video Playback and Image viewing support from USB source (Pen Driver only)
+
+6. Bluetooth connectivity for pairing with up to ten devices, maximum 1 device can be connected at a time, hands
+
+12
+
+[PAGE 13]
+
+On-Screen Touch Controls GETTING STARTED
+
+3 GETTING STARTED
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_013_img_001.png]
+
+Flick (Quick Scrolling)
+
+The system delivers entertainment and information, while helping drivers keep their eyes on the road and their hands- on the wheel. You can control the infotainment system via touch screen or steering wheel control.
+
+Flick on the screen to move quickly up and down in the list.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_013_img_002.png]
+
+Select and Hold
+
+Selecting and holding or in the music player will rewind or fast forward the music.
+
+On-Screen Touch Controls
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_013_img_003.png]
+
+Refer to the below guidelines on how to touch the screen to operate the system.

@@ -1,0 +1,49 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 45-46
+Chunk: 34
+
+Figure 28 : Apple CarPlay Music Screen
+
+5. You can click home icon on the left bar to go back to Home Screen on the infotainment system
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_045_img_001.jpeg]
+
+Note: The other features in Apple CarPlay can be similarly accessed from your infotainment system.
+
+Figure 27 : Apple CarPlay Screen with an Active Call
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_045_img_002.jpeg]
+
+When an Apple CarPlay session is active in the system and you access other system functions like, HVAC and Volume Control, the status of these functions will be displayed at the top of the Apple CarPlay screen.
+
+Listen to Music
+
+1. On your display, select the app launcher . 2. Tap Apple Carplay 3. Select your favorite music app to browse and play music
+
+45
+
+[PAGE 46]
+
+APPLICATIONS DriveNext*
+
+• View Trip Histories
+
+DriveNext*
+
+Figure 29 : DriveNext Screen
+
+DriveNext captures the real-time vehicle sensor data and convert those data points into meaningful driver centric information. Note : DriveNext is applicable for Non telematics MT(Manual) and AMT vehicle only.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_046_img_001.jpeg]
+
+With DriveNext app, you can:
+
+• Monitor some vital vehicle information like Fuel Level, Odometer Readings, Distance to Empty etc from home, office or just about anywhere.
+
+Figure 30 : DriveNext Insights
+
+• Get Trip Summary after every trip end.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_046_img_002.jpeg]
+
+• Understand your driving behavior using detailed trip insights.
+
+• Analyze Fuel Efficiency with respect to your trips and diving performances.

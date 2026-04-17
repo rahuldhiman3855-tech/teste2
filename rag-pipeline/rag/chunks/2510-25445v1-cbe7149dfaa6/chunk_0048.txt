@@ -1,0 +1,23 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 29-30
+Chunk: 48
+
+156, 157, 158, 159, 160, 161,
+
+88, 89, 162, 163, 164, 165, 166,
+
+167, 168, 169, 170, 171, 172,
+
+142, 143, 144, 145, 146]
+
+173]
+
+29
+
+[PAGE 30]
+
+Key Insights from the Paradigm-Aware Taxonomy Our paradigm-aware taxonomy yields several pivotal insights that chart the current and future state of Agentic AI. Primarily, it reveals a clear paradigm-market fit, wherein symbolic and hybrid architectures demonstra- bly dominate safety-critical applications like healthcare and robotics, while pure neural systems thrive in data-rich, adaptive domains such as finance and education. Furthermore, the taxon- omy exposes a significant governance imbalance; while ethical challenges within the neural paradigm are the subject of intense research, the governance of modern, complex symbolic sys- tems remains a critically underexplored area. This insight directly informs the third finding: that the most viable path forward is hybrid. The most active and promising research in emerging technologies explicitly seeks to integrate both paradigms, a strategic direction that confirms the thesis outlined in Section 9. Finally, the successful classification of all 90 studies by this dualist framework validates its comprehensive coverage and utility as a robust tool for literature analysis and future research design.
+
+7 Ethical and Governance Challenges: A Paradigm- Specific Analysis

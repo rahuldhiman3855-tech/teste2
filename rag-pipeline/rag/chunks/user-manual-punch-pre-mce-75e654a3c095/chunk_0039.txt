@@ -1,0 +1,169 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 54-56
+Chunk: 39
+
+Shut down AC
+
+Ac ON/OFF
+
+AC on
+
+AC off
+
+Switch on air condition
+
+54
+
+[PAGE 55]
+
+Voice Assistant* APPLICATIONS
+
+Feature Sub- Feature Commands
+
+Feature Sub- Feature Commands
+
+Switch off the AC
+
+Start air recirc mode
+
+Turn on the AC
+
+Air Recirculation/Recirc Mode On
+
+Turn On air condition
+
+Air Recirculation/Recirc Mode Off
+
+Air Circulation
+
+Turn Off air condition
+
+Turn on recirc mode
+
+Put on the AC
+
+Turn Off Air Recirculation/Recirc Mode
+
+Reduce fan to <number>
+
+Raise fan to <number>
+
+Shutdown Air Recirculation/Recirc Mode
+
+Boost fan to <number>
+
+AQI level of my four-wheeler
+
+Lower fan by <number>
+
+Cabins air quality index
+
+Decrease fan speed by <number>
+
+Change Fan speed to <Number>
+
+Kindly show me the AQI level inside my car
+
+Fan Speed
+
+Increase fan speed by <number>
+
+How is my AQI
+
+Increase fan speed to <number>
+
+AQI Level
+
+Status of my AQI
+
+Set blower to <number>
+
+Whats my AQI level
+
+Current air quality of my cabin
+
+55
+
+[PAGE 56]
+
+APPLICATIONS Voice Assistant*
+
+Feature Sub- Feature Commands
+
+Feature Sub- Feature Commands
+
+Tell me my air quality info
+
+I want to invoke air recirc mode
+
+Inactivate the air recirc mode
+
+Give me information about air quality
+
+Invoke auto mode
+
+Auto Mode
+
+Close max defrost
+
+Turn on auto mode
+
+Max defrost off
+
+Shift air distribution mode
+
+Activate max defrost
+
+Air Distribution Mode
+
+Switch the vent mode
+
+Max Defrost
+
+Turn Max defrost off
+
+I want to swap air flow
+
+Switch air flow
+
+Start Max defrost
+
+Mute song
+
+shutdown max defrost
+
+Mute volume
+
+Mute/Unmu te
+
+Turn on max defrost
+
+Mute music
+
+I want to shutdown front defroster
+
+Unmute
+
+Deactivate front defrost
+
+Front Rear Defrost
+
+Audio
+
+Increase volume
+
+Turn on rear defrost
+
+Decrease volume
+
+Set off rear defroster
+
+Volume Change
+
+Raise volume
+
+Inactivate the air recirc mode
+
+Lower volume

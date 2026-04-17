@@ -1,0 +1,64 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 65-66
+Chunk: 45
+
+Figure 45 : Select Duration of Sharing Location Screen
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_065_img_001.jpeg]
+
+You can use following options on the Sound demo screen:
+
+1. Play/Pause
+
+2. Shuffle
+
+3. Repeat (Default OFF, ON, Repeat One)
+
+4. Track Selection
+
+5. Audio Settings
+
+Figure 46 : Sound Demo Screen
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_065_img_002.jpeg]
+
+Note: Refer to Audio Settings section for audio setup.
+
+65
+
+[PAGE 66]
+
+VEHICLE FUNCTIONS Rear View Camera
+
+• Red, Green and Yellow colored zones are to identify the degree of closeness to the obstacle from your vehicle bumper i.e.
+
+5 VEHICLE FUNCTIONS
+
+− Red- Very close − Yellow - Close − Green - Within safe distance
+
+The infotainment system supports handling and viewing of some vehicle feature/components controls. The following vehicle functions are operated through the infotainment system.
+
+As you steer your vehicle, the parking guides change accordingly to indicate your vehicle's path.
+
+• Rear View Camera (RVC)
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_066_img_001.png]
+
+• Surround View System*
+
+Tap Horizontally wide button to navigate horizontally stretched screen.
+
+• Climate Control
+
+• Lighting
+
+Figure 47 : Color Zones
+
+• Break Down Call
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_066_img_002.jpeg]
+
+Rear View Camera
+
+The Rear View Camera (RVC) feature is vehicle dependent. If you have a rear-view camera installed in your vehicle variant, you will be able to manage it using the infotainment system.
+
+When you engage the reverse gear or tap on from the right drawer, the RVC feature is activated. It displays the following information:
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_066_img_003.png]

@@ -1,0 +1,27 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 39-40
+Chunk: 69
+
+[37] Zhongwei Wan, Xin Wang, Che Liu, Samiul Alam, Yu Zheng, Jiachen Liu, Zhongnan Qu, Shen Yan, Yi Zhu, Quanlu Zhang, Mosharaf Chowdhury, and Mi Zhang. Efficient large language models: A survey. Transactions on Machine Learning Research (TMLR), 2024. Published May 20, 2024; accepted Sept 17, 2024.
+
+[38] N. Kolt. Governing ai agents. arXiv [cs.AI], 2025.
+
+[39] L. P. Kaelbling, M. L. Littman, and A. R. Cassandra. Planning and acting in partially observable stochastic domains. Artificial Intelligence, 101(1–2):99–134, 1998. [Online] Available:.
+
+[40] Iadine Chadès, Luz V Pascal, Sam Nicol, Cameron S Fletcher, and Jonathan Ferrer- Mestres. A primer on partially observable markov decision processes (pomdps). Methods Ecol. Evol., 12(11):2058–2072, 2021. [Online] Available:.
+
+[41] V. Mavroudis. Langchain v0.3. Preprints Organization, 2024.
+
+[42] A. Singh, A. Ehtesham, S. Mahmud, and J.-H. Kim. Revolutionizing mental health care through langchain: A journey with a large language model. In 2024 IEEE 14th Annual Computing and Communication Workshop and Conference (CCWC), pages 0073–0078, 2024.
+
+[43] G. Chandrashekar, M.T. Akram, M. Khan, P. Kumar, and P. Mandal. A survey on stock investment risk analysis using crewai multi-agent system. International Research Journal of Modernization in Engineering Technology and Science, 7(1):5647–5650, 2025.
+
+[44] M. Gridach, J. Nanavati, K. Z. E. Abidine, L. Mendes, and C. Mack. Agentic ai for sci- entific discovery: A survey of progress, challenges, and future directions. arXiv [cs.CL], 2025.
+
+39
+
+[PAGE 40]
+
+[45] V. Magesh, F. Surani, M. Dahl, M. Suzgun, C.D. Manning, and D.E. Ho. Hallucination- free? assessing the reliability of leading ai legal research tools. arXiv [cs.CL], 2024.

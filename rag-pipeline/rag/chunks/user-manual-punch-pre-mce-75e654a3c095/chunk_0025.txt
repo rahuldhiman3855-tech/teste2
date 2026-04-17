@@ -1,0 +1,54 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 35-36
+Chunk: 25
+
+• Conduct a conference call by adding another number or by merging two existing calls.
+
+In the Reject with Message option, the system rejects the call and sends a SMS to the caller with the configured text.
+
+Note: Maximum 5 contacts/ participants can be added to a conference call.
+
+Figure 20 : Reject Call with Message
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_035_img_001.jpeg]
+
+Responding to the IVR
+
+When you have called a contact with Interactive Voice Response (IVR) like customer care number of bank and so on, you will have to enter some details through the phone. For example, you might have to enter your bank account number, when prompted by the IVR. You can use the Dialpad in-call option to enter such details through the infotainment system.
+
+To display the Dialpad and to respond to the IVR with details:
+
+Handling Call Functions
+
+When you are in a call (outgoing or incoming), the system supports you to perform any of the following functions:
+
+1. In the active call screen, tap Dialpad and enter the details as prompted by the IVR.
+
+• Respond to the Interactive Voice Response (IVR) with the required details.
+
+Putting a Call on Hold
+
+• Put the call on hold.
+
+To put a call on hold:
+
+• Switch between phone (handset) and system (hands- free) capability
+
+1. In the active call screen, tap Hold. The system puts the currently active call on hold.
+
+• Accept another incoming call.
+
+35
+
+[PAGE 36]
+
+APPLICATIONS Phone
+
+Switching Between Handset and Hands-Free
+
+Switching Between Calls
+
+When in an active call, the system allows you to switch between the phone handset and its hands-free capability and vice versa.
+
+When you have 2 calls simultaneously (one on hold and other active), the system allows you to switch between the calls without ending either of them.

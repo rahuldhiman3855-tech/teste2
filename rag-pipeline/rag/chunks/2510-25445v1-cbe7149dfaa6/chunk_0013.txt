@@ -1,0 +1,16 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 8-8
+Chunk: 13
+
+MDPs provide the mathematical scaffolding for modeling environments with full state informa- tion [52, 53], a hallmark of early symbolic and classical statistical AI. An MDP is defined by a tuple (S, A, P, R), representing states, actions, transition probabilities, and rewards. These systems operate effectively in deterministic, rule-based domains but lack the capacity for robust reasoning under uncertainty, anchoring them firmly in the symbolic paradigm.
+
+2.2.2 Partially Observable MDPs (POMDPs)
+
+POMDPs extend MDPs by introducing probabilistic belief states to handle environments where the agent has incomplete information [54, 55]. This was a key advancement, allowing symbolic agents to infer hidden states through observation and enabling more adaptive behavior. However, as illustrated in Figure 3, this is still a form of algorithmic state estimation. The significant computational overhead of belief tracking limits their scalability and real-world application [56, 57], a fundamental constraint of the symbolic approach.
+[IMAGE: rag/assets/2510-25445v1-cbe7149dfaa6/page_008_img_001.png]
+
+Figure 3: Classical symbolic reasoning: Comparison between a rule-based MDP scheduler (left) and a belief-based POMDP assistant (right). The MDP agent relies on explicit calendar states and deterministic policies, while the POMDP agent in- fers hidden user preferences from behavioral feedback. Both represent the symbolic paradigm’s approach to decision-making.
+
+2.2.3 Cognitive Architectures: BDI and SOAR

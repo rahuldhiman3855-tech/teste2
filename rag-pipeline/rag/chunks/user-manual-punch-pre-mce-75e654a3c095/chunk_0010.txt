@@ -1,0 +1,101 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 15-16
+Chunk: 10
+
+• In Folder Mode: Plays track from previous folder.
+
+• In Folder Mode: Plays track from next folder.
+
+• If Non-folder Mode: Fast rewind the current track.
+
+• If Non-folder Mode: Fast Forwards the current track.
+
+iPod, Video Playback & Bluetooth Audio:
+
+iPod, Video Playback & Bluetooth Audio:
+
+• Fast rewinds the current track
+
+• Fast forwards the current track
+
+Radio:
+
+Radio: Starts Auto Seek up.
+
+• Starts Auto Seek down.
+
+5.
+
+Short Press:
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_015_img_001.png]
+
+USB, iPod, Video Playback & Bluetooth Audio
+
+Short Press / Long Press:
+
+Scroll Right
+
+• If track played duration is less than 3 secs: Plays the previous track.
+
+6.
+
+Toggles between available media sources in below sequence:
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_015_img_002.png]
+
+• If track played duration is more than 3 secs: Replays the current track
+
+If Android Auto/Apple CarPlay device not connected:
+
+Radio:
+
+• Plays previous preset radio station.
+
+• Radio (last band FM / AM) --> USB/iPod--> BT streaming
+
+15
+
+[PAGE 16]
+
+GETTING STARTED Steering Wheel Controls*
+
+Sr. No
+
+Control Elements
+
+Sr. No
+
+Control Elements
+
+Description
+
+Description
+
+• Android Auto/ Apple CarPlay: Activates Google Assistance / Siri (whichever is applicable).
+
+If Android Auto/Apple CarPlay device connected:
+
+• Radio (last band FM / AM) --> AA/CPY
+
+• Others: Same as short press.
+
+7.
+
+Short Press & Long Press:
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_016_img_001.png]
+
+9.
+
+If Media is Playing: Mutes/Unmutes the track.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_016_img_002.png]
+
+• If Incoming Phone Call: Reject call.
+
+• If Outgoing Phone Call: Cancel call.
+
+End Call
+
+• If Active Phone Call: End call.
+
+8.

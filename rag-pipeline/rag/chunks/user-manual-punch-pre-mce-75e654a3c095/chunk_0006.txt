@@ -1,0 +1,40 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 8-10
+Chunk: 6
+
+WARNING Avoid usage of hard or sharp objects like pen, key, USB stick etc. to touch the screen, as it can cause scratches on the screen surface.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_008_img_005.jpeg]
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_008_img_006.jpeg]
+
+WARNING Use a soft, clean and dry-cleaning cloth to clean the touch screen surface. If required, use a lint-free cloth damped with a cleaning solution such as isopropyl alcohol, or an isopropyl alcohol and water solution ratio of 50:50. Be sure to follow the solvent manufacturer's precautions and directions.
+
+WARNING Ensure that any liquid does not enter the infotainment system, as it will lead to the failure of radio. The warranty of the system will be void, if liquid ingress marks are observed inside the system.
+
+8
+
+[PAGE 9]
+
+Trademarks ABOUT THIS MANUAL
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_009_img_001.jpeg]
+
+Trademarks
+
+WARNING Avoid spraying or spilling of cleaning solutions, perfumes, car fresheners, beverages, caustic chemicals or any liquids on the touch screen surface, as it can damage the screen or the infotainment system.
+
+Apple CarPlay, Siri, and iPhone are trademarks of Apple Inc., registered in the U.S. and Other countries. Android and Android Auto are trademarks of Google Inc.
+
+9
+
+[PAGE 10]
+
+ABOUT THIS MANUAL Warranty
+
+Warranty
+
+The warranty clauses applicable to the infotainment system are listed below:
+
+1. Warranty is applicable in India only.
+
+2. Warranty for the product is against defective materials and manufacturing faults for 4 years / 2 lakh kms (whichever comes earlier) from the date of the first sale of vehicle.

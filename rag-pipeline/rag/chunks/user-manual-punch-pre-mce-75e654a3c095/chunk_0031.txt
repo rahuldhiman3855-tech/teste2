@@ -1,0 +1,36 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 42-43
+Chunk: 31
+
+Access Google Maps using Android Auto
+
+Note : This feature is supported only with Google maps while using Android Auto and Apple maps while using CarPlay. Any other map applications like Google maps in iPhone or Waze is not supported.
+
+To handle calls or other communication related actions from Android Auto on the infotainment system:
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_042_img_001.png]
+
+1. Tap the icon on the Android Auto Home screen on the infotainment system. The Dialer screen is displayed. You can now make calls, receive calls, or handle any other communication or other communication actions from the infotainment system, as you handle it from your Android smartphone.
+
+To access Google Maps and its navigation support features from Android Auto on the infotainment system:
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_042_img_002.png]
+
+1. Tap the icon on the Android Auto Home screen on the infotainment system. The Google Maps screen is displayed. You can now initiate and use the various features of Google Maps from the infotainment system, as you handle it from your Android smartphone.
+
+Listen to Music
+
+1. On your display, select the app launcher . 2. Tap Android Auto 3. Select your favorite music app to browse and play music
+
+Figure 25 : Android Auto Google Map Screen
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_042_img_003.jpeg]
+
+42
+
+[PAGE 43]
+
+Apple CarPlay APPLICATIONS
+
+Note: Apple CarPlay is by default enabled on your vehicle (if available).
+
+Apple CarPlay

@@ -1,0 +1,37 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 5-6
+Chunk: 3
+
+In addition, the guide contains:
+
+• Illustrations to provide orientations or identification of various options like buttons and menus.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_005_img_002.jpeg]
+
+WARNING Text that indicates to actions that might cause harm to the equipment.
+
+• Cautions related to a topic such as Danger alerts, Security alerts, Warning statements, Caution notices and General notes.
+
+• A list of abbreviations used in this guide with their explanation.
+
+• An alphabetical index for quick identification of required topics.
+
+CAUTION Text that calls for attention.
+
+5
+
+[PAGE 6]
+
+ABOUT THIS MANUAL Safety Guidelines
+
+The infotainment system is a sophisticated electronic device. Do not allow improper access of the infotainment system.
+
+Safety Guidelines
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_006_img_001.png]
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_006_img_002.png]
+
+DANGER The infotainment system must be used in a way that allows you to drive the vehicle safely always. Failure to do so may result in an accident involving serious injury or death. Keep this manual in the vehicle, so it will be handy for you to refer, when needed. If you sell or lend the vehicle, make sure this manual is available in the vehicle along with other standard booklets. Please read and follow the safety guidelines listed in this section to avoid injury or property damage.
+
+DANGER Permanent hearing loss may occur if you play your music at loud volumes for prolonged duration. Exercise caution when setting the volume of your infotainment system.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_006_img_003.png]

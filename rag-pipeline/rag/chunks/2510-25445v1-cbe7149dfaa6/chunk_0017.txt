@@ -1,0 +1,22 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 12-13
+Chunk: 17
+
+CrewAI [70, 71] Role-Based Workflow Assigns roles and goals to a team of agents, managing their interac- tion workflow. Replaces central- ized scheduling with dynamic, role- driven process management. Ap- plications: Market analysis and risk modeling [43].
+
+Semantic Kernel [72, 73, 74] Plugin/Function Composition Connects LLMs to pre-written code functions ("skills"). Replaces in- tegrated actuation with stochastic planning of plugin sequences. Ap- plications: Breaking down high- level user intents into executable skills.
+
+LlamaIndex [75, 76, 77, 78] Retrieval- Augmented Generation (RAG)
+
+Provides sophisticated data connec- tors and indexing. Replaces internal symbolic knowledge bases with on- demand, external context retrieval. Applications: Financial sentiment analysis [79], enhancing informa- tion retrieval for research [80].
+
+tured communication protocols. As visualized in Figure 6, an orchestrator (often an LLM itself) acts as a context manager and task router, assessing the overall goal and dynamically assigning
+
+12
+
+[PAGE 13]
+
+specialized subtasks to other agents. This architecture achieves scalability and complex problem-solving not through a single agent’s cognitive complexity, but through the emergent intelligence of a well-orchestrated sys- tem. It is the culmination of the neural lineage, firmly establishing the new orthodoxy of LLM- driven pipelines and completing the paradigm shift from the symbolic AI tradition.
+[IMAGE: rag/assets/2510-25445v1-cbe7149dfaa6/page_013_img_001.png]

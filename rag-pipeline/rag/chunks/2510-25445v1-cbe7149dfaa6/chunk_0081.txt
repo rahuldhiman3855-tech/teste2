@@ -1,0 +1,27 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 46-46
+Chunk: 81
+
+[163] R. Bovo, K. Ahuja, R. Suzuki, M.D. Dogan, and M. Gonzalez-Franco. Symbiotic ai: Augmenting human cognition from pcs to cars. arXiv [cs.HC], 2025.
+
+[164] J. Samuel, R. Kashyap, Y. Samuel, and A. Pelaez. Adaptive cognitive fit: Artificial in- telligence augmented management of information facets and representations. Int. J. Inf. Manage., 65(102505):102505, 2022.
+
+[165] J. Wu, J. Zhu, and Y. Liu. Agentic reasoning: Reasoning llms with tools for the deep research. arXiv [cs.AI], 2025.
+
+[166] Y. Zhuang et al. Self-taught agentic long context understanding. arXiv [cs.CL], 2025.
+
+[167] C. Jeong. A study on the mcp x a2a framework for enhancing interoperability of llm-based autonomous agents. arXiv [cs.AI], 2025.
+
+[168] Q. Li and Y. Xie. From glue-code to protocols: A critical analysis of a2a and mcp inte- gration for scalable agent systems. arXiv [cs.MA], 2025.
+
+[169] Theodore R. Sumers, Shunyu Yao, Karthik Narasimhan, and Thomas L. Griffiths. Cogni- tive architectures for language agents. arXiv [cs.AI], 2023.
+
+[170] Octavio J. Romero, John Zimmerman, Aaron Steinfeld, and Anthony Tomasic. Syner- gistic integration of large language models and cognitive architectures for robust ai: An exploratory analysis. arXiv [cs.AI], 2023.
+
+[171] David Shapiro, Walter Li, Marco Delaflor, and Carlos Toxtli. Conceptual framework for autonomous cognitive entities. arXiv [cs.HC], 2023.
+
+[172] Yifan Nong. Transfer learning in agentic systems: Improving cross-task knowledge ap- plication in ai agents. Research Square, 2025.
+
+[173] Hongzhi Li et al. A multi-agent framework with automated decision rule optimization for cross-domain misinformation detection. arXiv [cs.AI], 2025.

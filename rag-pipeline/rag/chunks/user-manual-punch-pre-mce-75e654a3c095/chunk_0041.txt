@@ -1,0 +1,161 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 58-60
+Chunk: 41
+
+Turn off sdvc
+
+Play song <song_name>
+
+Switch SDVC on
+
+I want to hear song <song_name>
+
+Can you play album <album_name>
+
+Can you play song <song_name>
+
+Could you please play album <album_name>
+
+Play from Album/Artis t/genre
+
+I want to listen to music
+
+Media
+
+I want to listen to album <album_name>
+
+I want to listen to song
+
+Songs
+
+Play my music
+
+I would like to listen to album <album_name>
+
+Play song from USB
+
+Play bluetooth audio
+
+58
+
+[PAGE 59]
+
+Voice Assistant* APPLICATIONS
+
+Feature Sub- Feature Commands
+
+Feature Sub- Feature Commands
+
+Switch to USB
+
+Tune to <frequency> FM
+
+Change to FM
+
+I want to listen <AM_station>
+
+Switch to AM
+
+Autostore AM
+
+Play song from android auto
+
+Autostore FM
+
+Autostore
+
+Play previous track
+
+Start autostore
+
+Next Track
+
+Autostore on
+
+Previous Track
+
+Go to previous station
+
+Next Previous Track
+
+Play next song
+
+Next station
+
+Play previous song
+
+Next Previous Station
+
+Previous station
+
+I want to listen next song
+
+Please play next channel
+
+Please play previous track
+
+Switch to next channel
+
+Play/Pause Begin music
+
+Previous station please
+
+Pause track
+
+Save <frequency number> as favorite
+
+Set As Favourite
+
+Stop song/music
+
+Store frequency as favorite
+
+I want to listen <FM_station> FM
+
+I want to delete the current Frequency from favorite list
+
+Radio AM/FM
+
+Switch to <frequency> FM
+
+Remove Favourite
+
+Tune to AM
+
+Remove the current station from favorite
+
+59
+
+[PAGE 60]
+
+APPLICATIONS Voice Assistant*
+
+Feature Sub- Feature Commands
+
+Feature Sub- Feature Commands
+
+What is my fuel level
+
+I want to talk to <number>
+
+Call <number>
+
+How many liters of fuel is remaining
+
+Connect me to <number>
+
+How much petrol remain in car
+
+Dial <number>
+
+Whats my current fuel status
+
+Call Number
+
+I want to talk to <name>
+
+Tell me my fuel status/level/info?
+
+Call <name>

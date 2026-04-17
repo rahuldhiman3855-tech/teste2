@@ -1,0 +1,145 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 56-58
+Chunk: 40
+
+Air Recirc Mode
+
+I cannot hear the music
+
+Start air recirc mode
+
+56
+
+[PAGE 57]
+
+Voice Assistant* APPLICATIONS
+
+Feature Sub- Feature Commands
+
+Feature Sub- Feature Commands
+
+Set volume at <value>
+
+Switch middle to <number>
+
+Increase volume by <value>
+
+Increase middle to <number>
+
+Decrease volume to <value>
+
+Decrease middle to <number>
+
+Middle
+
+Switch middle to max
+
+Change balance and fader to front
+
+Set balance and fader to center
+
+Change middle to maximum
+
+Change balance and fader to driver
+
+Switch middle to minimum
+
+Switch balance and fader to front right
+
+Change middle to minus <number>
+
+Balance and Fader
+
+Switch treble at <number>
+
+Set balance at left
+
+Increase treble at <number>
+
+Set fader at front
+
+Switch treble to max
+
+Switch fader at center
+
+Change treble to maximum
+
+Treble
+
+Set fader at back
+
+Switch treble to minimum
+
+Change bass at <number>
+
+Decrease treble to <number>
+
+Change bass to maximum
+
+Set treble to <number>
+
+Decrease bass to minimum
+
+Switch treble to minus <number>
+
+Bass
+
+Switch bass to minus<number>
+
+Set preset to <rock>
+
+Increase bass to <number>
+
+Equalizer
+
+Set equalizer to <classic>
+
+Increase bass by <number>
+
+Switch preset to <pop>
+
+57
+
+[PAGE 58]
+
+APPLICATIONS Voice Assistant*
+
+Feature Sub- Feature Commands
+
+Feature Sub- Feature Commands
+
+Change equlizer to <rock>
+
+Play album <album_name>
+
+Can you please change equalizer to <jazz>
+
+Play artist <artist_name>
+
+Could you play artist <artist_name>
+
+Please set equalizer to <classic>
+
+Switch on speed dependent volume
+
+I want to listen artist <artist_name>
+
+Switch off speed based volume control
+
+Play genre <genre_name>
+
+Turn on sdvc
+
+Please play genre <genre_name>
+
+SDVC
+
+Speed dependent volume On
+
+I want to play genre <genre_name>
+
+Speed dependent volume Off
+
+Can you play genre <genre_name>

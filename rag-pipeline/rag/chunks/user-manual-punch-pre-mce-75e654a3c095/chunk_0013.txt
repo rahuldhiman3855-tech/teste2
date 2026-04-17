@@ -1,0 +1,56 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 20-21
+Chunk: 13
+
+Figure 9 : Global Search Screen
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_020_img_001.jpeg]
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_020_img_002.jpeg]
+
+5. Global Search Icon
+
+6. Back Icon
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_020_img_003.png]
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_020_img_004.png]
+
+Tap back icon to go back to previous screen or the Home Screen.
+
+Tap Search Icon to search applications, media, or any item on the system.
+
+Note: Keyboard is available until vehicle speed is below 7 KMPH.
+
+Home / Widget Screen
+
+Widget screen displays Application/Feature set as favorites. You can customize the Widget screen by setting up the Application to be displayed on the home screen for quick access.
+
+Note: Following features can only be added to the Widgets.
+
+1. Radio 2. Media
+
+20
+
+[PAGE 21]
+
+System Overview GETTING STARTED
+
+Figure 10 : Setup Application on the Widget
+
+3. Climate Control 4. DriveNext
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_021_img_001.jpeg]
+
+Options on Widget Screen
+
+1. Audio Source
+
+This option on the Widget displays the source of audio such as Radio, USB or Phone if connected. Tap the Audio source on the widget to play music.
+
+2. Pair a Device
+
+Quick Access Drawer (QAD)
+
+You can pair a new device through Widget screen. Tap on the Pair device Widget and connect via Bluetooth.
+
+Quick Access Drawer gives you shortcut way to access handy features like Brightness control, Media controls, Settings, Display Off, Device information, Notifications and many more.
+
+3. Setup New Application on the Widget

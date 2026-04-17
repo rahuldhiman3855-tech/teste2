@@ -1,0 +1,49 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 40-41
+Chunk: 29
+
+Android Auto is a projection technology, which allows you to operate your Android smartphones from your vehicle infotainment system. You can use voice actions or simple arrangement of Google Maps, and other important phone functions to access the required functionalities. It is designed to minimize distraction while driving.
+
+Note: Android Auto is by default enabled on your vehicle.
+
+Connect - Wireless Android Auto
+
+1. Pair/connect your phone to the infotainment system using Bluetooth®.
+
+The Android Auto feature requires the installation of the Android Auto Mobile App, which can be downloaded on your smartphone from Google Play Store.
+
+2. Follow the prompts on the screen and on your phone to start.
+
+3. You will be asked to accept Terms before using the feature.
+
+Note: Applicable only for Android Smartphones with Android Version 10 and above
+
+Prepare Your Phone
+
+Connect – Wired Android Auto
+
+• Make sure your phone is running Android 5.0 (Lollipop) and up. For best performance, Google recommend An- droid 6.0 (Marshmallow) and up.
+
+1. Ensure your vehicle is in the parked condition and the Park Brake is applied.
+
+2. Connect your phone using USB cable to the Infotainment to start Android Auto
+
+• Download Android Auto - Apps on Google Play from
+
+Google Play.
+
+3. Follow the prompts on the screen and on your phone to start.
+
+• Make sure your phone has a strong and fast network connection.
+
+Note: Your phone’s Bluetooth will be turned on automatically when wired Android Auto is connected to the car via USB.
+
+Note: By default, Android Auto is configured in the infotainment system. Thereby, when you connect your Android Auto enabled smartphone with the infotainment
+
+40
+
+[PAGE 41]
+
+Android Auto APPLICATIONS

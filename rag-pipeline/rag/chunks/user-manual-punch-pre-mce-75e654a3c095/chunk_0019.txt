@@ -1,0 +1,69 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 27-29
+Chunk: 19
+
+Note: While playing video files, if you start and drive your vehicle and the vehicle reaches a speed of 5 km/h or more, the system closes the video playback screen and displays a popup message indicating that the video playback is unavailable at high speed.
+
+27
+
+[PAGE 28]
+
+APPLICATIONS Radio
+
+Figure 13 : Radio Screen
+
+Radio
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_028_img_001.jpeg]
+
+The iRA infotainment system supports both AM and FM bands.
+
+To access Radio:
+
+1. Tap Radio Application displayed on the Widget Screen or Tap the App Launcher icon and select Radio.
+
+2. Tap on FM Stations or AM Stations
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_028_img_002.png]
+
+3. Tap Scan icon to scan the radio station. You can scan the station from steering wheel as well.
+
+4. Once the radio station is selected, you can set as
+
+Radio Operations
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_028_img_003.png]
+
+The system allows you to perform the following radio operations:
+
+favorite by tapping the favorite icon.
+
+• Tuning Radio stations
+
+• Auto Store
+
+Tuning Radio Stations
+
+The infotainment system supports Manual as well as Auto store.
+
+Manual Tuning
+
+To perform Manual Tuning:
+
+28
+
+[PAGE 29]
+
+Radio APPLICATIONS
+
+Figure 14 : Auto Store
+
+1. Slide left/right your finger on Radio screen rotary element and tune the frequency as per your need, or you can scan the station from steering wheel as well
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_029_img_001.jpeg]
+
+Auto Tuning
+
+To perform Auto tuning:
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_029_img_002.png]
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_029_img_003.png]
+
+1. Tap Seek up Seek Down icon or

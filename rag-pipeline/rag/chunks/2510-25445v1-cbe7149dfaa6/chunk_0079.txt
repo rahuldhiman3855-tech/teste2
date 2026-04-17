@@ -1,0 +1,29 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 45-45
+Chunk: 79
+
+[141] C.J. Costa and J.T. Aparicio. Exploring the societal and economic impacts of artificial intelligence: A scenario generation methodology. arXiv [cs.CY], 2025.
+
+[142] V. Lakkamraju. Agentic ai in human-ai collaboration frameworks. ESP Journal of Engi- neering & Technology Advancements, 5(2):114–129, 2025.
+
+[143] H.P. Zou et al. A call for collaborative intelligence: Why human-agent systems should precede ai autonomy. arXiv [cs.AI], 2025.
+
+[144] U.M. Borghoff, P. Bottoni, and R. Pareschi. Human-artificial interaction in the age of agentic ai: a system-theoretical approach. Front. Hum. Dyn., 7, 2025.
+
+[145] E. Tennant, S. Hailes, and M. Musolesi. Hybrid approaches for moral value alignment in ai agents: A manifesto. arXiv [cs.AI], 2023.
+
+[146] F. Rossi and N. Mattei. Building ethically bounded ai. Proc. Conf. AAAI Artif. Intell., 33(01):9785–9789, 2019.
+
+[147] A. Reuel, A. Hardy, C. Smith, M. Lamparth, M. Hardy, and M. J. Kochenderfer. Bet- terbench: Assessing ai benchmarks, uncovering issues, and establishing best practices. arXiv [cs.AI], 2024.
+
+[148] A. Yehudai et al. Survey on evaluation of llm-based agents. arXiv [cs.AI], 2025.
+
+[149] M. Zhuge et al. Agent-as-a-judge: Evaluate agents with agents. arXiv [cs.AI], 2024.
+
+[150] D. Moshkovich, H. Mulian, S. Zeltyn, N. Eder, I. Skarbovsky, and R. Abitbol. Beyond black-box benchmarking: Observability, analytics, and optimization of agentic systems. arXiv [cs.AI], 2025.
+
+[151] Eldar Sultanow, Mohammad Tehrani, Sourav Dutta, William J. Buchanan, and Muham- mad Salekh Khan. Quantum agents. arXiv [quant-ph], 2025.
+
+[152] J. Yang et al. Magma: A foundation model for multimodal ai agents. arXiv [cs.CV], 2025.

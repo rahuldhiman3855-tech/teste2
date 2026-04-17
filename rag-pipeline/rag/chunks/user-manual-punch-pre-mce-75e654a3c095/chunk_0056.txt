@@ -1,0 +1,50 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 85-86
+Chunk: 56
+
+4. Set the required time, tap the Set icon. The selected time is set as the system time.
+
+Figure 69 : Setting Time
+
+Setting Date
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_085_img_004.jpeg]
+
+To set the system date:
+
+1. In the System Setup, navigate to and select the Set Date option. The system displays the Set Date screen.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_085_img_005.png]
+
+2. In the Set Date screen, use the up
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_085_img_006.png]
+
+and down arrows to change the Day, Month and Year accordingly.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_085_img_007.jpeg]
+
+3. Set the required date, tap the Set icon The selected date is set as the system date.
+
+85
+
+[PAGE 86]
+
+SETTINGS System
+
+Figure 70 : Factory Reset
+
+Factory Reset
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_086_img_001.jpeg]
+
+You can reset your system to factory default settings in case you are giving your vehicle to someone for temporary usage or when you are selling out your vehicle. On performing this, system will reset all personalized settings to factory default settings.
+
+To perform Factory Reset:
+
+1. In the System, navigate to and select the Factory Reset option. The system displays the confirmation pop-up to perform Reset.
+
+2. On confirmation, system the system initiates the restoring to factory default settings action. The media source/radio that is currently playing will be stopped and the Phone will be disconnected.
+
+Hard Reset
+
+System Reset removes all data and formats the system. To Hard reset the system
+
+3. Once the reset is completed, the system prompts you to switch OFF the infotainment system by doing Ignition OFF.

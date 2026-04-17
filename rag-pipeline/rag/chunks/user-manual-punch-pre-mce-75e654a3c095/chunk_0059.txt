@@ -1,0 +1,69 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 90-91
+Chunk: 59
+
+[PAGE 90]
+
+ABBREVIATIONS Acronyms
+
+Term Definition
+
+HVAC Heating Ventilation and Air Conditioning
+
+8 ABBREVIATIONS
+
+JPEG Joint Photographic Experts Group
+
+Acronyms
+
+LP Long Press
+
+Table 6. Acronyms
+
+PBAP Phone Book Access Profile
+
+Term Definition
+
+PDC Park Distance Control
+
+PNG Portable Network Graphics
+
+ABS Anti-lock Braking System
+
+RVC Rear View Camera
+
+AM Amplitude Modulation
+
+SP Short Press
+
+APPS Applications
+
+SWC Steering Wheel Controls
+
+BMP Bitmap Image File
+
+USB Universal Serial Bus
+
+BT Bluetooth
+
+BTSA Bluetooth Streaming Audio
+
+ECON Economy
+
+FM Frequency Modulation
+
+HK Hard Key
+
+90
+
+[PAGE 91]
+
+Acronyms INDEX
+
+9 INDEX
+
+A
+
+C

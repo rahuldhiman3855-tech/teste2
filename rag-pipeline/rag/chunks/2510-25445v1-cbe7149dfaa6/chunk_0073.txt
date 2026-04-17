@@ -1,0 +1,31 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 41-42
+Chunk: 73
+
+[77] D. Mozolevskyi and W. AlShikh. Comparative analysis of retrieval systems in the real world. arXiv [cs.IR], 2024.
+
+[78] N. Braunschweiler, R. Doddipatla, S. Keizer, and S. Stoyanchev. Evaluating large lan- guage models for document-grounded response generation in information-seeking dia- logues. arXiv [cs.CL], 2023.
+
+[79] T. Konstantinidis, G. Iacovides, M. Xu, T.G. Constantinides, and D. Mandic. Finllama: Financial sentiment classification for algorithmic trading applications. arXiv [cs.CL], 2024.
+
+[80] V.K. Kommineni, B. König-Ries, and S. Samuel. Harnessing multiple llms for informa- tion retrieval: A case study on deep learning methodologies in biodiversity publications. arXiv [cs.IR], 2024.
+
+[81] J. Wang and Z. Duan. Agent ai with langgraph: A modular framework for enhancing machine translation using large language models. arXiv [cs.CL], 2024.
+
+41
+
+[PAGE 42]
+
+[82] M.J. Page et al. The prisma 2020 statement: an updated guideline for reporting systematic reviews. BMJ, 372:n71, 2021.
+
+[83] M.J. Page et al. Prisma 2020 explanation and elaboration: updated guidance and exem- plars for reporting systematic reviews. BMJ, 372:n160, 2021.
+
+[84] J. E. Laird. An analysis and comparison of act-r and soar. arXiv [cs.AI], 2022.
+
+[85] J. Thomas and A. Harden. Methods for the thematic synthesis of qualitative research in systematic reviews. BMC Med. Res. Methodol., 8(1):45, 2008.
+
+[86] T.T. Van, H.D. The, T.V. Van, and M.D. Van. Applying qualitative research in manage- ment studies - theory and practical experiences: Using nvivo 15. ijirss, 8(2):4617–4626, 2025.
+
+[87] A. Basit, K. Hussain, M.A. Hanif, and M. Shafique. Medaide: Leveraging large language models for on-premise medical assistance on edge devices. arXiv [cs.AI], 2024.

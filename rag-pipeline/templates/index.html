@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PDF RAG</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f4f4f0;
+      color: #161616;
+    }
+
+    main {
+      width: min(980px, calc(100vw - 32px));
+      margin: 32px auto;
+      display: grid;
+      gap: 16px;
+    }
+
+    section {
+      background: #fff;
+      border: 1px solid #d8d6cf;
+      padding: 20px;
+    }
+
+    h1,
+    h2 {
+      margin: 0 0 10px;
+    }
+
+    p {
+      margin: 0 0 14px;
+      color: #555;
+    }
+
+    form {
+      display: grid;
+      gap: 10px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      align-items: end;
+    }
+
+    label {
+      display: grid;
+      gap: 6px;
+      font-size: 0.95rem;
+    }
+
+    input,
+    select,
+    button {
+      font: inherit;
+    }
+
+    input[type="file"],
+    input[type="search"],
+    input[type="number"],
+    select {
+      width: 100%;
+      padding: 11px 12px;
+      border: 1px solid #cfcbbf;
+      background: #faf9f5;
+    }
+
+    .toggles {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .toggle {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      font-size: 0.95rem;
+    }
+
+    .toggle input {
+      width: auto;
+      margin: 0;
+    }
+
+    button {
+      width: fit-content;
+      padding: 11px 16px;
+      border: 0;
+      background: #161616;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .message {
+      padding: 10px 12px;
+      border: 1px solid #d5e2d5;
+      background: #f3faf1;
+      color: #245124;
+    }
+
+    .stats,
+    .docs,
+    .results {
+      display: grid;
+      gap: 10px;
+    }
+
+    .card {
+      border: 1px solid #e1dfd7;
+      padding: 12px;
+      background: #faf9f5;
+    }
+
+    .meta {
+      font-size: 0.92rem;
+      color: #555;
+    }
+
+    .result-text,
+    .image-lines {
+      margin-top: 10px;
+      display: grid;
+      gap: 0;
+      border: 1px solid #e1dfd7;
+      background: #111;
+      color: #f4f4f0;
+      overflow: auto;
+    }
+
+    .result-line {
+      padding: 2px 12px;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-family: Menlo, Monaco, monospace;
+      font-size: 0.9rem;
+    }
+
+    .result-line.image {
+      background: #18263d;
+      color: #dce9ff;
+    }
+
+    .result-line.blank {
+      min-height: 10px;
+    }
+
+    .image-lines .result-line {
+      background: #1d2a21;
+      color: #e2f5e6;
+    }
+
+    mark {
+      padding: 0 2px;
+      background: #ffe58a;
+      color: #111;
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .secondary-button {
+      background: #4b5563;
+    }
+
+    .danger-button {
+      background: #b91c1c;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <h1>PDF RAG</h1>
+      <p>Upload PDFs, create chunked text files with inline image paths, and search all indexed chunks by keywords.</p>
+
+      {% with messages = get_flashed_messages() %}
+        {% if messages %}
+          <div class="message">{{ messages[0] }}</div>
+        {% endif %}
+      {% endwith %}
+
+      <div class="stats">
+        <div class="card meta">Documents: {{ stats.documents }} | Chunks: {{ stats.chunks }}</div>
+        <div class="card meta">RAG folder: {{ stats.rag_root }} | Database: {{ stats.database_path }}</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Index PDF</h2>
+      <form action="/index" method="post" enctype="multipart/form-data">
+        <input type="file" name="pdf" accept="application/pdf" required>
+        <div class="actions">
+          <button type="submit">Index PDF</button>
+          <button type="button" class="secondary-button" onclick="window.location.href='/'">Refresh Page</button>
+        </div>
+      </form>
+    </section>
+
+    <section>
+      <h2>Search Chunks</h2>
+      <p>Quoted queries use AND mode. Unquoted queries use OR mode. Use the controls below to test and tune search behavior.</p>
+      <form action="/" method="get">
+        <label>
+          Query
+          <input type="search" name="q" value="{{ search_options.query }}" placeholder='Try "user manual" or infotainment system'>
+        </label>
+
+        <div class="grid">
+          <label>
+            Limit
+            <input type="number" name="limit" min="1" max="200" value="{{ search_options.limit or '' }}" placeholder="all">
+          </label>
+
+          <label>
+            Minimum keyword matches
+            <input type="number" name="min_matches" min="1" max="50" value="{{ search_options.min_matches }}">
+          </label>
+
+          <label>
+            Document filter
+            <select name="document_id">
+              <option value="">All PDFs</option>
+              {% for document in documents %}
+                <option value="{{ document.id }}" {% if search_options.document_id == document.id %}selected{% endif %}>
+                  {{ document.original_filename }}
+                </option>
+              {% endfor %}
+            </select>
+          </label>
+        </div>
+
+        <div class="toggles">
+          <label class="toggle">
+            <input type="checkbox" name="case_sensitive" value="1" {% if search_options.case_sensitive %}checked{% endif %}>
+            <span>Case sensitive</span>
+          </label>
+          <label class="toggle">
+            <input type="checkbox" name="exact_phrase" value="1" {% if search_options.exact_phrase %}checked{% endif %}>
+            <span>Exact phrase</span>
+          </label>
+        </div>
+
+        <div class="actions">
+          <button type="submit">Search</button>
+        </div>
+      </form>
+
+      {% if search_response %}
+        <div class="results">
+          <div class="card meta">
+            Query: {{ search_response.query }} | Mode: {{ search_response.mode|upper }} | Terms: {{ search_response.terms|join(", ") }} | Matches: {{ search_response.count }} | Case sensitive: {{ "yes" if search_response.case_sensitive else "no" }} | Exact phrase: {{ "yes" if search_response.exact_phrase else "no" }} | Minimum matches used: {{ search_response.effective_min_matches }}
+          </div>
+
+          {% for result in search_response.results %}
+            <div class="card">
+              <div><strong>{{ result.original_filename }}</strong></div>
+              <div class="meta">Chunk {{ result.chunk_index }} | Pages {{ result.page_start }}-{{ result.page_end }} | Score {{ result.score }} | Matched terms: {{ result.match_count }} | Occurrences: {{ result.occurrences }}</div>
+              <div class="meta">Chunk file: {{ result.chunk_path }}</div>
+              {% if result.image_lines %}
+                <div class="image-lines">
+                  {% for line in result.image_lines %}
+                    <div class="result-line image">{{ line.html|safe }}</div>
+                  {% endfor %}
+                </div>
+              {% endif %}
+
+              <div class="result-text">
+                {% for line in result.rendered_lines %}
+                  <div class="result-line{% if line.is_image %} image{% endif %}{% if line.is_blank %} blank{% endif %}">{{ line.html|safe }}</div>
+                {% endfor %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </section>
+
+    <section>
+      <h2>Indexed PDFs</h2>
+      <div class="docs">
+        {% for document in documents %}
+          <div class="card">
+            <div><strong>{{ document.original_filename }}</strong></div>
+            <div class="meta">Pages: {{ document.page_count }} | Images: {{ document.image_count }} | Chunks: {{ document.chunk_count }}</div>
+            <div class="meta">Stored PDF: {{ document.stored_pdf_path }}</div>
+            <div class="meta">Manifest: {{ document.manifest_path }}</div>
+            <div class="meta">Method: {{ document.extraction_method }}</div>
+            <form action="/api/documents/{{ document.id }}" method="post" onsubmit="return confirm('Delete this indexed PDF and all of its chunks?');" style="margin-top: 12px;">
+              <button type="submit" class="danger-button">Delete Source</button>
+            </form>
+          </div>
+        {% else %}
+          <div class="card meta">No PDFs indexed yet.</div>
+        {% endfor %}
+      </div>
+    </section>
+  </main>
+</body>
+</html>

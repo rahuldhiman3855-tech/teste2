@@ -1,0 +1,55 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 77-79
+Chunk: 52
+
+To access Audio Settings:
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_077_img_002.jpeg]
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_077_img_003.png]
+
+• Tap App launcher, select Settings, the system displays the Settings screen with various settings list, navigate to Audio Settings
+
+• Toggle between, Volume, Equalizer, Balance & Fader to setup audio.
+
+77
+
+[PAGE 78]
+
+SETTINGS Audio Settings
+
+Figure 59 : Audio Balance & Fader Setup Screen
+
+Audio Equalizer Setup is for adjusting volume of sound, bass booster, sound booster. It helps in changing the intensity of the sound of the music.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_078_img_001.jpeg]
+
+Audio Balance and Fader controls adjust the strength of the sound coming from each speaker. The Balance control adjusts the side-to-side strength, while the Fader control adjusts the front-to-back strength
+
+Figure 60 : Audio Equalizer Screen with JBL Modes
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_078_img_002.jpeg]
+
+78
+
+[PAGE 79]
+
+Phone Settings SETTINGS
+
+Figure 61 : Phone Settings Screen
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_079_img_001.jpeg]
+
+Phone Settings
+
+Along with telephony and basic phone related settings, system allows you to manage some advance phone functionalities like:
+
+• Setting alert notifications for new SMS
+
+• Configuring automatic SMS on Call rejection
+
+To access Phone Settings:
+
+SMS Alert Notification
+
+1. Tap App Launcher icon
+
+System can notify you when you receive any new SMS on your phone. You can control how you want to be notified:
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_079_img_002.png]

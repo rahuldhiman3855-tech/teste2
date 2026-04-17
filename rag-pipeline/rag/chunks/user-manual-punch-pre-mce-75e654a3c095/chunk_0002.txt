@@ -1,0 +1,36 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 3-5
+Chunk: 2
+
+Media ....................................... 23 Rear View Camera*….…………….66 Overview……………………………. .. 76 Radio ........................................ 28 Phone ............................................... 30 Wireless Charger* ........................... 38 AQI* .................................................. 39 Android Auto ................................... 40 Apple CarPlay .................................. 43 DriveNext* ....................................... 46 HMI Doodle .................................. 48 Voice Assistant ................................ 50 Share My Location* ........................ 64 Sound Demo .................................... 65
+
+Surround View System* ......... …67 Climate Control ............................. 69 Lighting .......................................... 71 TATA Assist (Breakdown Call)*……………..………………………… 72 Emergency Call………………………… 73 Voice Alerts ................................... 73
+
+Audio Settings ............................... 77 Phone Settings .............................. 79 Connectivity .................................. 80 Software Update .......................... 82 System ........................................... 83
+
+3
+
+[PAGE 4]
+
+7 FREQUENTLY ASKED QUESTIONS 8 ABBREVIATIONS 9 INDEX
+
+FAQs……………………………………88 Abbreviations………………………….90 Table of Index…….…………………………………..91
+
+Note: * sign denotes = If Applicable / Available feature in your car.
+
+4
+
+[PAGE 5]
+
+Conventions ABOUT THIS MANUAL
+
+Conventions
+
+1 ABOUT THIS MANUAL
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_005_img_001.png]
+
+This guide introduces you to the Infotainment system and Instrument Cluster details its feature, controls, options, and operations.
+
+DANGER Text that indicates to actions that might cause harm to personnel.

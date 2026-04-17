@@ -1,0 +1,40 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 41-42
+Chunk: 30
+
+Note: For better usability of the Android Auto app, the Internet connectivity of phone must be good.
+
+Start Android Auto
+
+Figure 24 : Android Auto Projection
+
+Using Android Auto
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_041_img_001.png]
+
+You can access the Google Maps, communication functionalities (receives and make phone calls, receive, and send messages and so on) of your smartphone through the infotainment system. Even in the infotainment system, you just need to provide voice actions to control these functionalities, without removing your hand from the steering wheel.
+
+Any new message that you receive on your phone is displayed on the home screen and readout to you. You can either reply to the SMS with a default message like “I am Driving.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_041_img_002.png]
+
+Tap on Android Auto application from the App Launcher screen. Follow the instructions to get started.
+
+You can use Google Assistant (voice recognition) so that your voice actions are recognized. To activate, tap the Mic icon (highlighted in the above figure) on the Android Auto Home screen.
+
+Note: If the connection with the infotainment system is lost, the app will get disconnected and infotainment system displays the home screen.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_041_img_003.png]
+
+Note: Ensure you have enabled your Location in the Phone settings for using Android Auto Google Map navigation.
+
+Note: Click the icon to go to the Android Auto Home screen from any other Android Auto screens.
+
+Note: Android Auto settings can be accessed from your phone only. Refer to your phone for settings details.
+
+41
+
+[PAGE 42]
+
+APPLICATIONS Android Auto
+
+Handle Calls using Android Auto

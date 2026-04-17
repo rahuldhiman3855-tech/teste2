@@ -1,0 +1,55 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 69-71
+Chunk: 48
+
+The screen now displays different Climate Control setting options like temperature, blower speed, ECON toggle switch and so on, which are used for managing the Climate Control of your vehicle.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_069_img_004.jpeg]
+
+4. Airflow icon in the centre is cyclic, tap the next icon to change it to next state.
+
+5. Tap AQI icon to view the cabin air quality index. Refer to AQI feature for more information.
+
+69
+
+[PAGE 70]
+
+VEHICLE FUNCTIONS Climate Control
+
+Note: Climate control can be accessed
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_070_img_001.png]
+
+through shortcut icon on the Status Bar
+
+Using HVAC Control Elements on the Dashboard
+
+The HVAC controls elements can be used to control the climate.
+
+If any HVAC settings are changed using the HVAC control elements, the changes will be displayed in the HVAC drawer for few seconds.
+
+Figure 50 : HVAC Control Touch Hard Buttons – Single Zone
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_070_img_002.jpeg]
+
+Note: The HVAC control Touch / Hard buttons pad is based on vehicle variant.
+
+70
+
+[PAGE 71]
+
+VEHICLE FUNCTIONS Lighting
+
+Figure 51 : Approach lamp
+
+Lighting
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_071_img_001.jpeg]
+
+The infotainment system allows you to control lighting features like Approach Lamp and DRL if your vehicle is equipped with these features.
+
+Approach Lamp
+
+When you approach your car in the dark, you can switch on the Approach Lamps (some exterior and interior lights of the vehicle) to identify your car as well as to find your way safely to it.
+
+DRL (Daytime Running Lamps)*
+
+The system allows you to set the time for which the Approach lamps will be illuminated after you switch them ON.

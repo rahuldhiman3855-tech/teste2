@@ -1,0 +1,13 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 46-46
+Chunk: 82
+
+[174] R. Ranjan, S. Gupta, and S.N. Singh. Fairness in agentic ai: A unified framework for ethical and equitable multi-agent system. arXiv [cs.MA], 2025.
+
+[175] Vineeth Sai Narajala and Om Narayan. Securing agentic ai: A comprehensive threat model and mitigation framework for generative ai agents. arXiv preprint arXiv:2504.19956, Apr 2025. Introduces ATFAA (Advanced Threat Framework for Autonomous AI Agents) and SHIELD mitigation framework for GenAI agents’ unique threats.
+
+[176] Raihan Khan, Sayak Sarkar, Sainik Kumar Mahata, and Edwin Jose. Security threats in agentic ai system. arXiv preprint arXiv:2410.14728, Oct 2024. Explores privacy and security threats posed by Agentic AI systems with direct database access.
+
+46

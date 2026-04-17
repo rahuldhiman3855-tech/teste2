@@ -1,0 +1,59 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 36-38
+Chunk: 27
+
+3. In the new call screen, tap Merge. The system merges the 2 calls (one on hold and the new call) to create a
+
+36
+
+[PAGE 37]
+
+Phone APPLICATIONS
+
+conference call. The first call is activated before merging.
+
+To create a conference call by accepting a new incoming call:
+
+1. Accept a new incoming call as detailed in the “Accepting/Rejecting an Incoming Phone Call” section.
+
+2. In the new call screen, tap Merge. The system merges the 2 calls (one on hold and the new call) to create a conference call. The first call is activated before merging.
+
+Note: You can view the list of participants in a conference call by taping the Participants icon.
+
+Note: There can be maximum 5 participants in a conference call.
+
+Figure 21 : Add Call to Conference
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_037_img_001.jpeg]
+
+37
+
+[PAGE 38]
+
+APPLICATIONS Wireless Charger*
+
+Figure 22 : Wireless Charing On
+
+Wireless Charger*
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_038_img_001.jpeg]
+
+Wireless Phone Charger (WPC) is available in TATA vehicle to give an experience to charge your smart devices wirelessly. This refrains the anxiety of smartphone discharge during the drive. Popup indication appears on the screen to show the status of charging.
+
+Following screen is displayed when the phone is charged using the charging Pad.
+
+Note: * sign denotes = If Applicable / Available feature in your car.
+
+Charging Error
+
+In case of charging error, the error charging icon is displayed on the top right corner of the status bar.
+
+Not Charging State
+
+When no phone is placed on the charging pad, the charging on icon is hidden.
+
+Battery Full Charge
+
+Battery full charge pop appears on the system screen once the phone is fully charged.
+
+Charging On

@@ -1,0 +1,52 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 24-25
+Chunk: 16
+
+To repeat a track or tracks in a folder:
+
+• Play next/previous music tracks.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_024_img_003.png]
+
+− In the Media screen, press the Repeat icon to switch On/Off repeat functionality. − Repeat Once: The system repeats the current track
+
+• Perform fast forward/fast rewind.
+
+• Play next/previous folder.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_024_img_004.png]
+
+• Browse through the media content available for USB Playback source only.
+
+and displays a ‘1’ above the Repeat icon to indicate the repeat once action.
+
+• View Pictures via USB.
+
+24
+
+[PAGE 25]
+
+Media APPLICATIONS
+
+− Repeat All: When you press the Repeat icon again, the system repeats all the songs. In case of USB, by default the system repeats all the songs. In case of iPod, you can switch On/Off repeat.
+
+Play Next/Previous Music Tracks
+
+While playing a music track, the system allows you to play the next/previous music tracks.
+
+To play the next/previous music tracks
+
+Shuffle
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_025_img_001.png]
+
+− In the Media screen, tap on the Next Track icon or the Previous Track icon to play the next/previous
+
+You can enable the system to randomly select and play music tracks available in a folder or all music tracks in the media source, instead of playing them in the sequence they are stored.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_025_img_002.png]
+
+track respectively, or − Short Press the Up or Down switches from Steering Wheel to play the next/previous track respectively
+
+To Shuffle music tracks in a folder/media source:
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_025_img_003.png]
+
+Perform Fast Forward/Fast Rewind

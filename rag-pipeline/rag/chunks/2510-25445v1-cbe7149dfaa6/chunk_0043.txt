@@ -1,0 +1,29 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 24-25
+Chunk: 43
+
+6 Comprehensive Taxonomy of Agentic AI Literature: A Paradigm-Aware Analysis
+
+The accelerating pace of innovation in agentic AI necessitates a systematic organization that reflects its fundamental architectural schism. This section provides a paradigm-aware synthesis of the field, serving as the culminating evidence for our dual-lineage framework:
+
+• A visual taxonomy (Figure 8) categorizing the field’s core dimensions through the lens of symbolic and neural mechanisms.
+
+• A structured literature map (Table 8) analyzing all 90 studies from our systematic re- view, now classified by their primary architectural paradigm.
+
+24
+
+[PAGE 25]
+
+Table 6: Analysis of Agentic AI Deployment Patterns by Domain and Paradigm
+
+Domain Dominant Paradigm Primary Constraints & Drivers Representative Implementation & Insight
+
+MEDITECH’s AI-infused EHR [102] uses deterministic, auditable pipelines for clinical assistance, prioritizing predictable, rule- based tool use over emergent neural behavior to ensure patient safety and regulatory compliance. This exemplifies the symbolic paradigm’s strength in high- stakes, verifiable environments.
+
+Healthcare Symbolic / De- terministic Safety, Privacy (HIPAA), Explain- ability, High Reliability
+
+Mastercard Decision Intelligence Pro [103] employs orchestrated neural agent swarms to analyze transactions. Role-based systems (e.g., CrewAI) enable specialized agents for pattern detection and reporting. The focus is on scaling complex analysis, a strength of the neural paradigm, while layering in symbolic checks for auditability.
+
+Finance Neural / Or- chestration Real-time throughput, Auditability, Regulatory Compliance, Fraud Pattern Dynamics

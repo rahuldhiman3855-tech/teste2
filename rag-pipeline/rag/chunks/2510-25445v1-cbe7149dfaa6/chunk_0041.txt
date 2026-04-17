@@ -1,0 +1,13 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 23-24
+Chunk: 41
+
+5.1 Tool Use and Capabilities: Integration with Real-World Sys- tems
+
+A critical capability that distinguishes agentic AI from passive models is their ability to inter- act with and manipulate external tools and data sources via Application Programming Interfaces (APIs) [109, 110, 111, 112]. This functionality is the bridge between an agent’s internal rea- soning and tangible action in the real world. The nature of this integration is, as our framework predicts, paradigm-dependent.
+
+23
+
+[PAGE 24]

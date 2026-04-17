@@ -1,0 +1,9 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 7-7
+Chunk: 11
+
+To guide the reader through our analysis, the paper is structured to logically develop the argu- ment for a dual-paradigm understanding of Agentic AI. We begin by establishing the necessary theoretical context in Section 2, which explores the foundations of agency and introduces our core taxonomic framework. Section 3 then details the systematic methodology underpinning our literature review. The subsequent sections apply this framework to analyze the field: Section 4 reviews key architectural frameworks through our taxonomic lens, and Section 5 examines how different ap- plication domains influence paradigm selection. Section 6 presents a comprehensive paradigm- aware taxonomy of the literature, serving as a foundational reference and key output of our re- view. Section 7 investigates the paradigm-specific nature of ethical and governance challenges, leading directly into Section 8, which outlines the critical research gaps identified by our analy- sis. The final sections synthesize our findings and look forward. Section 9 then charts an action- able research roadmap toward hybrid intelligence, building directly upon both the identified gaps and our stated contributions. Finally, Section 10 provides a final synthesis of our findings and their implications for the field. This structure is designed to first equip the reader with the necessary conceptual tools, then systematically analyze the landscape, and conclude by synthesizing the insights into a coherent vision for the future of Agentic AI.
+
+2 Theoretical Foundations: Mapping the Dual Lineages of Agentic Intelligence

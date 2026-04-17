@@ -1,0 +1,51 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 23-24
+Chunk: 15
+
+Pen Drive: Pen Drive must be connected to the system for them to be recognized and accessed. Refer to your vehicle Owner’s Manual for information on how to connect the USB devices.
+
+Selecting a Media Source
+
+If multiple media sources are connected to the infotainment system or to play a particular media source that was stopped earlier, you can select the required source from the list of available Media Sources.
+
+Bluetooth Audio: Bluetooth devices do not require any physical connection with the system. Once you enable Bluetooth feature in the media device and the system, both
+
+23
+
+[PAGE 24]
+
+APPLICATIONS Media
+
+• Play Videos via USB.
+
+To select the required media source:
+
+Note: For iPod, Playback sources, Repeat and Shuffle functions can be controlled by device only
+
+1. Tap the Media Source icon on the Widgets Home screen. The system displays the source drawer and plays the media source that was played last if the source is still connected.
+
+Note: For BT, AA and Apple CarPlay repeat shuffle functions are device specific
+
+2. If no source is connected, select the required currently available media source. The system plays music track from the selected source.
+
+Play/Pause
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_024_img_001.png]
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_024_img_002.png]
+
+− In the Media screen, tap Play or pause on the screen.
+
+Music Related Functions
+
+Note: If the system comes across a corrupt music track in your media source, the system tries to play the track and after 2 seconds automatically moves to the next music track in the media source.
+
+The system allows you to perform the following Media operations:
+
+• Play/Pause music.
+
+• Repeat music track.
+
+Repeat
+
+• Shuffle music tracks in a folder/media source

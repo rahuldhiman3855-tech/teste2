@@ -1,0 +1,103 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 73-75
+Chunk: 50
+
+The infotainment system plays all the alerts, and you can also view them in the Notification Bar.
+
+1. Tap the Emergency Call application, from the App launcher Screen.
+
+2. Tap E Call button, the infotainment system dials the TATA Emergency SOS number.
+
+To turn On/Off Voice Alerts:
+
+3. Swipe right on the ‘Slide to End Call’ bar to disconnect the call.
+
+• In the Vehicle Settings screen, navigate to Voice Alerts option
+
+Figure 54 : Emergency Call
+
+• Tap to turn On/Off Voice Alerts based on your requirement
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_073_img_001.jpeg]
+
+Figure 55 : Voice Alert Screen - Example
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_073_img_002.jpeg]
+
+Note: For more details, please refer hard copy of owner's manual
+
+73
+
+[PAGE 74]
+
+VEHICLE FUNCTIONS Voice Alerts
+
+Table 5. Voice Alerts
+
+Sr. No
+
+Voice Alert Notification
+
+Sr. No
+
+Voice Alert Notification
+
+14 "Co-Driver Door open. Please check"
+
+1 "Auto Drive Mode activated"
+
+15 "Right rear Door open. Please check"
+
+2 "Comfort Drive Mode Activated"
+
+16 "Left rear Door open. Please check"
+
+3 "Dynamic Drive Mode activated"
+
+17 "Tail gate open. Please check"
+
+4 "Rough Mode activated"
+
+18 "Fasten Driver seat belt"
+
+5 "City Drive Mode activated"
+
+19 "Fasten Driver seat belt"
+
+6 "Sport Drive Mode activated"
+
+20 "Release Park brake"
+
+7 "Economy Drive Mode activated"
+
+21 "Brake fluid level low"
+
+8 "Wet Mode activated"
+
+22 "Please charge battery"
+
+9 "MUD RUTS Mode activated"
+
+23 "Check Vehicle Tyres"
+
+10 "Sand Mode activated"
+
+24 "Object ahead, please brake"
+
+11 "Snow or Grass Mode activated"
+
+25 "Cruise activated"
+
+12 "One of the Doors open. Please check"
+
+26 "Vehicle Due for Service"
+
+13 "Driver Door open. Please check"
+
+27 "Check Fuel Filter"
+
+74
+
+[PAGE 75]
+
+VEHICLE FUNCTIONS

@@ -1,0 +1,9 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 37-37
+Chunk: 64
+
+necessitates auditing its training data and prompts. This renders a one-size-fits-all approach to AI ethics fundamentally insufficient (Section 7). Critically, our findings indicate that the most productive path forward is hybrid, not iso- lated. The most pressing research gaps and promising future directions lie not in the isolated improvement of either paradigm, but in their strategic integration into neuro-symbolic architec- tures that leverage the complementary strengths of symbolic reliability and neural adaptability (Sections 8, 9). This dual-paradigm framework provides the essential analytical lens to move the field be- yond a simple catalog of technologies toward a coherent theory of architectural design in Agentic AI. It offers researchers, engineers, and policymakers a precise vocabulary and a functional tax- onomy to classify systems, evaluate their capabilities and risks appropriately, and make informed design choices. Ultimately, the development of Agentic AI is not merely a technical challenge—it is a so- ciotechnical one. Its success will depend on whether we can architect systems that are not only powerful but also trustworthy. This requires a conscious and deliberate effort to build hybrid intelligence—systems that are both adaptable and reliable, both creative and sound. By recog- nizing and embracing the distinct nature of these two architectural lineages, we can steer this transformative technology toward a future where agentic systems truly serve as trusted collabo- rators in scientific discovery (understanding), in providing fair and accessible services (equity), and in forming the robust, verifiable backbone of critical infrastructure (resilience).
+
+References

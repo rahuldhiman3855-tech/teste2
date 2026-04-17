@@ -1,0 +1,13 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 9-9
+Chunk: 15
+
+Deep Reinforcement Learning (DRL) represents a critical transition. It scales learning to high- dimensional inputs (like images and text) using neural networks [58, 59]. DRL agents learn poli- cies directly from data, moving away from hand-crafted symbolic rules. Methods such as PPO allow for fine-grained behavioral optimization [60, 61]. As shown in Figure 4, advancements like meta-DRL introduced generalization across tasks, a precursor to the adaptability required for modern agency. DRL is a bridge, using neural networks to learn the policies that symbolic systems would have to be explicitly programmed with.
+
+2.3.2 The LLM Substrate and The Paradigm Shift
+
+The emergence of Large Language Models (LLMs) was not an evolution but a revolution that created the new neural paradigm. LLMs provided a powerful, general-purpose substrate for reasoning based on statistical prediction in a high-dimensional space of concepts. This enabled a fundamental architectural shift from designing cognitive agents to orchestrating generative pipelines. Frameworks like LangChain, AutoGen, and CrewAI do not implement symbolic PPAR loops or BDI architectures. They represent a new paradigm of LLM Orchestration, where pre-trained models act as central executives that coordinate tasks through fundamentally different mecha- nisms, as detailed in Table 3. This shift marks the definitive break from the symbolic tradition. Agency in the neural paradigm is an emergent property of prompt-driven orchestration, not a product of internal sym- bolic logic. The evolution of a personal assistant, depicted in Figure 5, culminates in this new architecture.
+
+2.4 Multi-Agent Orchestration: The Pinnacle of the Neural Paradigm

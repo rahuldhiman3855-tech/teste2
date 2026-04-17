@@ -1,0 +1,39 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 88-89
+Chunk: 58
+
+1. I am playing the audio files in my Phone, connected through Bluetooth. However, I am unable to repeat tracks and play tracks in random. The Bluetooth connection is fine and all other media functionalities are working. Why am I facing this issue?
+
+You can play video only from USB.
+
+5. I am unable to connect my Phone to the infotainment system using a USB cable however, I can connect through Bluetooth. Can you please help me with a solution?
+
+Some of the Media functionalities are phone dependent and are supported only in phones with AVRCP version 1.3 and above. Please check the AVRCP version of your phone.
+
+The USB cable that you are using to connect the Phone with the infotainment system might not be compatible with your Phone. Please use only the USB cable provided by the Phone Manufacturer
+
+2. Why am I unable to fast forward or fast rewind music tracks when I play them from my phone?
+
+6. Can I use other functionalities of the infotainment system while connected for Android Auto/Apple CarPlay?
+
+You can fast forward or fast rewind the track from your phone. Please check if you have connected your Phone to
+
+88
+
+[PAGE 89]
+
+FAQs FREQUENTLY ASKED QUESTIONS
+
+Yes, you can use other functionalities of the infotainment system when connected for Android Auto/ Apple CarPlay. However, some of the functionalities like Bluetooth setup will be unavailable.
+
+7. Android Auto and Apple CarPlay can be used simultaneously?
+
+No, Android Auto and Apple CarPlay cannot be used simultaneously from the infotainment system. You need to disconnect one app before connecting and using the other.
+
+8. I am facing Network Error while using Alexa. How should fix this?
+
+To use Alexa in your Infotainment system, vehicle should have an active connectivity. Check network before using Alexa
+
+89

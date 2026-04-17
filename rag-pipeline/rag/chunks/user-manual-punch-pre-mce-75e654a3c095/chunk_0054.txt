@@ -1,0 +1,60 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 82-83
+Chunk: 54
+
+SETTINGS Software Update
+
+You can update the software in following ways.
+
+Software Update
+
+• By USB
+
+You can view the details of the infotainment system software like version and date of update. This option is useful when any system software upgrade is available or to verify after upgrading the software.
+
+• Wi-Fi Connectivity /
+
+• FOTA (Firmware over the Air)
+
+User will receive a pop up whenever there is a SW update for their vehicle; if the user selects to Remind Later, the update notification lies in the notification center. User can access and download the update by clicking on the notification.
+
+To view the software details:
+
+Go to Settings, the system displays the settings screen with various settings list, navigate to and open Software update App.
+
+Figure 64 : Software Update Screen
+
+Following Software details are displayed:
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_082_img_001.jpeg]
+
+• Current Version
+
+• Package Name
+
+• Software Release Date
+
+• Installation date
+
+Updating Software
+
+Updating the software of the system can be done when updated version of the software is available. The system notifies you when the software update is available.
+
+• User can select one of the 3 options : “What’s New” or “Remind Later” or “Download Now”
+
+82
+
+[PAGE 83]
+
+Software Update SETTINGS
+
+Figure 66 : Software Download Completion Screen
+
+• If the user selects “Remind Later”, the update moves to the notification center.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_083_img_001.jpeg]
+
+• If the user selects “Download Now”, user is prompted to connect to external Wi-Fi Hotspot (if the vehicle is using Telematics data)
+
+Figure 65 : Software Download in Process Screen
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_083_img_002.jpeg]

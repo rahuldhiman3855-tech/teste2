@@ -1,0 +1,15 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 5-6
+Chunk: 8
+
+This review is structured around this framework to synthesize three critically interconnected layers: The first layer encompasses the Theoretical Foundations, including core principles of au- tonomy and agency [38], and decision-making models like Markov Decision Processes (MDPs) and Partially Observable MDPs (POMDPs) [39, 40]. It is crucial to note that these models pro- vide a theoretical language for describing agency that originated in the Symbolic paradigm, but modern systems implement these concepts in entirely new ways. The second layer analyzes Architectural Frameworks, focusing on the modern infrastruc- tures powering the Neural paradigm. We examine systems like LangChain [41], AutoGen, and CrewAI, which achieve agency through mechanisms like prompt chaining, conversation orches- tration, and dynamic context management—a clear departure from the symbolic planning of the classical lineage. The third layer investigates Application Domains, exploring the practical deployment of agentic systems across fields such as healthcare [42], finance [43], scientific discovery [44], and legal reasoning [45]. Our framework allows us to map these applications to the appropriate paradigm and analyze their unique implementation challenges.
+
+1.1 Current Surveys Gaps and Contributions
+
+The current discourse on agentic AI suffers from the conceptual retrofitting illustrated in Fig- ure 2. Classical AI frameworks, such as the BDI model or perceive–plan–act–reflect (PPAR)
+
+5
+
+[PAGE 6]

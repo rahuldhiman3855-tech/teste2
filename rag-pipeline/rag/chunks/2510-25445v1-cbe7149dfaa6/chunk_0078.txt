@@ -1,0 +1,33 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 44-45
+Chunk: 78
+
+[129] H. Clatterbuck, C. Castro, and A.M. Morán. Risk alignment in agentic ai systems. arXiv [cs.CY], 2024.
+
+[130] A. Chan et al. Harms from increasingly agentic algorithmic systems. In 2023 ACM Conference on Fairness Accountability and Transparency, pages 651–666, 2023.
+
+[131] Z. Tóth, R. Caruana, T. Gruber, and C. Loebbecke. The dawn of the ai robots: Towards a new framework of ai robot accountability. J. Bus. Ethics, 178(4):895–916, 2022.
+
+[132] S. Baron. Trust, explainability and ai. Philos. Technol., 38(1), 2025.
+
+[133] A. Chan et al. Visibility into ai agents. In The 2024 ACM Conference on Fairness, Accountability, and Transparency, 2024.
+
+[134] G. Papagni, J. de Pagter, S. Zafari, M. Filzmoser, and S.T. Koeszegi. Artificial agents’ explainability to support trust: considerations on timing and context. AI Soc., 38(2):947– 960, 2023.
+
+[135] K. Singh and W. Ngu. Bias-aware agent: Enhancing fairness in ai-driven knowledge retrieval. arXiv [cs.IR], 2025.
+
+[136] S.J. Yadav. Ai bias and fairness: Ethical considerations in service marketing strategies. In Advances in Marketing, Customer Relationship Management, and E-Services, pages 49–64. IGI Global, 2024.
+
+[137] M. Hellrigel-Holderbaum and L. Dung. Misalignment or misuse? the agi alignment tradeoff. arXiv [cs.CY], 2025.
+
+[138] J. Zhang, L. Yin, Y. Zhou, and S. Hu. Agentalign: Navigating safety alignment in the shift from informative to agentic large language models. arXiv [cs.CR], 2025.
+
+44
+
+[PAGE 45]
+
+[139] A. Kasirzadeh and I. Gabriel. Characterizing ai agents for alignment and governance. arXiv [cs.CY], 2025.
+
+[140] A. Tiwari. Conceptualising the emergence of agentic urban ai: from automation to agency. Urban Inform., 4(1), 2025.

@@ -1,0 +1,19 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 18-19
+Chunk: 27
+
+The theoretical bedrock of Agentic AI is found in two distinct lineages, each with its own foun- dational breakthroughs. Landmark studies have shaped the conceptual and architectural founda- tions of both paradigms, spanning strategic reasoning, cognitive models, and alignment. These studies collectively mark the progression from explicit, algorithmic deliberation to emergent, stochastic intelligence. They serve as reference points for the fundamental differences in how adaptability, coordination, and strategic reasoning are implemented in each paradigm, illustrating the conceptual divide captured by our framework.
+
+4.2 Architectural Paradigms: A Mechanistic Comparison
+
+The advent of large language models (LLMs) has solidified the neural/generative paradigm, which operates on principles fundamentally incompatible with its symbolic predecessor. Modern agentic frameworks leverage LLMs as generative engines within software pipelines, explicitly departing from classical cognitive loops. Their core innovation lies in dynamic context manage- ment, prompt engineering, and tool composition. This analysis underscores that these frameworks form the backbone of the neural paradigm, designed for practical task completion through orchestration, not for simulating internal cogni- tive processes. Mapping them to PPAR or BDI obscures their true innovative mechanics, which are defined by prompt-driven stochasticity, not algorithmic symbol manipulation.
+
+4.3 Domain-Specific Implementations: A Paradigm-Driven Anal- ysis
+
+Agentic AI frameworks are being deployed across sectors where autonomy and adaptability are essential. The choice of paradigm is critically influenced by domain-specific constraints—ethical,
+
+18
+
+[PAGE 19]

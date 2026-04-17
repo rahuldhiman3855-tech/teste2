@@ -1,0 +1,29 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 37-38
+Chunk: 65
+
+[1] Christopher Wissuchek and Patrick Zschech. Exploring agentic artificial intelligence sys- tems: Towards a typological framework. arXiv preprint arXiv:2508.00844, July 2025.
+
+[2] Panneer Selvam Viswanathan. Agentic ai: A comprehensive framework for autonomous decision-making systems in artificial intelligence. International Journal of Computer En- gineering and Technology, 16(1):862–880, 2025. IJCET, ISSN Print: 0976-6367; Online: 0976-6375.
+
+[3] J. Xie, Z. Chen, R. Zhang, X. Wan, and G. Li. Large multimodal agents: A survey. arXiv [cs.CV], 2024.
+
+[4] H. Du, S. Thudumu, R. Vasa, and K. Mouzakis. A survey on context-aware multi-agent systems: Techniques, challenges and future directions. arXiv [cs.MA], 2025.
+
+[5] B. Archibald, M. Calder, M. Sevegnani, and M. Xu. Quantitative modelling and analysis of bdi agents. Softw. Syst. Model., 23(2):343–367, 2024.
+
+[6] Q. Zeng et al. Perceive, reflect, and plan: Designing llm agent for goal-directed city navigation without instructions. arXiv [cs.AI], 2024.
+
+[7] L. E. Erdogan et al. Plan-and-act: Improving planning of agents for long-horizon tasks. arXiv [cs.CL], 2025.
+
+[8] A. Plaat, M. van Duijn, N. van Stein, M. Preuss, P. van der Putten, and K. J. Batenburg. Agentic large language models, a survey. arXiv [cs.AI], 2025.
+
+[9] G.A. Gabison and R.P. Xian. Inherent and emergent liability issues in llm-based agentic systems: a principal-agent perspective. arXiv [cs.CY], 2025.
+
+[10] Lei Wang, Chen Ma, Xueyang Feng, Zeyu Zhang, Hao Yang, Jingsen Zhang, Zhiyuan Chen, Jiakai Tang, Xu Chen, Yankai Lin, Wayne Xin Zhao, Zhewei Wei, and Jirong Wen. A survey on large language model based autonomous agents. Front. Comput. Sci., 18(6), 2024.
+
+37
+
+[PAGE 38]

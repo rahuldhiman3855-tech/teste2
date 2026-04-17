@@ -1,0 +1,45 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 26-27
+Chunk: 18
+
+To shift to the next/previous folder:
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_026_img_002.png]
+
+View Pictures
+
+− In the Media screen, tap on the Folder Up or
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_026_img_003.png]
+
+If your USB media device has picture files, you can view them in the infotainment system. The system supports viewing of JPEG, BMP and PNG picture file formats.
+
+the Folder Down icon to shift to the next or previous folder respectively. The system plays the first music track in the selected folder, or − Long Press Up or Down switches from Steering Wheel.
+
+Accessing the Picture Files
+
+• You can view picture files by using the picture viewer application.
+
+Media Browsing
+
+Note: The feature is unavailable when the vehicle is in motion. While driving, if you select a picture file, the system displays a popup message warning you not to open picture files while driving.
+
+You can perform a category-based browsing of media content stored in a media device.
+
+Note: The types of categories supported will depend on the Media source/device.
+
+Note: While viewing picture files, if you start and drive your vehicle, and the vehicle reaches a speed of 5 km/hr or more, the system closes the picture viewer and displays a
+
+To browse through the media content:
+
+26
+
+[PAGE 27]
+
+APPLICATIONS
+
+popup message indicating that the picture viewer is unavailable at high speed.
+
+Watch Videos
+
+If your USB media device contains video files, you can play them in the infotainment system. The system supports playback of .mp4 and .avi video file formats.

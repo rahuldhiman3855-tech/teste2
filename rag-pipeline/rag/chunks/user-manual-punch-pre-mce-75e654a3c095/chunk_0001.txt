@@ -1,0 +1,35 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 1-3
+Chunk: 1
+
+[PAGE 1]
+
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_001_img_001.png]
+
+Infotainment System
+
+User Manual
+
+[PAGE 2]
+
+Dear Customer,
+
+Welcome to the Infotainment System User’s Manual. The infotainment system in your vehicle provides you with state of the art in-car entertainment to enhance your driving experience.
+
+Before using the infotainment system for the first time, please ensure that you read this manual carefully. The manual will familiarize you with the infotainment system of your car and its functionalities. It also contains instructions on how to use the infotainment system in a safe and effective manner.
+
+We insist that all service and maintenance of the infotainment system of your car must be done only at authorized TATA service centers. Incorrect installation or servicing can cause permanent damage to the system. If you have any further questions about the infotainment system, please contact the nearest TATA Dealership. We will be happy to answer your queries and value your feedback.
+
+We wish you a safe and connected drive
+
+[PAGE 3]
+
+CONTENTS
+
+1 ABOUT THIS MANUAL 2 INTRODUCTION 3 GETTING STARTED
+
+Conventions .............................. 5 Overview ................................... 12 On Screen Touch Controls ....... 13 Safety Guidelines .......................... 6 Steering Wheel Controls* ..........14 Trademarks…………………………….9 System Overview. ...................... 17 Warranty Clauses ..................... 10 Infotainment Persona…………………11
+
+4 APPLICATIONS 5 VEHICLE FUNCTIONS 6 SETTINGS

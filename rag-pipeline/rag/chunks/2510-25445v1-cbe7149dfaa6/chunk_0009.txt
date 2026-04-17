@@ -1,0 +1,27 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 6-6
+Chunk: 9
+
+loops, are often rhetorically applied but are fundamentally mismatched to the stochastic, non- symbolic, and context-driven nature of LLM-based agents [5]. Furthermore, existing reviews are often narrow in scope, lacking empirical comparisons or integrated governance insights. As summarized in Table 1, current literature leaves substantial gaps in understanding the field’s current state.
+
+Table 1: Summary of Prior Surveys on Agentic AI
+
+Reference Focus Key Contributions Limitations
+
+Plaat et al. (2025) [8] Agentic LLMs Reasoning-Acting- Interacting taxon- omy
+
+Limited empirical validation; no evo- lutionary context Schneider (2025) [46] GenAI to Agentic shift Conceptual frame- work for autonomy No performance metrics; ignores architectural mech- anisms Acharya et al. (2025) [47] Foundational methods Combined RL with cognitive architec- tures
+
+Scalability not addressed; over- looks LLM-based paradigms Gridach et al. (2025) [44] Scientific dis- covery Tools for au- tonomous research workflows
+
+No governance discussion; isolated application view Hosseini & Seilani (2025) [48]
+
+Lack of technical depth; no architec- tural analysis Ozman (2025) [49] Business opera- tions Systematic review methodology Missing benchmark comparisons; no unifying frame- work
+
+Enterprise strat- egy Agentic design for organizational alignment
+
+This review directly addresses these limitations through four integrated contributions:
+
+1. A Novel Dual-Paradigm Taxonomy: We introduce and employ the framework in Figure 2 as our primary analytical tool, explicitly distinguishing symbolic and neural lineages to prevent conceptual retrofitting and enable accurate system classification.

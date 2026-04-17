@@ -1,0 +1,67 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 31-32
+Chunk: 22
+
+Figure 16 : Pair New Device
+
+• Accept/reject an incoming call.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_031_img_001.jpeg]
+
+• Reject Incoming call with SMS.
+
+• Put a call on hold.
+
+• Manage two calls at a time.
+
+• Conduct a conference call.
+
+• Toggle between the Phone handset and the hands-free capability
+
+• SMS read out by the system.
+
+31
+
+[PAGE 32]
+
+APPLICATIONS Phone
+
+• Dialing the phone number manually using Dialpad
+
+Viewing Call Logs
+
+• Dialing by selecting the phone number from the Favorites
+
+You can view all calls, received, or dialed from the infotainment system or missed when connected to the system, in the call log. The system displays up to 20 missed calls, 20 dialed calls and 20 received calls.
+
+• Dialing using voice command.
+
+Figure 17 : Outgoing Call Screen
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_032_img_001.jpeg]
+
+To view the call log:
+
+1. In the Phone Browse screen, tap Call Logs. The system displays the details of up to 60 past calls in the Call Log screen.
+
+Viewing Contacts
+
+1. The infotainment system allows you to view up to five thousand contacts stored in your phone book.
+
+2. To view the contacts
+
+Dialing Using the Call Log
+
+a. In the Phone Browse screen, tap Contacts. The system displays the Contacts screen with the list of contacts stored in your phone book.
+
+To dial a number from the list of previous calls (call log):
+
+1. Display the call log. Refer to the “Viewing Call Logs” section for information on displaying the call log.
+
+2. Select the required number from the list. The system dials the selected number and initiates the outgoing call.
+
+Making Outgoing Calls
+
+The infotainment system supports 5 ways to make a phone call. They are:
+
+• Dialing by selecting the phone number from the call log

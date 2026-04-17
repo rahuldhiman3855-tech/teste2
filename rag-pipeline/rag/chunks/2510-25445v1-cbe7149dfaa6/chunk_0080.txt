@@ -1,0 +1,29 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 45-46
+Chunk: 80
+
+[153] S. Agashe, J. Han, S. Gan, J. Yang, A. Li, and X.E. Wang. Agent s: An open agentic framework that uses computers like a human. arXiv [cs.AI], 2024.
+
+[154] Kun Huang, Aisha Sheriff, Venkata S. Narajala, and Itamar Habler. Agent capability negotiation and binding protocol (acnbp). arXiv [cs.AI], 2025.
+
+[155] Yoram Bachrach, Peter Key, David Levin, Daniele Nosenzo, Gijs Overgoor, Ariel D. Procaccia, and Moshe Tennenholtz. Negotiating team formation using deep reinforcement learning. Artificial Intelligence, 288:103356, 2020.
+
+[156] Petar Radanliev. The Rise of AI agents: Integrating AI, Blockchain Technologies, and Quantum Computing. Addison Wesley Professional, Boston, MA, 2025.
+
+[157] Xiaoxue Ma, Chen Lin, Yizhe Zhang, Volker Tresp, and Yunpu Ma. Agentic neural networks: Self-evolving multi-agent systems via textual backpropagation. arXiv [cs.LG], 2025.
+
+[158] Philipp Schmidt and Sophie Loidolt. Interacting with machines: Can an artificially intel- ligent agent be a partner? Philosophy & Technology, 36(3), 2023.
+
+[159] Danai Koutra et al. Towards agentic ai for science: Hypothesis generation, comprehen- sion, quantification, and validation. ICLR Workshop, 2025.
+
+45
+
+[PAGE 46]
+
+[160] Chris Lu, Chen Lu, Richard T. Lange, Jakob Foerster, Jeff Clune, and David Ha. The ai scientist: Towards fully automated open-ended scientific discovery. arXiv [cs.AI], 2024.
+
+[161] Sergio Cervantes, Samantha López, and Juan-Antonio Cervantes. Toward ethical cog- nitive architectures for the development of artificial moral agents. Cognitive Systems Research, 64:117–125, 2020.
+
+[162] D. Thompson. Autonomous ai agents and blockchain interactions: Enabling decentralized autonomous organizations (daos). Journal of AI-Assisted Scientific Discovery, 4(2):73– 79, 2024.

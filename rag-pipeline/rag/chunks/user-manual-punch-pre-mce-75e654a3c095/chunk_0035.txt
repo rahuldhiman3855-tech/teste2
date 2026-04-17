@@ -1,0 +1,61 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 46-48
+Chunk: 35
+
+• View score on Driving, Efficiency and Safety parameters, generated after analyzing your driving patterns in real- time.
+
+• View insights on your Best Trip, curated among the Overall Trips you’ve completed.
+
+• Perform Trip Management
+
+46
+
+[PAGE 47]
+
+APPLICATIONS
+
+Figure 31 : DriveNext Fuel Efficiency Analysis
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_047_img_001.jpeg]
+
+Figure 32 : DriveNext Safety Details
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_047_img_002.jpeg]
+
+47
+
+[PAGE 48]
+
+APPLICATIONS HMI Doodle
+
+Activating Doodle My sticker / Startup Widget
+
+1. Tap App Launcher Icon Select Settings, and select HMI Doodle Application
+
+HMI Doodle
+
+2. Select the My Sticker/Startup Image option. The system displays My Sticker/Startup Image Settings screen.
+
+Doodle is a user experience customization solution designed for TATA vehicles. With Doodle feature, you can customize the infotainment system screen. Sticker image or startup image can be selected from the iRA App over smartphone, when connected to Infotainment system.
+
+3. Select the required option to
+
+Activate
+
+Doodle allows you to:
+
+− On Tapping Activate, the system will display the image/sticker after the inactivity period.
+
+• Use My Sticker/Startup Image functionality and display desired image on display screen.
+
+Note: Inactivity period is by default set to 15 seconds.
+
+• Use Smartphone to personalize My Sticker and Startup Image through Connect NXT App
+
+Preview
+
+Figure 33 : HMI Doodle Screen
+
+1. To preview the image setup, tap show preview and system will display the preview of the display.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_048_img_001.jpeg]
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_048_img_002.png]

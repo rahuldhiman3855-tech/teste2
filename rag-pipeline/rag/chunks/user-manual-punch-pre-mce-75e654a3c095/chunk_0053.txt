@@ -1,0 +1,75 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 79-82
+Chunk: 53
+
+2. Tap Settings, the system displays the Settings screen with various settings list, navigate to and open Phone Settings.
+
+• A beep with popup
+
+• Only popup
+
+• No notification
+
+To enable the SMS notification
+
+1. In the Phone Settings, navigate to and open SMS Alert Notification.
+
+2. The system lists various options to handle SMS Notifications.
+
+3. Scroll to and select the required setting. The system sets the selected option for SMS notifications and when
+
+79
+
+[PAGE 80]
+
+SETTINGS Connectivity
+
+you receive any new SMS, you will be notified by the system accordingly.
+
+Connectivity
+
+The infotainment system is Internet enabled with Wi-Fi and Hotspot features. It has a in-built internet connectivity to access internet.
+
+4. Select the Notify with Popup option, the system can also readout the new SMS to you.
+
+Wi-Fi
+
+To connect with internet:
+
+1. Tap App Launcher Icon, navigate to Settings and select Connectivity.
+
+2. Enable Wi-Fi. The system will list the available networks.
+
+3. Select the network you want to connect, enter the password.
+
+4. Upon authentication the system is connect with Wi-Fi
+
+Figure 62 : Wi-Fi
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_080_img_001.jpeg]
+
+80
+
+[PAGE 81]
+
+Connectivity SETTINGS
+
+Hotspot
+
+If the in-built internet connectivity feature is available, you can use the Hotspot feature to provide internet connectivity to other devices.
+
+To provide internet access via Hotspot
+
+1. Navigate to Connectivity Application, Enable Hotspot.
+
+2. The system will display Hotspot Name and password.
+
+3. Look for the same hotspot name in the device you want to connect with, enter the password and to get connected.
+
+Figure 63 : Hotspot
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_081_img_001.png]
+
+81
+
+[PAGE 82]

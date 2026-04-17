@@ -1,0 +1,48 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 29-30
+Chunk: 20
+
+2. Long Press Up or Down switches from Steering Wheel Controls
+
+The system will search for the available radio stations and when found, you can tune in the station from the list displayed.
+
+Auto Store
+
+The infotainment system provides the option of automatically searching and storing available radio stations as presets. When initiated, the Auto Store feature stores the available stations, in the ascending order of their frequency, in the pre-sets bar.
+
+To perform Auto store
+
+1. Tap Browse on Radio Screen, the system will display various options.
+
+2. Navigate to Autostore and touch on screen to start Auto Store.
+
+29
+
+[PAGE 30]
+
+APPLICATIONS Phone
+
+Enable the Bluetooth visibility of the infotainment system so that even other devices with Bluetooth capabilities can now search and view the infotainment system.
+
+Phone
+
+Using the Bluetooth capability, you can connect your phone to the infotainment system.
+
+1. Tap Phone Settings to view the Setup options.
+
+2. Navigate to and select the Phone Setting option. The system displays the various options for managing the Bluetooth capabilities of the system.
+
+Once both the devices are paired, you can
+
+• Access the phone contents like contacts, call logs, music and so on through the system.
+
+3. In the Phone Setting options, navigate to and select Bluetooth Visibility. When set, the system will be visible to other devices when they initiate a Bluetooth devices search. If the visibility is not enabled, the system will not be listed when other devices search for Bluetooth devices.
+
+• Make or attend phone calls even while driving through the infotainment system with hands-free capability.
+
+Figure 15 : Manage Devices
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_030_img_001.jpeg]
+
+Pair New Device

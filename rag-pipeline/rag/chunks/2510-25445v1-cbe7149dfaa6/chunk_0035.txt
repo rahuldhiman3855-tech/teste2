@@ -1,0 +1,11 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 21-22
+Chunk: 35
+
+The evaluation of Agentic AI systems presents a fundamental challenge that distinguishes it from the assessment of traditional AI models. As the reviewer rightly notes, simple metrics like ac- curacy are wholly insufficient. Measuring “agency” requires quantifying a system’s capacity for sustained, goal-directed behavior in dynamic environments, necessitating a multi-dimensional evaluation framework that accounts for paradigm-specific mechanisms of action. The core challenge lies in the fact that agency is not a monolithic property but a spectrum encompassing autonomy, task success, efficiency, and robustness. Consequently, evaluation must be tailored to the architectural paradigm. In the Symbolic Paradigm, evaluation has historically focused on verifiability. Key met- rics include Goal Completion Fidelity, which measures the percentage of pre-defined sub-goals correctly achieved in a plan, and Plan Optimality, which compares the cost (e.g., time, steps) of an agent’s generated plan against a known optimal solution. Furthermore, assessment involves verifying Logical Soundness through formal methods to ensure rule sets cannot derive contra- dictory or unsafe actions, and rigorously testing Edge Case Handling against rare but critical scenarios either explicitly encoded in or missing from the agent’s knowledge base.
+
+21
+
+[PAGE 22]

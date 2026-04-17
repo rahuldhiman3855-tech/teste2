@@ -1,0 +1,76 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 52-54
+Chunk: 38
+
+Figure 39 : Voice Assistant – Media Commands
+
+Always face forward while speaking your commands as the voice recognition quality is best in this orientation.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_052_img_001.png]
+
+Figure 37 : Voice Assistant Help Screen
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_052_img_002.jpeg]
+
+Figure 38 : Voice Assistant – Generic Commands
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_052_img_003.png]
+
+52
+
+[PAGE 53]
+
+Voice Assistant* APPLICATIONS
+
+Figure 40 : Voice Assistant – Phone Commands
+
+Figure 42 : Voice Assistant – Vehicle Commands
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_053_img_001.png]
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_053_img_002.png]
+
+Figure 41 : Voice Assistant – Radio Commands
+
+Figure 43 : Voice Assistant – Settings
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_053_img_003.png]
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_053_img_004.jpeg]
+
+53
+
+[PAGE 54]
+
+APPLICATIONS Voice Assistant*
+
+Voice Assistant Settings
+
+Voice Command List
+
+You can setup following settings in Voice Assistant
+
+1. Enable Hey TATA – To activate or get attention of Voice Assistant enable Hey TATA.
+
+Table 4 Voice Command List
+
+2. Default Voice Assistant – You can setup default voice assistant which will be active when Push to Talk button is pressed. Enable the setting to activate this feature
+
+Feature Sub- Feature Commands
+
+Increase AC by <number>
+
+3. Language Selection – You can setup the language of Communication by selecting the language from the language selection option
+
+Decrease AC to <number>
+
+Set AC at <number>
+
+Temperatur e Change
+
+Increase AC tempt
+
+Decrease AC tempt
+
+FATC
+
+It is cold
+
+It is hot
+
+Start AC

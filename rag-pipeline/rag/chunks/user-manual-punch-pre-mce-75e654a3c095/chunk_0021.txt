@@ -1,0 +1,43 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 30-31
+Chunk: 21
+
+Connecting your phone with the infotainment system is called as pairing. The infotainment system supports a maximum of 10 paired devices. A device once paired need not be paired again unless the pairing is deleted. A phone with an existing pairing with the infotainment system will be automatically connected when Bluetooth is enabled in both the devices and the phone is within the range of the system.
+
+Device Visibility
+
+To connect your Bluetooth enabled phone with the infotainment system:
+
+To enable or disable the visibility of the system:
+
+30
+
+[PAGE 31]
+
+Phone APPLICATIONS
+
+1. In the Phone Setup options, navigate to and select Pair New Device option. The system searches for Bluetooth enabled devices within its range.
+
+Deleting Devices
+
+To delete a device from the list, Select the device and tap Delete icon
+
+2. Navigate to and select the required phone from the list of currently available Bluetooth enabled devices.
+
+To delete all devices connected to the infotainment system.
+
+3. The system prompts you to confirm the Bluetooth pass key of the phone. Select Yes. The system initiates the pairing of the infotainment system and the selected phone. If the pairing is successful, the system displays the phone in the Paired Devices screen. A copy of your phone data like call logs (phone numbers and other contact details) is also created in the system.
+
+1. Tap Delete All devices tab.
+
+Phone Functions
+
+When a mobile phone is paired and connected to the infotainment system, you can manage the following phone operations through the hands-free capability of the system:
+
+4. Tap Allow to allow all the requested notifications of the phone once paired with the Infotainment system via Bluetooth.
+
+• View call log and contacts.
+
+• Make an outgoing call (Last 20 call Logs)

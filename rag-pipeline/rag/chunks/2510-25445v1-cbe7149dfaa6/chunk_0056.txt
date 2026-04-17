@@ -1,0 +1,19 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 33-34
+Chunk: 56
+
+Conclusion Addressing these gaps requires a conscious departure from generic AI research. Progress hinges on a dual-track strategy that deepens our understanding of each paradigm’s unique chal- lenges while simultaneously pioneering architectures and standards for their integration. This paradigm-specific roadmap is essential to move from powerful but flawed prototypes to reliable and trustworthy agentic systems. The future of Agentic AI is not a choice between symbolism and connectionism, but a strategic synthesis of both.
+
+9 Future Directions: The Path to Hybrid Intelligence
+
+Agentic AI systems are rapidly evolving beyond static task automation into dynamic, collabo- rative, and adaptive entities [157]. Their future development will hinge on interdisciplinary ad- vances, technological convergence, and—critically—a paradigm-aware approach to design that seeks to integrate the strengths of both symbolic and neural lineages into robust hybrid architec- tures. A summary of these paradigm-aware trajectories is presented in Table 12, which outlines the specific research and integration priorities for each paradigm’s evolution, moving beyond a generic technology forecast. Analysis of Strategic Trajectories The bifurcated future outlined in Table 12 leads to one overriding conclusion: the paramount direction is Architectural Integration. The goal is to forge a new class of hybrid systems that leverage the reliability of symbolic reasoning and the adaptability of neural generation.
+
+33
+
+[PAGE 34]
+
+Table 11: Paradigm-Specific Research Gaps and Imperatives in Agentic AI
+
+Gap Area Symbolic Paradigm Chal- lenges Neural Paradigm Challenges Research Imperatives

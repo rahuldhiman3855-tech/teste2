@@ -1,0 +1,60 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 48-50
+Chunk: 36
+
+2. Tap cross icon to go back to previous screen.
+
+Clear Sticker/Image
+
+1. Tap Clear Sticker to remove the sticker or image.
+
+2. Click confirm the remove the sticker or
+
+3. Click cancel to undo the action.
+
+48
+
+[PAGE 49]
+
+HMI Doodle APPLICATIONS
+
+Note: Startup image is visible on Doodle settings screen during preview and while infotainment system startup.
+
+Note: My Sticker is visible on Media OFF/Home screen only after predefined time out, it can be disabled by user action on home screen or by Steering Wheel Phone/SRC button press.
+
+Note: You can move the sticker on home screen/Media OFF screen at desired position by touching and dragging it
+
+49
+
+[PAGE 50]
+
+APPLICATIONS Voice Assistant*
+
+Figure 34 : Voice Assistant Home Screen
+
+Voice Assistant*
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_050_img_001.jpeg]
+
+The infotainment system allows you to access various media, climate, phone, and other controls using voice commands. This feature has defined Voice commands which are recognized by the Voice Assistant.
+
+Note: * sign denotes = If Applicable / Available feature in your car.
+
+Language Packs
+
+To activate the voice recognition feature:
+
+1. Say wake-up word “Hey TATA”, or “Hi TATA”, or “Hello TATA” and you will be connected to a Voice Assistant or
+
+You can setup the language of the Voice Assistant and communicate in the selected language.
+
+2. Press the Voice Activation button on the Steering Wheel control element.
+
+Go to Voice Assistant > Settings > Language Selection
+
+The system mutes/pauses the currently playing audio and you will hear a beep sound indicate the activation of the voice recognition feature.
+
+Select the language from following options
+
+1. Tamil & English 2. Telugu & English 3. Hindi & English 4. Marathi & English 5. Bengali & English

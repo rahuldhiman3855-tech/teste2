@@ -1,0 +1,38 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 25-26
+Chunk: 17
+
+− In the Media screen, press the Shuffle Icon to On/Off the shuffle. The system randomly plays all tracks in the current folder or all music tracks in the current media source.
+
+You can fast forward or fast rewind the music tracks to quickly complete playing them and move ahead or backward in the folder.
+
+View Next/Previous Music Track Names
+
+To fast forward or fast rewind:
+
+When in a music track, the system allows you to view the next/previous music track names. This functionality is supported only for USB and iPod devices. In the Media screen, Tap the Menu icon to view the next/previous music track.
+
+− In the Media screen, long tap on the Next Track
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_025_img_004.png]
+
+icon or the Previous Track icon to play the
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_025_img_005.png]
+
+next/previous track respectively, or − Long Press the Seek Up or Seek Down button from Button Panel to play the next/previous track, respectively.
+
+25
+
+[PAGE 26]
+
+APPLICATIONS Media
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_026_img_001.png]
+
+Play Next/Previous Folder
+
+− In the Media screen, tap the Browse icon. The system displays the Browse screen with applicable categories list. − Select the required category from the list. The system displays the music tracks grouped under the selection. − From the available music tracks, chose the required music track. The system plays the selected music track.
+
+While playing a music track from the USB Stick, the system allows you to shift to the next/previous folder and play the music tracks in them.
+
+Note: This functionality is supported only for USB.

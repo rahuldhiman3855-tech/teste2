@@ -1,0 +1,66 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 18-20
+Chunk: 12
+
+Layout
+
+Figure 5 : Icons on Status Bar
+
+1. Status Bar
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_018_img_002.png]
+
+2. Home Page / Widget Screen
+
+1. Climate Control Icon
+
+3. Quick Access Drawer
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_018_img_003.png]
+
+Tap Climate Control Icon to control HVAC system of the vehicle and set the temperature.
+
+Status Bar
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_018_img_004.png]
+
+Status Bar contains following shortcut Icons for easy access
+
+Tap to increase or to decrease the temperature.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_018_img_005.png]
+
+18
+
+[PAGE 19]
+
+System Overview GETTING STARTED
+
+4. Application Launcher Icon
+
+2. Volume Control Icon
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_019_img_001.png]
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_019_img_002.png]
+
+Tap Volume Control Icon to Increase / Decrease or Mute the volume of the music.
+
+Tap App Launcher Icon to view all the applications of the Infotainment system. You can scroll down to view the applications and tap on the icon to open the application.
+
+3. Notification Icon
+
+Figure 7 : Applications Screen -1
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_019_img_003.png]
+
+Tap Notification Icon to view the all the notifications.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_019_img_004.jpeg]
+
+Note: Phone Notifications will be displayed only when phone is connected.
+
+Figure 6 : Notification Screen
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_019_img_005.jpeg]
+
+19
+
+[PAGE 20]
+
+GETTING STARTED System Overview
+
+Figure 8 : Applications Screen -2

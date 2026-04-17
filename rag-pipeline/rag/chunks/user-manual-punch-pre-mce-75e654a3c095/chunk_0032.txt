@@ -1,0 +1,43 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 43-44
+Chunk: 32
+
+Connect – Wireless Apple CarPlay 1. Pair/connect your phone to the infotainment system using Bluetooth®. 2. Follow the prompts on the screen and on your iPhone to start a wireless Apple CarPlay session. 3. You will be asked to accept Terms of Use before using
+
+Apple CarPlay is a projection technology, which allows you to operate your Apple iPhone from your vehicle infotainment system. You can use voice commands or the simple iPhone like interface on your infotainment system to operate your phone functionalities. It is designed to minimize distraction while driving.
+
+the feature.
+
+Note: Applicable only for iPhones. Apple CarPlay is compatible from iPhone 5 and above versions. For more information, refer to
+
+Connect – Wired Apple CarPlay
+
+1. Connect your iPhone to the infotainment system, using the original Apple or Apple certified Lightning USB cable. On successful establishment of the connection, the infotainment system displays a popup or highlights the Apple CarPlay menu, if in focus in the home screen
+
+https://www.apple.com/in/ios/carplay/
+
+Prepare Your Phone
+
+2. Tap on the popup/menu to launch the Apple CarPlay Home screen.
+
+Before you connect the iPhone to infotainment system to use Apple CarPlay, you need to perform some one-time configuration steps:
+
+Note: If the connection with the infotainment system is lost, the app is disconnected, and the infotainment system Home screen is displayed.
+
+1. Make sure you have iPhone 5 or up device, running on latest iOS.
+
+2. Make sure your phone has a strong and fast network connection.
+
+Note: The settings of Apple CarPlay can be accessed from your iPhone only.
+
+43
+
+[PAGE 44]
+
+APPLICATIONS Apple CarPlay
+
+Start Apple CarPlay
+
+Using Apple CarPlay

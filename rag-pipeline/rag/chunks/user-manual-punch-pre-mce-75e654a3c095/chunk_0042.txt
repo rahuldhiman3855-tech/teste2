@@ -1,0 +1,143 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 60-61
+Chunk: 42
+
+Do I need to refuel?
+
+Phone
+
+Connect me to <name>
+
+Whats my fuel status
+
+Dial <name>
+
+How many liters of oil is available
+
+What is my average
+
+Redial Redial
+
+Tell me my cars average
+
+I want to read message
+
+Read the last SMS
+
+Tell me my cars fuel economy
+
+SMS Readout
+
+Average
+
+I wanna hear the text
+
+What is my fuel efficiency
+
+Read SMS
+
+Tell me my cars latest average
+
+What is my mileage
+
+How many liters of diesel is left in the car
+
+How long can I travel
+
+How many liters of Petrol is remaining
+
+Vehicle Info Fuel
+
+How many miles can I drive
+
+Range
+
+How many miles can I travel
+
+How many liters of fuel do I have in the vehicle
+
+How far can I go before next refuel?
+
+60
+
+[PAGE 61]
+
+Voice Assistant* APPLICATIONS
+
+Feature Sub- Feature Commands
+
+Feature Sub- Feature Commands
+
+Infotainme nt Display brightness
+
+How many miles will the fuel last
+
+Increase infotainment/Touch Screen brightness to <brightness Value>
+
+Whats my range
+
+Whats the current range
+
+Increase Display brightness
+
+What is distance to empty
+
+Brightness
+
+Turn up/down the Head Unit brightness
+
+Display
+
+How long will my car go
+
+Display On/Off
+
+Take me to android auto screen
+
+Display ON/OFF
+
+Turn Infotainment/Touch Screen <On/Off>
+
+Can you please open settings screen
+
+Can you open vehicle settings screen
+
+Switch ON Display/Head Unit
+
+Switch to clock settings screen
+
+Navigate to W3W address
+
+Please open home screen
+
+Navigate me to <x.y.z>
+
+Open Phone settings
+
+Navigate Navigate to screen
+
+Current/present Location
+
+Open Vehicle setting screen
+
+Current Location
+
+Take me to audio settings screen
+
+What is my current/present/ location
+
+W3W
+
+Show me software details
+
+Where am I now?
+
+Open application drawer
+
+Current/present what3words Location/address
+
+Take me to contact list screen
+
+Current w3w address

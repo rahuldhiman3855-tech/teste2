@@ -1,0 +1,48 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 86-88
+Chunk: 57
+
+1. Press Mute button on the Steering Wheel switches for 10 sec and press source change for 10 sec, time gap between two switches should be less than 3 seconds.
+
+4. The reset action is completed, when you insert the key again (after 10 seconds at least) and switch ON the ignition and the infotainment system.
+
+Forced Restart
+
+Note: Do not OFF the Ignition during the reset process is in progress.
+
+To forced restart the infotainment system. 1. Tap Settings, Select System Settings. 2. Navigate to Force Restart Tab, 3. Tap Restart
+
+86
+
+[PAGE 87]
+
+System SETTINGS
+
+Note: Park your vehicle safely before performing forced restart of Infotainment system
+
+Figure 71 : Force Restart
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_087_img_001.jpeg]
+
+87
+
+[PAGE 88]
+
+FREQUENTLY ASKED QUESTIONS FAQs
+
+the infotainment system through Bluetooth connection. If yes, check the AVRCP version of your Phone. As, some of the Media functionalities are phone dependent and are supported only in phones with AVRCP version 1.3 and above.
+
+7 FREQUENTLY ASKED QUESTIONS
+
+Fast forward and fast rewind from the infotainment system is available for USB Stick source only.
+
+FAQs
+
+3. How to Play video in the infotainment system?
+
+Frequently asked questions related to the features and functions of the iRA infotainment system are listed below along with their answers.
+
+Video Player is available in “Browse” option of Media screen and select “Video” option. Through this you can browse through the Video files available in the current media source only (USB Stick).
+
+4. From which Media sources can I play video?

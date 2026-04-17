@@ -1,0 +1,27 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 13-14
+Chunk: 18
+
+Figure 6: The architecture of the neural paradigm: Multi-Agent Orchestration in mod- ern AI systems. This schematic illustrates the operational paradigm of neural systems. A central orchestrator (e.g., an LLM) manages a dynamic workflow of specialized agents through structured messaging and context management. Functionality emerges from prompt routing and API tool use, explicitly replacing the symbolic perceive-plan- act-reflect loop.
+
+3 Methodology
+
+A rigorous and transparent methodology is essential for constructing a comprehensive review that captures the dual paradigms of Agentic AI. This section outlines the systematic process used to identify, evaluate, and synthesize literature, with a specific focus on categorizing works according to the symbolic and neural lineages defined in our conceptual framework (Figure 2). It follows established review protocols to ensure reproducibility while accounting for the field’s rapid evolution.
+
+3.1 Review Design
+
+This study adopts the PRISMA 2020 framework (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) [82, 83], guiding all stages from search strategy to synthesis. The
+
+13
+
+[PAGE 14]
+
+methodology is designed to capture and distinguish between the symbolic/classical and neu- ral/generative lineages of agentic AI research across computer science, cognitive psychology, robotics, and ethics.
+
+Objectives: This systematic review aims to provide a comprehensive analysis of agentic AI systems through the following specific research objectives:
+
+1. To identify, classify, and synthesize literature based on the dual architectural paradigms (Symbolic vs. Neural) of Agentic AI.
+
+2. To examine the evolution of capabilities, applications, and performance metrics within and across each paradigm.

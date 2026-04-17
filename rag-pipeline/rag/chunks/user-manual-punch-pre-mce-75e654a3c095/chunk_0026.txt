@@ -1,0 +1,30 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 36-36
+Chunk: 26
+
+To toggle between phone and system:
+
+To switch between calls: 1. Tap switch calls option.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_036_img_001.png]
+
+In the active call screen, tap Handset icon to switch the call from system to phone or Handsfree to switch from phone to system.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_036_img_002.png]
+
+Conducting a Conference Call
+
+When in an active call, you can connect an additional phone number to create a conference call between the contacts. You can create a conference call by either dialing to an additional number or by accepting a new incoming call.
+
+Accepting Another Incoming Call
+
+When you are in an active call and receive another incoming call, you can put the active call on hold and accept the new call. The system allows you to have a maximum of 2 calls at any given time, one on hold and the other active. To accept another incoming call:
+
+To create a conference call by dialing additional number
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_036_img_003.png]
+
+1. In the active call screen, tap Add Call . The system puts the active call on hold and displays the Contacts screen. You can dial the additional number from the contacts list or from the call log, the favorites list.
+
+1. In the active call screen, the system displays a new call popup message with Accept, Reject and Reject with Message icons, when you receive a new incoming call. Select Accept in the new call popup message. The system puts the first call on hold and activates the new call.
+
+2. Follow the steps listed in the “Making an Outgoing Call” section for dialing a number using the various options. The system initiates an outgoing call for the selected number.

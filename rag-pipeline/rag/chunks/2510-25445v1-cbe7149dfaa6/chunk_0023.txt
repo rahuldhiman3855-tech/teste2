@@ -1,0 +1,11 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 16-16
+Chunk: 23
+
+The screening protocol adhered to the PRISMA 2020 guidelines to ensure methodological trans- parency and reproducibility. Records were compiled from selected databases, yielding an initial pool of 165 items (157 from databases, 8 from supplemental sources). Following deduplication, 120 unique records remained. Title and abstract screening ex- cluded 42 studies due to irrelevance or insufficient focus on agentic AI. Full-text assessment confirmed 78 articles met all inclusion criteria. In alignment with PRISMA’s guidance for systematic reviews that require foundational con- text, a supplemental phase was conducted [82]. During thematic synthesis, 12 seminal theoretical papers from the symbolic paradigm (e.g., foundational works on MDPs by [39] and cognitive architectures by [84]) were incorporated. These papers were essential for providing complete historical context for the taxonomic framework and understanding the symbolic lineage, though they were analyzed separately from contemporary neural paradigm research. This resulted in a final corpus of 90 publications for contextual and theoretical grounding, with 78 studies forming the core for analysis of contemporary trends. The process is illustrated in Figure 7, which clearly distinguishes the primary systematic search from the supplemental inclusion of foundational context.
+
+3.5 Data Analysis
+
+The 78 studies forming the core of the review underwent thematic synthesis following the methodology described by Thomas and Harden [85], with analysis specifically structured around the dual-paradigm framework.

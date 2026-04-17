@@ -1,0 +1,25 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 40-40
+Chunk: 70
+
+[46] J. Schneider. Generative to agentic ai: Survey, conceptualization, and challenges. arXiv [cs.AI], 2025.
+
+[47] D. B. Acharya, K. Kuppan, and B. Divya. Agentic ai: Autonomous intelligence for complex goals—a comprehensive survey. IEEE Access, 13:18912–18936, 2025.
+
+[48] S. Hosseini and H. Seilani. The role of agentic ai in shaping a smart future: A systematic review. Array (N. Y.), 26(100399):100399, 2025.
+
+[49] R. Sapkota, K. I. Roumeliotis, and M. Karkee. Ai agents vs. agentic ai: A conceptual taxonomy, applications and challenges. arXiv [cs.AI], 2025.
+
+[50] V. Patel, S. Kanani, T. Pathak, P. Patel, M. I. Ali, and J. Breslin. A demonstration of smart doorbell design using federated deep learning. arXiv [cs.DC], 2020.
+
+[51] V. Trencsenyi, A. Mensfelt, and K. Stathis. The influence of human-inspired agentic sophistication in llm-driven strategic reasoners. arXiv [cs.AI], 2025.
+
+[52] Y. Lu, M. S. Squillante, and C. W. Wu. A general markov decision process framework for directly learning optimal control policies. arXiv [cs.LG], 2019.
+
+[53] Y. Lu, M. S. Squillante, and C. W. Wu. Markov decision process framework for control- based reinforcement learning. ACM SIGMETRICS Performance Evaluation Review, 51(2):39–41, 2023.
+
+[54] B. Rozek, J. Lee, H. Kokel, M. Katz, and S. Sohrabi. Partially observable hierarchical reinforcement learning with ai planning (student abstract). Proc. Conf. AAAI Artif. Intell., 38(21):23635–23636, 2024.
+
+[55] C. Lu, R. Shi, Y. Liu, K. Hu, S. S. Du, and H. Xu. Rethinking transformers in solving pomdps. arXiv [cs.LG], 2024.

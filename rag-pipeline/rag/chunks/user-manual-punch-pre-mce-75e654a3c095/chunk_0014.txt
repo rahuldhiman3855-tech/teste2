@@ -1,0 +1,72 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 21-23
+Chunk: 14
+
+To add a new application on the Widget Screen 1. Tap Add New Widget option. 2. All the available applications will be displayed. 3. Drag and drop the application you want to view on the Widget Screen. 4. Application successfully added on the Widget Screen for quick access.
+
+For a quick and easy access of the system, swipe down from the top to open the Quick Access Drawer.
+
+21
+
+[PAGE 22]
+
+GETTING STARTED System Overview
+
+Figure 11 : Icons on QAD
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_022_img_001.png]
+
+3. Display Off
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_022_img_002.png]
+
+To put the display into sleep mode, tap the Display OFF icon.
+
+4. Quick Access Icons
+
+a. Media Source b. Media Off c. Device List d. Wi-Fi
+
+Icons on QAD
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_022_img_003.png]
+
+1. Brightness
+
+This icon helps to change the brightness of the Infotainment display.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_022_img_004.png]
+
+2. Settings
+
+This icon is a shortcut to Settings Application. Tap the Settings icon to view and setup various settings as detailed in Settings chapter.
+
+22
+
+[PAGE 23]
+
+Media APPLICATIONS
+
+the devices can be connected and paired with each other for them to be recognized and accessed.
+
+Figure 12 : Media Screen
+
+4 APPLICATIONS
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_023_img_001.jpeg]
+
+Media
+
+The infotainment system supports the following media sources from which you can play music, videos, and view pictures:
+
+• USB
+
+• Bluetooth Audio
+
+• iPhone as an iPod
+
+• Android Auto
+
+Note: The supported audio formats aac, .mp3, .wav and .wma.
+
+• Apple CarPlay
+
+Note: The supported video formats are .mp4 and .avi.
+
+Connecting to a Media Source

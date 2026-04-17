@@ -1,0 +1,9 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 14-14
+Chunk: 20
+
+A multi-database search strategy was employed to identify literature across both historical sym- bolic and modern neural agentic AI research. Sources included: IEEE Xplore, ACM Digital Library, arXiv, SpringerLink, ScienceDirect, and Google Scholar. The search strategy employed a structured set of keyword clusters designed to comprehen- sively capture the core concepts associated with both architectural paradigms. To represent the Symbolic/Classical lineage, targeted terms included foundational concepts such as "Cog- nitive architectures," "BDI agent," "SOAR," "POMDP," "symbolic planning," and "multi-agent systems" (in its traditional sense). Conversely, the Neural/Generative paradigm was captured through terms reflecting its contemporary emergence, such as "LLM agent," "AI orchestration," "prompt chaining," "tool-augmented LLM," "multi-agent conversation," and specific framework names including "AutoGen" and "LangChain." Finally, a set of General terms—"Agentic AI," "autonomous agent," and "goal-directed AI"—was used to ensure broad coverage and to cap- ture literature that might bridge or transcend the paradigmatic divide. Boolean operators were structured to optimize breadth and relevance (e.g., ("autonomous agent" OR "agentic AI") AND ("large language model" OR "orchestration" OR "cognitive architecture")). The search scope was interdisciplinary, targeting relevant fields from computer science to ethics. To capture the most current advancements in the rapidly evolving neural paradigm, the search included pre-print servers like arXiv, with these records being manually assessed for quality and relevance.
+
+3.3 Inclusion and Exclusion Criteria

@@ -1,0 +1,25 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 34-34
+Chunk: 57
+
+Evaluation & Bench- marks [150, 149] Lack of standardized metrics for scalability and robustness of logical reasoning in complex, open-world environments.
+
+Current benchmarks (e.g., AgentBench [101], GAIA [?]) fail to adequately test for subtle misalignments, prompt robustness, and the true cost of context management.
+
+Develop paradigm-specific benchmarks. Symbolic: Test logical soundness and failure predictability. Neu- ral: Test for hallucination under pressure, prompt in- jection resilience, and multi- session consistency.
+
+Reasoning & Adapt- ability [165, 166] Systems are brittle; they fail catastrophically when faced with novel scenarios or excep- tions not covered by their rules.
+
+Hybrid Research: In- vestigate neuro-symbolic architectures where neural components handle pattern recognition and symbolic modules enforce rigorous reasoning and constraint checking.
+
+Agents struggle with true, ab- stract reasoning and value-laden judgment. Their "reasoning" is often just sophisticated pattern matching that can break down.
+
+Long-term Autonomy & Memory [90] Can maintain a persistent, sym- bolic state but struggle to learn and update their world model from experience in a scalable way.
+
+Symbolic: Research on efficient belief revision. Neural: Develop architec- tures for external, structured memory that agents can reliably read from and write to.
+
+Context window limitations cre- ate agents with severe amne- sia across sessions. Stateless- ness prevents cumulative learn- ing and building long-term rela- tionships.
+
+AI Infrastructure De- pendence [156] Performance is often con- strained by the scalability of theorem provers and logic engines, which are sensitive to hardware architecture. Less dependent on massive cloud clusters but requires special- ized, reliable compute.

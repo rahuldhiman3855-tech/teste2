@@ -1,0 +1,17 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 32-33
+Chunk: 54
+
+Accordingly, governance must move beyond paradigm-specific risk analysis toward a tax- onomy of agency, where ethical principles and legal accountability mechanisms scale with the degree of autonomy. This aligns with calls for “meaningful human control” [127], but extends them into concrete policy design that recognizes the unique governance needs of agentic AI.
+
+8 Research Gaps: A Paradigm-Specific Roadmap
+
+The development of Agentic AI is constrained by significant, unresolved challenges. However, a critical oversight in identifying these gaps is treating them as uniform across architectures. The research imperatives for symbolic systems diverge profoundly from those for neural systems, with a particularly pressing need for work on hybrid architectures that can leverage the strengths
+
+32
+
+[PAGE 33]
+
+of both. As outlined in Table 11, these thematic areas require a paradigm-aware research strategy to ensure future systems are robust, adaptable, and aligned.

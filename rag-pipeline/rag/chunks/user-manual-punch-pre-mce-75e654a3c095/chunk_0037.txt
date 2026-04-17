@@ -1,0 +1,45 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 50-52
+Chunk: 37
+
+Note: The system will start recognizing your voice commands only after the beep. So, speak only after you hear the voice activation beep. If no command is spoken after the beep, the system will prompt you to say a command.
+
+50
+
+[PAGE 51]
+
+Voice Assistant* APPLICATIONS
+
+Figure 35 : Voice Assistant Language Selection
+
+Voice Command Guidelines
+
+• Only speak the commands that are listed in the “Voice Recognition Commands” section.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_051_img_001.jpeg]
+
+• When similar sounding contact names/song names are spoken, the system will display a list of options matching the spoken name. You can choose the required option from the list by calling out the corresponding line number or touching the required option on the screen.
+
+Note: The infotainment system also displays the voice recognition commands. You can select and view the required command de-tails from within the Voice screen.
+
+Voice Assistant Live Caption
+
+• Speak the commands and names in a neutral English accent for best results.
+
+Live Caption automatically subtitles the speech or command on the screen
+
+• Do not take long pauses (greater than 1 second) while speaking the words in a command. Speak the words of the command at a constant rate.
+
+Figure 36 : Voice Assistant Live Caption
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_051_img_002.jpeg]
+
+• Avoid varying your pitch and volume while speaking the commands. Speak clearly and loudly at a reasonable speed.
+
+• Ensure that there is no noise disturbance when you speak the commands like, other passengers in the vehicle are talking or there is lot of wind noise. Disturbance from external sound sources may result in poor voice recognition.
+
+51
+
+[PAGE 52]
+
+APPLICATIONS Voice Assistant*

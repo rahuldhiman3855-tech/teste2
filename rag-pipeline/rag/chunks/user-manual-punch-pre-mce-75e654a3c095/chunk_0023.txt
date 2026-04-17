@@ -1,0 +1,53 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 32-34
+Chunk: 23
+
+• Dialing by selecting the phone number from the contacts
+
+32
+
+[PAGE 33]
+
+Phone APPLICATIONS
+
+Figure 18 : Call Log Screen
+
+1. In the Phone Browse screen, select the Dialpad. The system displays the Keypad to enter the phone number.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_033_img_001.jpeg]
+
+2. Enter the digits of the phone number in the Dialpad.
+
+3. After entering the phone number, tap Call. The system initiates the outgoing call.
+
+Note: The system retains the phone number that was last dialed in the Dialpad. So, to redial the phone number, you can just open the Dialpad and select the Call icon.
+
+Figure 19 : Dial Pad
+
+Dialing Using the Contact
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_033_img_002.png]
+
+To make a call by dialing a number from the contacts:
+
+1. Open the Contacts screen. Refer to the “Viewing Contacts” section for the steps to open the Contacts screen.
+
+2. Navigate through the contacts and select the required number. The system dials the selected number and initiates the outgoing call.
+
+Note: The contact numbers that do not have a name defined for them will be displayed Last in the Contact list with an #.
+
+Dialing Using the Favorites
+
+The infotainment system supports marking contacts as favorites. The system also allows you to view and access these favorite contacts separately from the Favorites screen, in addition to the Contacts screen.
+
+Dialing the Phone Number Manually using Dialpad
+
+To make a call by manually dialing a phone number:
+
+33
+
+[PAGE 34]
+
+APPLICATIONS Phone
+
+Open the Favorites screen. The system lists all contacts marked as favorite. Navigate to the required favorite contact and tap Call. The system dials the number of the selected favorite contact and initiates the outgoing call.

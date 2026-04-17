@@ -1,0 +1,23 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 32-32
+Chunk: 53
+
+7.1 Toward Agentic AI Policy
+
+An overlooked but critical dimension of ethical and governance discourse is the explicit develop- ment of policy frameworks tailored to agentic AI. Current governance proposals often extend ex- isting AI regulations to cover autonomous systems, but they seldom distinguish between systems that merely generate outputs and those that exercise agency in decision-making. For agentic AI, the challenge lies in defining and operationalizing levels of autonomy and clarifying their governance implications. Policy mechanisms must therefore incorporate criteria that distinguish different levels of agency. Table 10 summarizes a proposed taxonomy of agency in Agentic AI, outlining the characteristics of assistive, shared, and delegated forms of agency alongside their governance implications.
+
+Table 10: Levels of Agency in Agentic AI and Corresponding Policy Needs
+
+Agency Level Characteristics Governance and Policy Requirements
+
+Assistive AI provides recommendations or analysis, with all final decisions made by humans. Ensure transparency and explainability. Policies should mandate auditability of outputs but allow flexible use with human oversight.
+
+Shared AI participates in decision-making, influ- encing outcomes jointly with human ac- tors.
+
+Require clear role allocation, decision- logging, and mechanisms for tracing con- tributions of human vs. AI actors. Liability is shared and must be explicitly codified.
+
+Delegated AI agents operate with high autonomy, ex- ecuting decisions or actions within defined domains.
+
+Strong accountability mechanisms, prede- fined bounds of autonomy, and strict liabil- ity regimes for developers/operators. Re- quires robust monitoring and override ca- pabilities.

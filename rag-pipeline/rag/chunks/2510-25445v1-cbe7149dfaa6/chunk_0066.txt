@@ -1,0 +1,21 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 38-38
+Chunk: 66
+
+[11] Pengyu Zhao, Zijian Jin, and Ning Cheng. An in-depth survey of large language model- based artificial intelligence agents. 2023.
+
+[12] Shuaihang Chen, Yuanxing Liu, Wei Han, Weinan Zhang, and Ting Liu. A survey on LLM-based multi-agent system: Recent advances and new frontiers in application. 2024.
+
+[13] B. Liang. Ai reasoning in deep learning era: From symbolic ai to ... Mathematics, 13(11):1707, 2025. Includes section “Symbolic Reasoning Era (1950s–1980s)”.
+
+[14] William R. Swartout. Rule-based expert systems: The mycin experiments of the stan- ford heuristic programming project: B.g. buchanan and e.h. shortliffe, (addison-wesley, reading, ma, 1984); 702 pages, $40.50. Artificial Intelligence, 26(3):364–366, 1985.
+
+[15] R. N. Thomas and R. Gupta. A survey on machine learning approaches and its tech- niques. In 2020 IEEE International Students’ Conference on Electrical, Electronics and Computer Science (SCEECS), pages 1–6, 2020.
+
+[16] T. Nithya, V. Nivas Kumar, Gayathri, S. Deepa, V. C, and R. Siva Subramanian. A com- prehensive survey of machine learning: Advancements, applications, and challenges. In 2023 Second International Conference on Augmented Intelligence and Sustainable Sys- tems (ICAISS), pages 354–361, 2023.
+
+[17] Maria Trigka and Elias Dritsas. A comprehensive survey of machine learning techniques and models for object detection. Sensors, 25(1):214, 2025.
+
+[18] William G. Hatcher and Wei Yu. A survey of deep learning: Platforms, applications and emerging research trends. IEEE Access, 6:24411–24432, 2018.

@@ -1,0 +1,82 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 16-18
+Chunk: 11
+
+Short Press:
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_016_img_003.png]
+
+• Activates Native Voice Assistance. Alexa whichever is mapped to this button
+
+• Display OFF Mode: Turns on the display and executes selected option.
+
+• SMS Readout Popup: Starts reading the SMS.
+
+Voice Alert: Cancels Voice Alert and activates native Voice Assistance.
+
+Outgoing Call, Active Call, Voice Assistance active and SMS Reading: No Action
+
+Long Press:
+
+16
+
+[PAGE 17]
+
+System Overview GETTING STARTED
+
+active audio source will be stopped, and the system will enter Media OFF state.
+
+System Overview
+
+Figure 3 : Media Off Screen
+
+System ON/OFF
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_017_img_001.jpeg]
+
+When the vehicle ignition is turned ON, the system will be automatically switched ON and last active audio source playback will start.
+
+Figure 2 : System ON – Home / Widget Screen
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_017_img_002.jpeg]
+
+Performing any media related activity will take system out of media off mode and last active source playback will start.
+
+Display Layout
+
+The Home page has space allotted for specific information.
+
+Media Off Mode
+
+For distraction free and quiet Driving, system offers a Media OFF mode. When the infotainment system is ON and open
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_017_img_003.png]
+
+the Quick Access drawer and click Media Off Icon, the
+
+17
+
+[PAGE 18]
+
+GETTING STARTED System Overview
+
+Figure 4 : Home Page - Layout
+
+Sr. No
+
+Icons
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_018_img_001.jpeg]
+
+1 Climate control Icon
+
+2 Volume Control
+
+3 Notification Centre
+
+4 Home Screen /App Launcher Icon
+
+5 Global Search Icon
+
+Table 2 Display Layout
+
+6 Back Icon
+
+Sr. No

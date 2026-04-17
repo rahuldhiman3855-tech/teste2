@@ -1,0 +1,46 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 66-68
+Chunk: 46
+
+Tap button to navigate back to original feed screen.
+
+• Yellow lines are reference lines.
+
+66
+
+[PAGE 67]
+
+Surround View System (SVS)* VEHICLE FUNCTIONS
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_067_img_001.png]
+
+Surround View System (SVS)*
+
+Tap Zoom button to navigate to below screen which display camera content with predefined zoom values.
+
+The surround view system provides 360-degree bird view around the entire vehicle. Eliminating blind spot, this intelligent camera system delivers a wide range of benefits.
+
+The SVS assists you during parking by combining 4 cameras placed around the vehicle for 360 degree view of the area around the car
+
+To view a 360-degree surrounding around your car: 1. Tap App Launcher icon and select Surround View application. 2. Once the Surround view screen is displayed it is possible to select the images to display among 5 possible options a. Rear view and top view b. Front view and top view c. Left view and top view d. Right view and top view e. 3D 360-degree bird eye view
+
+Note: Drive your vehicle slowly when you are parking to stop in time if there is any obstacle.
+
+67
+
+[PAGE 68]
+
+VEHICLE FUNCTIONS Surround View System (SVS)*
+
+Figure 48 : 360 SVS View
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_068_img_001.png]
+
+5. Setting – To setup SVS display screen tap Settings icon.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_068_img_002.jpeg]
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_068_img_003.png]
+
+6. Close – To close SVS screen tap icon on the right bar.
+
+Display Options on SVS Screen
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_068_img_004.png]

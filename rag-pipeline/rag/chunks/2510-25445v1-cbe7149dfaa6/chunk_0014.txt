@@ -1,0 +1,23 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 8-9
+Chunk: 14
+
+Cognitive architectures like Belief-Desire-Intention (BDI) and SOAR represent the pinnacle of the symbolic paradigm’s attempt to engineer agency. They explicitly model internal states and processes, as summarized in Table 2. These systems directly implement a perceive-plan-act- reflect loop using symbolic representations, making them powerful but brittle and difficult to scale to complex, real-world environments. Their relationship to human cognitive functions is a direct, top-down mapping of symbolic logic.
+
+8
+
+[PAGE 9]
+
+Table 2: Mapping Human Cognitive Functions to Symbolic AI Modules
+
+Component Human Function Symbolic AI Parallel
+
+Belief Module Working Memory Symbolic Knowledge Base / World Model Desire Module Motivation Goal Stack / Utility Func- tion Intention Module Executive Control Action Policy / Planner Meta-cognition Layer Self-reflection, Error Mon- itoring Monitor / Replan Loop
+
+2.3 The Neural Lineage: Statistical Learning and Emergent Rea- soning
+
+The neural lineage is built on a foundation of statistical learning from data, culminating in the generative capabilities of large language models (LLMs). Its progression is marked by a move away from explicit logic toward emergent, stochastic behavior.
+
+2.3.1 Deep Reinforcement Learning (DRL)

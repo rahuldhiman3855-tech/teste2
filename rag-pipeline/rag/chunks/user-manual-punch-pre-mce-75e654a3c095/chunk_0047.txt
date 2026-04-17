@@ -1,0 +1,51 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 68-69
+Chunk: 47
+
+1. 2D View - To see view in 2D tap icon on the right bar of the SVS screen.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_068_img_005.png]
+
+2. 3D View - To see view in 3D tap icon on the right bar of the SVS screen
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_068_img_006.png]
+
+3. Front View – Tap Front view icon to view front camera view of the vehicle
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_068_img_007.png]
+
+4. Rear View - Tap Rear view icon to view rear camera view of the vehicle
+
+68
+
+[PAGE 69]
+
+VEHICLE FUNCTIONS Climate Control
+
+Figure 49 : Climate Control
+
+Climate Control
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_069_img_001.jpeg]
+
+The Climate Control feature is vehicle dependent. The infotainment system displays the climate control related information in its HVAC screen, which is displayed at the right of the infotainment system screen.
+
+Managing Climate Control
+
+The Climate Control feature can be managed using any one of the following options.
+
+1. Toggle Max, Fresh Air, AC icons to switch ON/OFF
+
+2. Tap Auto to switch it ON. To turn OFF Auto, Tap Blower/Mode/Rear/Max
+
+• Climate Control Application in the Infotainment System
+
+• HVAC Control Elements on the Vehicle Dashboard
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_069_img_002.png]
+
+3. Tap to increase or to decrease the temperature or the fan speed.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_069_img_003.png]
+
+Using Climate Control Application
+
+Tap App launcher icon and select Climate Control application.
+
+Note: Fan speed ranges from 1 to 7 and temperature ranges from minimum 18 degree to maximum 30 degree.

@@ -1,0 +1,15 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 14-15
+Chunk: 21
+
+To ensure the review’s methodological integrity and thematic relevance, predefined inclusion and exclusion parameters were applied during the screening process. These criteria were designed to capture high-quality literature from both paradigms of agentic AI.
+
+Inclusion Criteria The literature search employed the following inclusion criteria to iden- tify publications that contribute directly to the core themes of agentic AI architectures and ap- plications. Specifically, we included peer-reviewed journal articles, conference proceedings, and formally published technical reports from recognized institutions. To capture the most recent
+
+14
+
+[PAGE 15]
+
+advancements in the rapidly evolving neural paradigm, we also incorporated high-impact pre- prints from arXiv, which were manually screened for methodological rigor and citation impact, with a focus on those presenting novel architectures or frameworks. The scope of included work encompassed studies involving the design, implementation, or evaluation of autonomous agents, spanning both classical symbolic systems and modern LLM-orchestrated frameworks. All se- lected publications were required to be in English and published within the temporal window of January 2018 to March 2025.

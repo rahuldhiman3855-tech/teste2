@@ -1,0 +1,25 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 42-42
+Chunk: 74
+
+[88] B.S. Nayak. Neuro-symbolic integration in ai agents: Bridging the gap between per- ception and reasoning. International Journal of Computer Engineering and Technology, 16(1):1142–1158, 2025.
+
+[89] M.M. Karim, D.H. Van, S. Khan, Q. Qu, and Y. Kholodov. Ai agents meet blockchain: A survey on secure and scalable collaboration for multi-agents. Future Internet, 17(2):57, 2025.
+
+[90] J. Zheng et al. Lifelong learning of large language model based agents: A roadmap. arXiv [cs.AI], 2025.
+
+[91] Lai Xu and Hans Weigand. The evolution of the contract net protocol. In X. Sean Wang, Ge Yu, and Hongjun Lu, editors, Advances in Web-Age Information Management, pages 257–264, Berlin, Heidelberg, 2001. Springer Berlin Heidelberg.
+
+[92] I D Craig. Blackboard systems. Artif. Intell. Rev., 2(2):103–118, 1988.
+
+[93] Uwe M. Borghoff, Paolo Bottoni, and Remo Pareschi. Human-artificial interaction in the age of agentic ai: a system-theoretical approach. Frontiers in Human Dynamics, 7, May 2025.
+
+[94] Zhao Wang, Sota Moriyama, Wei-Yao Wang, Briti Gangopadhyay, and Shingo Taka- matsu. Talk structurally, act hierarchically: A collaborative framework for llm multi-agent systems, 2025.
+
+[95] Dimitrios Brodimas, Alexios Birbas, Dimitrios Kapolos, and Spyros Denazis. Intent- based infrastructure and service orchestration using agentic-AI. IEEE Open J. Commun. Soc., pages 1–1, 2025.
+
+[96] Alex Casella and Wayne Wang. Performant llm agentic framework for conversational ai, 2025.
+
+[97] Ziren Luo, Di Li, Jiafu Wan, Shiyong Wang, Ge Wang, Minghao Cheng, and Ting Li. Multi-agent collaboration mechanisms based on distributed online meta-learning for mass personalization. Journal of Industrial Information Integration, 46:100852, 2025.

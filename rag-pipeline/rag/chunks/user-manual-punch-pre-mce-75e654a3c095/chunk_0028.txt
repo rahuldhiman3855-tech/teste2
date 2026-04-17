@@ -1,0 +1,66 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 38-40
+Chunk: 28
+
+When the phone is being charged using charging pad, wireless Charger icon pops up on the top right corner of the status bar.
+
+38
+
+[PAGE 39]
+
+AQI* APPLICATIONS
+
+Table 3 AQI Level Mapping
+
+AQI*
+
+AQI Associated Health Impacts
+
+The infotainment system is equipped with a Cabin Air Quality (CAQ) feature which denotes value of purity of air inside the TATA vehicles. It transforms the weighted values of individual air pollution related parameters, for example pollutant concentrations, into a single number or set of numbers.
+
+• Good (0-50) • Minimal Impact
+
+• Satisfactory (51-100)
+
+• May cause minor beathing discomfort to sensitive people
+
+• Moderate (101-200)
+
+• May cause breathing discomfort to people with lung disease such as asthama and discomfort to people with heart disease including children and elderly
+
+Note: * sign denotes = If Applicable / Available feature in your car.
+
+• Poor
+
+• May cause breathing discomfort to people on prolonged exposure and discomfort to people with heart disease with short exposure
+
+To view Air Quality Index of the Cabin 1. Tap App Launcher icon on the status bar and then tap AQI application icon.
+
+• (201-300)
+
+Figure 23 : AQI Screen
+
+• Very Poor
+
+• May cause respiratory illness to the people on prolonged exposure. Effect will be pronounced in people with lung and heart diseases
+
+• (301-400)
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_039_img_001.jpeg]
+
+• Severe
+
+• May cause respiratory effects even on healthy people and serious health impacts on people with lung/heart diseases. Health impacts may be visible even during light physical activity
+
+• (401-500)
+
+39
+
+[PAGE 40]
+
+APPLICATIONS Android Auto
+
+system you will be prompted to select whether you would like to continue the phone connection for Android Auto.
+
+Android Auto

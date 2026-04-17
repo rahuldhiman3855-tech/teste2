@@ -1,0 +1,33 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 34-35
+Chunk: 59
+
+Paradigm-specific strate- gies: Symbolic: For- mal verification of goals and constraints. Neural: Advanced red teaming, adversarial training, and "constitutional" oversight mechanisms.
+
+Vulnerability to prompt injec- tion, goal drift, and value mis- generalization. Aligning a stochastic model to complex hu- man values is an unsolved prob- lem.
+
+Interoperability & In- tegration [167, 168] Difficult to integrate with the messy, unstructured data of the real world and modern software ecosystems.
+
+Excel at using tools via APIs but struggle with true, semantic un- derstanding of what a tool does, leading to misuse.
+
+Develop standards and middleware for paradigm bridging. Create APIs that allow neural agents to query symbolic reasoners for validation and symbolic systems to leverage neural networks for perception.
+
+34
+
+Governance & Ac- countability [145, 146] Liability is more straightfor- ward (flawed logic can be traced) but frameworks for au- diting complex rule sets are needed.
+
+Urgently develop paradigm-specific reg- ulatory models. Symbolic: Audit trails for decision logic. Neural: Mandatory context logging, output wa- termarking, and potentially new forms of developer liability.
+
+A profound "attribution gap" exists. Legal frameworks are unprepared for harm caused by emergent, stochastic behavior.
+
+[PAGE 35]
+
+Table 12: Paradigm-Aware Strategic Trajectories for Agentic AI
+
+Strategic Direction Symbolic Paradigm Evolution Neural Paradigm Evolution
+
+Multi-Agent Ecosys- tems Defining verifiable communi- cation protocols and interac- tion contracts for hybrid agent teams.
+
+Specializing in emergent, role- based collaboration and negotiation [154, 155] (e.g., CrewAI, AutoGen, LangGraph).

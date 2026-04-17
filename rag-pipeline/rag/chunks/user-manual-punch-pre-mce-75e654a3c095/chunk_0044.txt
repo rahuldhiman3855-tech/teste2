@@ -1,0 +1,64 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 64-65
+Chunk: 44
+
+3. Tap share Current Location. A pop up will appear asking to share location with a number or phonebook contact. a. Tap Dialpad to share the location with a number. or b. Tap Contact list to select the contact.
+
+Share My Location*
+
+Share my location application allows you to share real-time GPS location of your car with your phone contacts or by entering a phone number.
+
+4. Click Send to share current location.
+
+or
+
+Figure 44 : Share My Location Screen
+
+Tap cancel to go back to the previous screen.
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_064_img_001.jpeg]
+
+5. Location sent confirmation screen will appear.
+
+To share live location
+
+1. Tap the App Launched Icon and select Share My Location App
+
+2. Tap Allow for sharing the vehicle location.
+
+3. Tap Share Live Location
+
+4. Select the duration.
+
+a. Tap Dialpad if you want to share the location with a number. or b. Select Contact list to share the location with a contact in phonebook.
+
+Note: To use this feature the infotainment needs to be connected to network via inbuilt internet connectivity.
+
+Note: Enable Location service on your phone to access location sharing via Infotainment system.
+
+5. Click Send to confirm and share the live location.
+
+or
+
+To share current location
+
+1. Tap the App Launched Icon and select Share My Location App
+
+Tap cancel to go back to the previous screen.
+
+6. Location sent confirmation screen will appear.
+
+2. Tap Allow for sharing the vehicle location.
+
+64
+
+[PAGE 65]
+
+Sound Demo APPLICATIONS
+
+7. You can set the duration of location sharing. Select the duration and tap Share.
+
+Sound Demo
+
+This application enables you to play music tracks which are by default inbuilt in the system. 1. Tap the Sound Demo Application from the App Launcher.

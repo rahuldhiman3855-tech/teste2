@@ -1,0 +1,143 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 61-64
+Chunk: 43
+
+Can you please open paired phone screen
+
+What is my current/present/ what3words location/address
+
+61
+
+[PAGE 62]
+
+APPLICATIONS Voice Assistant*
+
+Feature Sub- Feature Commands
+
+Feature Sub- Feature Commands
+
+Number What is the vehicle identification number?
+
+Open Sunroof
+
+I want to unpack the sunroof
+
+What is the VIN number?
+
+Kindly fold the sunroof
+
+Registratio n Number
+
+What is my vehicle/car registration Number?
+
+Close sunroof
+
+Sunroof
+
+I want to see the moon
+
+When is my vehicle/car insurance expiring
+
+BCM
+
+Insurance Expiry
+
+I want to see the sun
+
+Till when is my insurance valid
+
+I want to see stars
+
+When is my vehicle service pending/due ?
+
+Tilt sunroof
+
+Tilt/Untilt
+
+Level the sunroof
+
+Next Vehicle Service
+
+How far will my vehicle go without servicing?
+
+Flat the sunroof
+
+Last Vehicle Service
+
+When to do vehicle service?
+
+When was my last vehicle servicing done
+
+How much time for next servicing?
+
+360° Camera feed ON
+
+What is my vehicle/car purchase date?
+
+Connected Car
+
+Activate front camera
+
+Vehicle purchase date
+
+ADAS 360° View camera
+
+When was this vehicle/car purchased?
+
+Turn rear camera feed On
+
+Switch On 360° Camera feed
+
+When is my car’s birthday?
+
+Rear View camera ON
+
+VIN What is my VIN number?
+
+Generic Hi TATA Hi TATA
+
+62
+
+[PAGE 63]
+
+Voice Assistant* APPLICATIONS
+
+Feature Sub- Feature Commands
+
+Hey TATA
+
+Hello TATA
+
+What you can do?
+
+What can you do for me?
+
+What can you do?
+
+What is/are your capability/capabilities?
+
+Things to try
+
+Example Voice commands
+
+Good Morning
+
+Greetings
+
+Good evening
+
+Good night
+
+What time is it?
+
+What time is it?
+
+What date is it?
+
+63
+
+[PAGE 64]
+
+APPLICATIONS Share My Location*

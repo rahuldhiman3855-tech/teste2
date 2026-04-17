@@ -1,0 +1,31 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 20-21
+Chunk: 33
+
+20
+
+[PAGE 21]
+
+based reasoning rather than deterministic algorithms. Lastly, Dynamic Context Management [100, 81] (e.g., LangGraph) implements coordination through state machines that control infor- mation flow between nodes; the graph structure defines possible paths, but the specific execution is determined stochastically by the LLM’s output at each step. The fundamental dichotomy between these coordination strategies is summarized in Table 5, which highlights the core operational differences.
+
+Table 5: A Dual-Paradigm Comparison of Multi-Agent Coordination Mechanisms
+
+Feature Symbolic/Classical Paradigm Neural/Generative Paradigm
+
+Primary Mecha- nism Algorithmic Protocols (e.g., Contract Net, Blackboard) Structured Conversation & Prompt Or- chestration
+
+State Management Explicit, often centralized (e.g., Manager in CNP, Blackboard) Implicit, managed within the LLM’s con- text window
+
+Decision Process Deterministic or probabilistic based on ex- plicit rules Stochastic generation of next ac- tion/response
+
+Flexibility Low; protocols are fixed and designed for anticipated scenarios High; can adapt to novel coordination pat- terns not explicitly programmed
+
+Verifiability High; the protocol’s logic can be formally verified and audited Low; the emergent coordination path is opaque and difficult to trace
+
+Key Frameworks JADE, JaCaMo, early SOAR systems AutoGen, CrewAI, LangGraph
+
+Example A manager agent uses CNP to auction a delivery task to the lowest-bidding drone agent.
+
+An orchestrator LLM manages a conversa- tion between a programmer agent, a tester agent, and a writer agent to collaboratively build software.

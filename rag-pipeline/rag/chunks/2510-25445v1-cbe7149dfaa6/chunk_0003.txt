@@ -1,0 +1,15 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 1-2
+Chunk: 3
+
+Keywords— Agentic AI, artificial intelligence, systematic review, neural architectures, sym- bolic AI, multi-agent systems, AI governance, neuro-symbolic AI
+
+*Corresponding author
+
+1
+
+[PAGE 2]
+
+1 Introduction

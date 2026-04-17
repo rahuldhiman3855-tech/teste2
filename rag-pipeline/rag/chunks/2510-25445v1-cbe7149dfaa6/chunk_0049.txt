@@ -1,0 +1,7 @@
+Document: 2510.25445v1.pdf
+Document ID: 2510-25445v1-cbe7149dfaa6
+Source PDF: rag/uploads/2510-25445v1-cbe7149dfaa6.pdf
+Pages: 30-30
+Chunk: 49
+
+As Agentic AI systems gain autonomy and are deployed in critical domains, they introduce a complex spectrum of ethical and governance concerns [120, 9, 174]. However, a critical over- sight in current discourse is the treatment of these challenges as monolithic. The risks and requisite mitigation strategies differ profoundly between the symbolic and neural paradigms, demanding a paradigm-aware approach to oversight and interdisciplinary collaboration. A synthesis of these issues is presented in Table 9, which expands upon standard taxonomies by outlining the core challenges and, most importantly, their paradigm-specific manifestations and governance implications.

@@ -1,0 +1,57 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 34-35
+Chunk: 24
+
+Marking a Contact as Favorite
+
+To mark a contact as favorite:
+
+1. In the Contacts screen, select the required contact and tap displayed beside the contact number. The system highlights the star icon, and the contact is marked as favorite.
+
+Accepting/Rejecting Incoming Calls
+
+When you receive a phone call, you can either accept or reject it from the infotainment system.
+
+Note: You can save maximum 20 contacts to the favorite list.
+
+If your mobile phone is paired and currently connected to the system, the system notifies you with a popup message when you receive a phone call. The system allows you to Accept, Reject or Reject Incoming call with Message.
+
+Viewing the Favorites List
+
+You can identify the contacts marked as favorite with the highlighted star in the Contacts screen. All favorite contacts can also be separately viewed in the Favorites screen.
+
+To accept incoming call:
+
+Select the Accept icon in the popup message. The system connects the call to enable you to talk to the caller.
+
+To display the Favorites screen:
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_034_img_001.png]
+
+Note: You can also accept the call using the button Steering Wheel control.
+
+1. In the Phone Browse screen, tap Favorites. The system displays the Favorites screen with the list of favorite contacts.
+
+To reject incoming call:
+
+1. Select the Reject icon in the popup message. The system disconnects the call.
+
+Dialing from Favorite Contact List
+
+To dial a favorite contact
+
+Note: You can also reject the call using the
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_034_img_002.png]
+
+Steering Wheel control.
+
+34
+
+[PAGE 35]
+
+Phone APPLICATIONS
+
+• Switch between Calls
+
+Reject Incoming call with Message

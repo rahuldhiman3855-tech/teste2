@@ -1,0 +1,36 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 44-45
+Chunk: 33
+
+Apple CarPlay will automatically get started in Connection. If Apple CarPlay does not activate automatically, you can access Apple CarPlay by:
+
+You can access the Music, Message, communication functionalities (receives and make phone calls and so on) of your iPhone through the infotainment system. In the infotainment system, in addition to using the touch screen, control elements and SWC controls, you can just provide voice actions to control these functionalities, without removing your hand from the steering wheel.
+
+1. Tapping on Apple CarPlay icon.
+
+Handle Calls, Messages and Communication Actions
+
+Figure 26 : Apple CarPlay Home Screen
+
+using Apple CarPlay
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_044_img_001.jpeg]
+
+To handle the various actions of your iPhone from Apple CarPlay on the infotainment system:
+
+1. To Handle Calls: Tap the Phone icon on the Apple CarPlay Home screen on the infotainment system. You can now make calls, receive calls, and view contacts.
+
+2. To Handle Messages: Tap the Messages icon. You can now read, send, and reply to received messages or handle other communication actions from the infotainment system, as you handle it from your iPhone.
+
+3. To handle Music: Tap the Music, Podcasts or Audiobooks icon. You can now access all your content from iTunes®, Music app or other available third-party audio apps.
+
+Say Hey Siri to activate Siri (voice recognition) so that your voice actions are recognized, tap and hold the Home icon on the Apple CarPlay Home screen. Once you are displayed with the waves, you can speak your voice action.
+
+4. To Return to the Infotainment System Home Screen: Tap the home icon. The system closes Apple CarPlay and displays the system home screen.
+
+44
+
+[PAGE 45]
+
+Apple CarPlay APPLICATIONS

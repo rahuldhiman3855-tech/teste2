@@ -1,0 +1,62 @@
+Document: user-manual-punch-pre-mce.pdf
+Document ID: user-manual-punch-pre-mce-75e654a3c095
+Source PDF: rag/uploads/user-manual-punch-pre-mce-75e654a3c095.pdf
+Pages: 83-85
+Chunk: 55
+
+• Once the SW is downloaded, user is prompted for the installation.
+
+Figure 67 : Software Installation in Process Screen
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_083_img_003.jpeg]
+
+Note: Regular functions are not affected and user can continue to use the infotainment while the SW download is in progress.
+
+• Once the user connects to the Wi-Fi Hotspot, the download begins and the status is displayed to the user.
+
+83
+
+[PAGE 84]
+
+SETTINGS Software Update
+
+• Installation progress will be shown to the user.
+
+Figure 68 : Software Installation Completion Screen
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_084_img_001.jpeg]
+
+• Once the installation is complete, user will be asked for the Ignition cycle.
+
+• Once the HU is turned ON, user can see the latest update version in the SW details.
+
+84
+
+[PAGE 85]
+
+System SETTINGS
+
+System
+
+Setting Time
+
+To set the system time:
+
+The Infotainment system allows you to manage various system level settings, like:
+
+1. In the System app, navigate to and select the Set Time option. The system displays the Set Time screen.
+
+• Clock – Date and Time
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_085_img_001.png]
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_085_img_002.png]
+
+2. In the Set Time screen, use the up and down arrows to change the Hour and Minute and AM/PM (in case of 12hr format) accordingly.
+
+• Factory Reset
+
+• Forced Restart
+
+3. You can change time mode to 24hr format or 12hr format.
+
+To access System Setup:
+[IMAGE: rag/assets/user-manual-punch-pre-mce-75e654a3c095/page_085_img_003.jpeg]
+
+1. Tap Settings, the system displays the Settings screen with various settings list, navigate to and open System Setup Application
