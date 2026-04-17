@@ -177,10 +177,16 @@ export type Database = {
           ai_response: string
           confidence_score: number | null
           created_at: string
+          context_images: Json
+          debug_payload: Json
           id: string
           is_repeated: boolean | null
+          model: string | null
+          provider: string | null
+          rag_context: string | null
           response_time_ms: number | null
           session_id: string | null
+          retrieved_chunks: Json
           topic: string | null
           user_id: string | null
           user_message: string
@@ -189,10 +195,16 @@ export type Database = {
           ai_response: string
           confidence_score?: number | null
           created_at?: string
+          context_images?: Json
+          debug_payload?: Json
           id?: string
           is_repeated?: boolean | null
+          model?: string | null
+          provider?: string | null
+          rag_context?: string | null
           response_time_ms?: number | null
           session_id?: string | null
+          retrieved_chunks?: Json
           topic?: string | null
           user_id?: string | null
           user_message: string
@@ -201,10 +213,16 @@ export type Database = {
           ai_response?: string
           confidence_score?: number | null
           created_at?: string
+          context_images?: Json
+          debug_payload?: Json
           id?: string
           is_repeated?: boolean | null
+          model?: string | null
+          provider?: string | null
+          rag_context?: string | null
           response_time_ms?: number | null
           session_id?: string | null
+          retrieved_chunks?: Json
           topic?: string | null
           user_id?: string | null
           user_message?: string

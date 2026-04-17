@@ -16,6 +16,7 @@ import Analytics from "./pages/admin/Analytics";
 import SourcesPage from "./pages/admin/SourcesPage";
 import UsersPage from "./pages/admin/UsersPage";
 import Configuration from "./pages/admin/Configuration";
+import Debug from "./pages/admin/Debug";
 import NotFound from "./pages/NotFound";
 
 const App = () => {
@@ -42,6 +43,7 @@ const App = () => {
                 <Route path="sources" element={<SourcesPage />} />
                 <Route path="users" element={<UsersPage />} />
                 <Route path="config" element={<Configuration />} />
+                <Route path="debug" element={<Debug />} />
               </Route>
 
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

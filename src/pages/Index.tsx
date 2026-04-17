@@ -15,6 +15,7 @@ import { useKeyboardShortcuts } from "@/hooks/useKeyboardShortcuts";
 import { useAgentConfig } from "@/hooks/useAgentConfig";
 import { supabase } from "@/integrations/supabase/client";
 import { useAuth } from "@/contexts/AuthContext";
+import type { ChatDebugPayload } from "@/lib/chatDebug";
 
 interface Message {
   id: string;
@@ -25,6 +26,7 @@ interface Message {
   followUpQuestion?: string;
   relatedResources?: Array<{ title: string; url: string }>;
   chatLogId?: string; // Database ID for tracking feedback
+  debugPayload?: ChatDebugPayload;
 }
 
 const CHAT_URL = import.meta.env.VITE_CHAT_FUNCTION_URL || `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/chat`;
@@ -36,7 +38,9 @@ async function streamChat({
   conversationMemory,
   provider,
   model,
+  sessionId,
   onDelta,
+  onDebug,
   onDone,
   onError,
 }: {
@@ -46,7 +50,9 @@ async function streamChat({
   conversationMemory: number;
   provider: string;
   model: string;
+  sessionId?: string | null;
   onDelta: (deltaText: string) => void;
+  onDebug: (debugPayload: ChatDebugPayload) => void;
   onDone: () => void;
   onError: (error: string) => void;
 }) {
@@ -59,12 +65,13 @@ async function streamChat({
       "Content-Type": "application/json",
       Authorization: `Bearer ${import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY}`,
     },
-    body: JSON.stringify({ 
+      body: JSON.stringify({ 
       messages: limitedMessages,
       temperature,
       max_tokens: maxTokens,
       provider,
       model,
+      session_id: sessionId,
     }),
   });
 
@@ -106,6 +113,10 @@ async function streamChat({
 
       try {
         const parsed = JSON.parse(jsonStr);
+        if (parsed.debug) {
+          onDebug(parsed.debug as ChatDebugPayload);
+          continue;
+        }
         const content = parsed.choices?.[0]?.delta?.content as string | undefined;
         if (content) onDelta(content);
       } catch {
@@ -184,12 +195,40 @@ const IndexContent = () => {
     }
   };
 
+  const ensureSessionId = async () => {
+    if (sessionId) {
+      return sessionId;
+    }
+
+    try {
+      const { data, error } = await supabase.from('chat_sessions').insert([{
+        user_id: user?.id || null,
+        session_start: new Date().toISOString(),
+        is_active: true,
+        total_messages: 0,
+      }]).select('id').single();
+
+      if (error || !data?.id) {
+        console.error("Error creating session:", error);
+        return null;
+      }
+
+      setSessionId(data.id);
+      addSessionId(data.id);
+      localStorage.setItem(CURRENT_SESSION_KEY, data.id);
+      return data.id;
+    } catch (err) {
+      console.error("Error ensuring session:", err);
+      return null;
+    }
+  };
+
   // Load session messages
   const loadSession = async (loadSessionId: string) => {
     try {
       const { data: logs, error } = await supabase
         .from('chat_logs')
-        .select('id, user_message, ai_response')
+        .select('id, user_message, ai_response, provider, model, rag_context, retrieved_chunks, context_images, debug_payload')
         .eq('session_id', loadSessionId)
         .order('created_at', { ascending: true });
 
@@ -212,6 +251,15 @@ const IndexContent = () => {
           content: log.ai_response,
           chatLogId: log.id,
           rating: 0,
+          debugPayload: (log.debug_payload as ChatDebugPayload) || {
+            session_id: loadSessionId,
+            provider: log.provider || undefined,
+            model: log.model || undefined,
+            rag_context: log.rag_context || null,
+            retrieved_chunks: (log.retrieved_chunks as ChatDebugPayload["retrieved_chunks"]) || [],
+            context_images: (log.context_images as ChatDebugPayload["context_images"]) || [],
+            source: "supabase",
+          },
         });
       });
 
@@ -316,42 +364,6 @@ const IndexContent = () => {
     return Math.min(100, Math.round(confidence));
   };
 
-  // Log chat to database
-  const logChatToDatabase = async (userMessage: string, aiResponse: string, startTime: number) => {
-    try {
-      const responseTimeMs = Date.now() - startTime;
-      const topic = categorizeMessage(userMessage);
-      const confidenceScore = calculateConfidence(aiResponse);
-      
-      const { data, error } = await supabase.from('chat_logs').insert([{
-        user_id: user?.id || null,
-        user_message: userMessage,
-        ai_response: aiResponse,
-        response_time_ms: responseTimeMs,
-        topic,
-        confidence_score: confidenceScore,
-        session_id: sessionId,
-      }]).select('id').single();
-      
-      if (error) {
-        console.error("Error logging chat:", error);
-        return null;
-      }
-      
-      // Update session message count
-      if (sessionId) {
-        await supabase.from('chat_sessions')
-          .update({ total_messages: messages.filter(m => m.role === 'user').length + 1 })
-          .eq('id', sessionId);
-      }
-      
-      return data?.id;
-    } catch (err) {
-      console.error("Error logging chat:", err);
-      return null;
-    }
-  };
-
   // Log feedback to database
   const logFeedbackToDatabase = async (chatLogId: string, rating: 'thumbs_up' | 'thumbs_down') => {
     try {
@@ -369,7 +381,55 @@ const IndexContent = () => {
     }
   };
 
+  const logChatToDatabase = async (
+    userMessage: string,
+    aiResponse: string,
+    startTime: number,
+    effectiveSessionId: string | null,
+    debugPayload?: ChatDebugPayload | null
+  ) => {
+    try {
+      const responseTimeMs = Date.now() - startTime;
+      const topic = categorizeMessage(userMessage);
+      const confidenceScore = calculateConfidence(aiResponse);
+      
+      const { data, error } = await supabase.from('chat_logs').insert([{
+        user_id: user?.id || null,
+        user_message: userMessage,
+        ai_response: aiResponse,
+        response_time_ms: responseTimeMs,
+        topic,
+        confidence_score: confidenceScore,
+        session_id: effectiveSessionId,
+        provider: debugPayload?.provider || config.llm_provider || null,
+        model: debugPayload?.model || config.llm_model || null,
+        rag_context: debugPayload?.rag_context || null,
+        retrieved_chunks: debugPayload?.retrieved_chunks || [],
+        context_images: debugPayload?.context_images || [],
+        debug_payload: debugPayload || {},
+      }]).select('id').single();
+      
+      if (error) {
+        console.error("Error logging chat:", error);
+        return null;
+      }
+      
+      // Update session message count
+      if (effectiveSessionId) {
+        await supabase.from('chat_sessions')
+          .update({ total_messages: messages.filter(m => m.role === 'user').length + 1 })
+          .eq('id', effectiveSessionId);
+      }
+      
+      return data?.id;
+    } catch (err) {
+      console.error("Error logging chat:", err);
+      return null;
+    }
+  };
+
   const handleSendMessage = async (content: string, files?: File[]) => {
+    const effectiveSessionId = await ensureSessionId();
     const userMessage: Message = {
       id: Date.now().toString(),
       role: "user",
@@ -382,6 +442,7 @@ const IndexContent = () => {
 
     const startTime = Date.now();
     let assistantContent = "";
+    let debugPayload: ChatDebugPayload | null = null;
     const updateAssistant = (chunk: string) => {
       assistantContent += chunk;
       setMessages((prev) => {
@@ -396,6 +457,9 @@ const IndexContent = () => {
           { id: "streaming", role: "assistant", content: assistantContent },
         ];
       });
+    };
+    const updateDebug = (payload: ChatDebugPayload) => {
+      debugPayload = payload;
     };
 
     // Prepare messages for API (exclude files, welcome message metadata)
@@ -412,15 +476,23 @@ const IndexContent = () => {
         conversationMemory: config.conversation_memory,
         provider: config.llm_provider,
         model: config.llm_model,
+        sessionId: effectiveSessionId,
         onDelta: updateAssistant,
+        onDebug: updateDebug,
         onDone: async () => {
           // Log chat to database and get the ID
-          const chatLogId = await logChatToDatabase(content, assistantContent, startTime);
+          const chatLogId = await logChatToDatabase(content, assistantContent, startTime, effectiveSessionId, debugPayload);
           
           setMessages((prev) =>
             prev.map((m) =>
               m.id === "streaming"
-                ? { ...m, id: (Date.now() + 1).toString(), rating: 0, chatLogId: chatLogId || undefined }
+                ? {
+                    ...m,
+                    id: (Date.now() + 1).toString(),
+                    rating: 0,
+                    chatLogId: chatLogId || undefined,
+                    debugPayload: debugPayload || undefined,
+                  }
                 : m
             )
           );
@@ -540,6 +612,7 @@ const IndexContent = () => {
                   rating={message.rating}
                   followUpQuestion={message.followUpQuestion}
                   relatedResources={message.relatedResources}
+                  debugPayload={message.debugPayload}
                   onRating={(delta) => handleRating(message.id, delta)}
                   onFollowUpClick={handleSendMessage}
                 />

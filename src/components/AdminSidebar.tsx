@@ -1,4 +1,4 @@
-import { LayoutDashboard, BarChart3, Users, Settings, ArrowLeft, Database } from "lucide-react";
+import { LayoutDashboard, BarChart3, Users, Settings, ArrowLeft, Database, Bug } from "lucide-react";
 import { useNavigate, useLocation } from "react-router-dom";
 import {
   Sidebar,
@@ -22,6 +22,7 @@ const menuItems = [
   { title: "Sources", url: "/admin/sources", icon: Database },
   { title: "Users", url: "/admin/users", icon: Users },
   { title: "Configuration", url: "/admin/config", icon: Settings },
+  { title: "Debug", url: "/admin/debug", icon: Bug },
 ];
 
 export function AdminSidebar() {

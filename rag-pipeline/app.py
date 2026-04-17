@@ -1,8 +1,9 @@
 from __future__ import annotations
 
 import re
+from pathlib import Path
 
-from flask import Flask, flash, jsonify, redirect, render_template, request, url_for
+from flask import Flask, abort, flash, jsonify, redirect, render_template, request, send_file, url_for
 from markupsafe import Markup, escape
 from werkzeug.utils import secure_filename
 
@@ -10,7 +11,8 @@ from extractor import delete_document, get_stats, index_uploaded_pdf, init_stora
 
 
 app = Flask(__name__)
-app.config["MAX_CONTENT_LENGTH"] = 100 * 1024 * 1024
+# Keep upload handling unconstrained here; nginx and the client now enforce the real limits.
+app.config["MAX_CONTENT_LENGTH"] = None
 app.secret_key = "pdf-rag"
 init_storage()
 
@@ -222,6 +224,17 @@ def api_search():
 @app.get("/api/documents")
 def api_documents():
     return jsonify({"stats": get_stats(), "documents": list_documents()})
+
+
+@app.get("/api/assets/<path:asset_path>")
+def api_assets(asset_path: str):
+    resolved_path = (Path(__file__).resolve().parent / asset_path).resolve()
+    asset_root = (Path(__file__).resolve().parent / "rag" / "assets").resolve()
+
+    if not str(resolved_path).startswith(str(asset_root)) or not resolved_path.exists() or not resolved_path.is_file():
+        abort(404)
+
+    return send_file(resolved_path)
 
 
 @app.route("/api/documents/<document_id>", methods=["POST", "DELETE"])

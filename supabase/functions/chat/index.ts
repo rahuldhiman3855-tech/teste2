@@ -109,9 +109,19 @@ function compressRagChunk(chunkText: string, maxChars: number) {
   return compressedLines.join("\n");
 }
 
+function extractImagePaths(chunkText: string) {
+  return [...String(chunkText || "").matchAll(/\[IMAGE:\s*([^\]]+)\]/g)]
+    .map((match) => match[1].trim())
+    .filter(Boolean);
+}
+
 async function buildRagContext(query: string) {
   if (!query.trim()) {
-    return null;
+    return {
+      contextText: null,
+      retrievedChunks: [],
+      contextImages: [],
+    };
   }
 
   const ragApiUrl = Deno.env.get("RAG_API_URL") || DEFAULT_RAG_API_URL;
@@ -125,33 +135,69 @@ async function buildRagContext(query: string) {
     const response = await fetch(`${ragApiUrl}/api/search?${params.toString()}`);
     if (!response.ok) {
       console.warn("RAG search failed:", response.status);
-      return null;
+      return {
+        contextText: null,
+        retrievedChunks: [],
+        contextImages: [],
+      };
     }
 
     const data = await response.json();
     const results = Array.isArray(data?.results) ? data.results : [];
     if (results.length === 0) {
-      return null;
+      return {
+        contextText: null,
+        retrievedChunks: [],
+        contextImages: [],
+      };
     }
 
     const imageResults = results.filter((result) => typeof result?.text === "string" && result.text.includes("[IMAGE:"));
     const prioritizedResults = (imageResults.length > 0 ? imageResults : results).slice(0, RAG_IMAGE_RESULT_LIMIT);
     if (prioritizedResults.length === 0) {
-      return null;
+      return {
+        contextText: null,
+        retrievedChunks: [],
+        contextImages: [],
+      };
     }
 
-    const contextBlocks = prioritizedResults.map((result: Record<string, unknown>, index: number) => {
+    const retrievedChunks = prioritizedResults.map((result: Record<string, unknown>, index: number) => {
       const originalFilename = String(result.original_filename || "unknown");
       const chunkIndex = String(result.chunk_index || index + 1);
       const pageStart = String(result.page_start || "?");
       const pageEnd = String(result.page_end || "?");
       const matchedTerms = Array.isArray(result.matched_terms) ? result.matched_terms.join(", ") : "";
       const compressedText = compressRagChunk(String(result.text || ""), RAG_CONTEXT_RESULT_CHAR_LIMIT);
+      const imagePaths = extractImagePaths(String(result.text || ""));
 
+      return {
+        result_index: index + 1,
+        document_id: String(result.document_id || ""),
+        original_filename: originalFilename,
+        chunk_index: Number(result.chunk_index || index + 1),
+        page_start: Number(result.page_start || 0),
+        page_end: Number(result.page_end || 0),
+        matched_terms: Array.isArray(result.matched_terms) ? result.matched_terms : [],
+        score: Number(result.score || 0),
+        occurrences: Number(result.occurrences || 0),
+        text: String(result.text || ""),
+        compressed_text: compressedText,
+        image_paths: imagePaths,
+      };
+    });
+
+    const contextImages = [...new Set(retrievedChunks.flatMap((chunk) => chunk.image_paths))].map((path) => ({
+      path,
+      url: `${ragApiUrl}/api/assets/${path}`,
+    }));
+
+    const contextBlocks = retrievedChunks.map((chunk) => {
       return [
-        `Result ${index + 1}: ${originalFilename} | chunk ${chunkIndex} | pages ${pageStart}-${pageEnd}`,
-        matchedTerms ? `Matched terms: ${matchedTerms}` : null,
-        compressedText ? compressedText : null,
+        `Result ${chunk.result_index}: ${chunk.original_filename} | chunk ${chunk.chunk_index} | pages ${chunk.page_start}-${chunk.page_end}`,
+        chunk.matched_terms.length ? `Matched terms: ${chunk.matched_terms.join(", ")}` : null,
+        chunk.image_paths.length ? `Image paths: ${chunk.image_paths.join(", ")}` : null,
+        chunk.compressed_text ? chunk.compressed_text : null,
       ]
         .filter(Boolean)
         .join("\n");
@@ -163,12 +209,20 @@ async function buildRagContext(query: string) {
       ...contextBlocks,
     ].join("\n\n");
 
-    return contextText.length > RAG_CONTEXT_CHAR_LIMIT
-      ? contextText.slice(0, RAG_CONTEXT_CHAR_LIMIT)
-      : contextText;
+    return {
+      contextText: contextText.length > RAG_CONTEXT_CHAR_LIMIT
+        ? contextText.slice(0, RAG_CONTEXT_CHAR_LIMIT)
+        : contextText,
+      retrievedChunks,
+      contextImages,
+    };
   } catch (error) {
     console.warn("RAG context unavailable:", error instanceof Error ? error.message : String(error));
-    return null;
+    return {
+      contextText: null,
+      retrievedChunks: [],
+      contextImages: [],
+    };
   }
 }
 
@@ -178,14 +232,91 @@ serve(async (req) => {
   }
 
   try {
-    const { messages, temperature, max_tokens, model, provider } = await req.json();
-    const selectedProvider = (provider || "lovable").toLowerCase();
-    const latestUserMessage = getLatestUserMessage(messages);
-
-    // Fetch system prompt from agent_config
+    const requestUrl = new URL(req.url);
     const supabaseUrl = Deno.env.get("SUPABASE_URL")!;
     const supabaseKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!;
     const supabase = createClient(supabaseUrl, supabaseKey);
+
+    if (req.method === "GET" && requestUrl.pathname.includes("/debug/")) {
+      if (requestUrl.pathname.endsWith("/debug/sessions")) {
+        const [{ data: sessions }, { data: logs }] = await Promise.all([
+          supabase
+            .from("chat_sessions")
+            .select("id, user_id, session_start, session_end, total_messages, is_active, metadata")
+            .order("session_start", { ascending: false })
+            .limit(200),
+          supabase
+            .from("chat_logs")
+            .select("id, session_id, user_id, user_message, ai_response, created_at, provider, model, rag_context, retrieved_chunks, context_images, debug_payload, response_time_ms, topic, confidence_score")
+            .order("created_at", { ascending: false })
+            .limit(1000),
+        ]);
+
+        const groupedLogs = new Map<string, Array<Record<string, unknown>>>();
+        for (const log of logs || []) {
+          const sessionId = String(log.session_id || "");
+          if (!sessionId) continue;
+          const existing = groupedLogs.get(sessionId) || [];
+          existing.push(log);
+          groupedLogs.set(sessionId, existing);
+        }
+
+        const sessionsPayload = (sessions || []).map((session) => {
+          const sessionLogs = (groupedLogs.get(session.id) || []).sort(
+            (a, b) => new Date(String(a.created_at || "")).getTime() - new Date(String(b.created_at || "")).getTime()
+          );
+          const firstTurn = sessionLogs.find((log) => String(log.user_message || "").trim());
+          const lastTurn = sessionLogs[sessionLogs.length - 1];
+          return {
+            session_id: session.id,
+            user_id: session.user_id,
+            session_start: session.session_start,
+            session_end: session.session_end,
+            is_active: session.is_active,
+            total_messages: session.total_messages,
+            turn_count: sessionLogs.length,
+            preview: String(firstTurn?.user_message || "New conversation").slice(0, 160),
+            last_activity_at: String(lastTurn?.created_at || session.session_start),
+          };
+        });
+
+        return new Response(JSON.stringify({ sessions: sessionsPayload }), {
+          headers: { ...corsHeaders, "Content-Type": "application/json" },
+        });
+      }
+
+      const sessionMatch = requestUrl.pathname.match(/\/debug\/sessions\/([^/]+)$/);
+      if (sessionMatch) {
+        const sessionId = decodeURIComponent(sessionMatch[1]);
+        const [{ data: session }, { data: logs }] = await Promise.all([
+          supabase
+            .from("chat_sessions")
+            .select("id, user_id, session_start, session_end, total_messages, is_active, metadata")
+            .eq("id", sessionId)
+            .maybeSingle(),
+          supabase
+            .from("chat_logs")
+            .select("id, session_id, user_id, user_message, ai_response, created_at, provider, model, rag_context, retrieved_chunks, context_images, debug_payload, response_time_ms, topic, confidence_score")
+            .eq("session_id", sessionId)
+            .order("created_at", { ascending: true }),
+        ]);
+
+        if (!session) {
+          return new Response(JSON.stringify({ error: "Session not found" }), {
+            status: 404,
+            headers: { ...corsHeaders, "Content-Type": "application/json" },
+          });
+        }
+
+        return new Response(JSON.stringify({ session, logs: logs || [] }), {
+          headers: { ...corsHeaders, "Content-Type": "application/json" },
+        });
+      }
+    }
+
+    const { messages, temperature, max_tokens, model, provider, session_id } = await req.json();
+    const selectedProvider = (provider || "lovable").toLowerCase();
+    const latestUserMessage = getLatestUserMessage(messages);
 
     const { data: configData } = await supabase
       .from("agent_config")
@@ -208,10 +339,25 @@ serve(async (req) => {
       }
     }
 
-    const ragContext = isGreetingOnlyQuery(latestUserMessage) ? null : await buildRagContext(latestUserMessage);
-    const augmentedSystemPrompt = ragContext
-      ? `${systemPrompt}\n\n${ragContext}`
+    const ragContextBundle = isGreetingOnlyQuery(latestUserMessage)
+      ? { contextText: null, retrievedChunks: [], contextImages: [] }
+      : await buildRagContext(latestUserMessage);
+
+    const augmentedSystemPrompt = ragContextBundle.contextText
+      ? `${systemPrompt}\n\n${ragContextBundle.contextText}`
       : systemPrompt;
+
+    const debugPayload = {
+      session_id: session_id ?? null,
+      source: "supabase",
+      provider: selectedProvider,
+      model: model || "google/gemini-2.5-flash",
+      query: latestUserMessage,
+      rag_used: !!ragContextBundle.contextText,
+      rag_context: ragContextBundle.contextText,
+      retrieved_chunks: ragContextBundle.retrievedChunks,
+      context_images: ragContextBundle.contextImages,
+    };
 
     // Normalize model name to include provider prefix if missing
     let normalizedModel = model || "google/gemini-2.5-flash";
@@ -295,7 +441,26 @@ serve(async (req) => {
       );
     }
 
-    return new Response(response.body, {
+    const encoder = new TextEncoder();
+    const stream = new ReadableStream({
+      async start(controller) {
+        controller.enqueue(encoder.encode(`data: ${JSON.stringify({ debug: debugPayload })}\n\n`));
+        if (!response.body) {
+          controller.close();
+          return;
+        }
+
+        const reader = response.body.getReader();
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          controller.enqueue(value);
+        }
+        controller.close();
+      },
+    });
+
+    return new Response(stream, {
       headers: { ...corsHeaders, "Content-Type": "text/event-stream" },
     });
   } catch (error) {

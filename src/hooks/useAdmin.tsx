@@ -24,6 +24,12 @@ export interface ChatLog {
   confidence_score?: number;
   response_time_ms?: number;
   session_id?: string;
+  provider?: string | null;
+  model?: string | null;
+  rag_context?: string | null;
+  retrieved_chunks?: Json;
+  context_images?: Json;
+  debug_payload?: Json;
 }
 
 export interface ChatAnalytics {

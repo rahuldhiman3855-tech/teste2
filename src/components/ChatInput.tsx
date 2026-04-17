@@ -55,7 +55,6 @@ const ChatInput = forwardRef<HTMLTextAreaElement, ChatInputProps>(({ onSendMessa
 
   const validateAndAddFiles = async (files: File[]) => {
     const MAX_FILES = 5;
-    const MAX_TOTAL_SIZE = 5 * 1024 * 1024; // 5MB
     const ALLOWED_IMAGE_TYPES = ['image/png', 'image/jpeg', 'image/jpg', 'image/gif', 'image/webp'];
     const ALLOWED_TEXT_TYPES = ['text/plain', 'application/json', 'text/csv', 'text/xml', 'application/xml'];
     const ALLOWED_EXTENSIONS = ['.txt', '.log', '.json', '.csv', '.xml', '.yml', '.yaml'];
@@ -68,8 +67,6 @@ const ChatInput = forwardRef<HTMLTextAreaElement, ChatInputProps>(({ onSendMessa
 
     // Validate files
     const validFiles: File[] = [];
-    let totalSize = attachedFiles.reduce((sum, f) => sum + f.file.size, 0);
-
     for (const file of files) {
       // Check file type
       const isImage = ALLOWED_IMAGE_TYPES.includes(file.type);
@@ -81,14 +78,7 @@ const ChatInput = forwardRef<HTMLTextAreaElement, ChatInputProps>(({ onSendMessa
         continue;
       }
 
-      // Check total size
-      if (totalSize + file.size > MAX_TOTAL_SIZE) {
-        toast.error(`Total file size cannot exceed 5MB`);
-        break;
-      }
-
       validFiles.push(file);
-      totalSize += file.size;
     }
 
     if (validFiles.length > 0) {
@@ -247,8 +237,8 @@ const ChatInput = forwardRef<HTMLTextAreaElement, ChatInputProps>(({ onSendMessa
             <Send className="h-4 w-4" />
           </Button>
         </div>
-        <p className="text-xs text-muted-foreground mt-2 text-center">
-          Press Enter to send, Shift + Enter for new line • Drag & drop or attach files (max 5 files, 5MB total)
+          <p className="text-xs text-muted-foreground mt-2 text-center">
+          Press Enter to send, Shift + Enter for new line • Drag & drop or attach files (max 5 files)
         </p>
       </form>
     </div>

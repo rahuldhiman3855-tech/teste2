@@ -129,6 +129,7 @@ write_nginx_config() {
 server {
     listen 80;
     server_name ${SERVER_IP};
+    client_max_body_size 0;
 
     root ${APP_DIR}/dist;
     index index.html;
@@ -139,6 +140,15 @@ server {
 
     location /functions/v1/chat {
         proxy_pass http://127.0.0.1:8787/functions/v1/chat;
+        proxy_http_version 1.1;
+        proxy_set_header Host \$host;
+        proxy_set_header X-Real-IP \$remote_addr;
+        proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto \$scheme;
+    }
+
+    location /functions/v1/debug/ {
+        proxy_pass http://127.0.0.1:8787/functions/v1/debug/;
         proxy_http_version 1.1;
         proxy_set_header Host \$host;
         proxy_set_header X-Real-IP \$remote_addr;

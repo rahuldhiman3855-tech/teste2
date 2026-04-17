@@ -25,9 +25,44 @@ const MAX_CONTEXT_RESULTS = 5;
 const MAX_IMAGE_DIMENSION = 1400;
 const VISION_IMAGE_LIMIT_PER_RESULT = 3;
 const CHUNK_CHAR_LIMIT = 1200;
+const DEBUG_STORE_DIR = path.join(REPO_ROOT, "var");
+const DEBUG_STORE_FILE = path.join(DEBUG_STORE_DIR, "chat-debug-sessions.jsonl");
 
 function normalizeWhitespace(text) {
   return text.replace(/\r\n/g, "\n").replace(/\r/g, "\n").replace(/[ \t]+/g, " ").trim();
+}
+
+function ensureDebugStore() {
+  fs.mkdirSync(DEBUG_STORE_DIR, { recursive: true });
+}
+
+function appendDebugRecord(record) {
+  ensureDebugStore();
+  fs.appendFileSync(DEBUG_STORE_FILE, `${JSON.stringify(record)}\n`, "utf8");
+}
+
+function ensureDebugSessionId(sessionId) {
+  if (sessionId && String(sessionId).trim()) {
+    return String(sessionId).trim();
+  }
+  return `local-${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+}
+
+function readDebugRecords() {
+  if (!fs.existsSync(DEBUG_STORE_FILE)) {
+    return [];
+  }
+
+  const lines = fs.readFileSync(DEBUG_STORE_FILE, "utf8").split("\n").filter(Boolean);
+  const records = [];
+  for (const line of lines) {
+    try {
+      records.push(JSON.parse(line));
+    } catch {
+      // Skip malformed lines.
+    }
+  }
+  return records;
 }
 
 function isGreetingOnlyQuery(query) {
@@ -226,7 +261,13 @@ async function fetchSystemPrompt() {
 }
 
 async function buildRagContext(query) {
-  if (!query.trim() || isGreetingOnlyQuery(query)) return null;
+  if (!query.trim() || isGreetingOnlyQuery(query)) {
+    return {
+      contextText: null,
+      retrievedChunks: [],
+      contextImages: [],
+    };
+  }
 
   try {
     const response = await fetch(
@@ -237,11 +278,23 @@ async function buildRagContext(query) {
           min_matches: "1",
         }).toString()
     );
-    if (!response.ok) return null;
+    if (!response.ok) {
+      return {
+        contextText: null,
+        retrievedChunks: [],
+        contextImages: [],
+      };
+    }
 
     const data = await response.json();
     const results = Array.isArray(data?.results) ? data.results : [];
-    if (results.length === 0) return null;
+    if (results.length === 0) {
+      return {
+        contextText: null,
+        retrievedChunks: [],
+        contextImages: [],
+      };
+    }
 
     const scoredResults = results
       .map((result) => ({
@@ -253,9 +306,16 @@ async function buildRagContext(query) {
       .sort((a, b) => b.score - a.score);
 
     const prioritized = scoredResults.slice(0, MAX_CONTEXT_RESULTS);
-    if (prioritized.length === 0) return null;
+    if (prioritized.length === 0) {
+      return {
+        contextText: null,
+        retrievedChunks: [],
+        contextImages: [],
+      };
+    }
 
     const contextParts = [];
+    const retrievedChunks = [];
     let totalChars = 0;
 
     for (let index = 0; index < prioritized.length; index += 1) {
@@ -266,6 +326,21 @@ async function buildRagContext(query) {
       const hasImages = imagePaths.length > 0;
       const visualSummary = hasImages ? await summarizeChunkWithVision(NVIDIA_API_KEY, result) : "";
       const compressedText = compressRagChunk(String(result.text || ""), CHUNK_CHAR_LIMIT);
+      retrievedChunks.push({
+        result_index: index + 1,
+        document_id: String(result.document_id || ""),
+        original_filename: String(result.original_filename || "unknown"),
+        chunk_index: Number(result.chunk_index || index + 1),
+        page_start: Number(result.page_start || 0),
+        page_end: Number(result.page_end || 0),
+        matched_terms: Array.isArray(result.matched_terms) ? result.matched_terms : [],
+        score: Number(result.score || 0),
+        occurrences: Number(result.occurrences || 0),
+        text: String(result.text || ""),
+        compressed_text: compressedText,
+        image_paths: imagePaths,
+        visual_summary: visualSummary || "",
+      });
       const block = [
         header,
         matchedTerms ? `Matched terms: ${matchedTerms}` : null,
@@ -284,13 +359,26 @@ async function buildRagContext(query) {
       totalChars += block.length;
     }
 
-    return [
+    const contextImages = [...new Set(retrievedChunks.flatMap((chunk) => chunk.image_paths))].map((path) => ({
+      path,
+      url: `${RAG_API_URL}/api/assets/${path}`,
+    }));
+
+    return {
+      contextText: [
       "RAG context below is OCR/image-derived evidence. Use image summaries before text summaries when they conflict.",
       "Prioritize diagrams, charts, screenshots, and flow structure over generic text.",
       ...contextParts,
-    ].join("\n\n");
+      ].join("\n\n"),
+      retrievedChunks,
+      contextImages,
+    };
   } catch {
-    return null;
+    return {
+      contextText: null,
+      retrievedChunks: [],
+      contextImages: [],
+    };
   }
 }
 
@@ -298,9 +386,10 @@ async function handleChat(req, res) {
   let body = "";
   for await (const chunk of req) body += chunk;
 
-  const { messages, temperature, max_tokens, model, provider } = JSON.parse(body || "{}");
+  const { messages, temperature, max_tokens, model, provider, session_id } = JSON.parse(body || "{}");
   const selectedProvider = String(provider || "nvidia").toLowerCase();
   const latestUserMessage = [...(messages || [])].reverse().find((message) => message?.role === "user" && message.content?.trim())?.content?.trim() || "";
+  const effectiveSessionId = ensureDebugSessionId(session_id);
 
   console.log("chat request", {
     provider: selectedProvider,
@@ -323,8 +412,19 @@ async function handleChat(req, res) {
 
   const allowedModel = NVIDIA_MODELS.has(model) ? model : ANSWER_MODEL;
   const systemPrompt = await fetchSystemPrompt();
-  const ragContext = await buildRagContext(latestUserMessage);
-  const augmentedSystemPrompt = ragContext ? `${systemPrompt}\n\n${ragContext}` : systemPrompt;
+  const ragContextBundle = await buildRagContext(latestUserMessage);
+  const augmentedSystemPrompt = ragContextBundle.contextText ? `${systemPrompt}\n\n${ragContextBundle.contextText}` : systemPrompt;
+  const debugPayload = {
+    session_id: effectiveSessionId,
+    source: "local",
+    provider: selectedProvider,
+    model: allowedModel,
+    query: latestUserMessage,
+    rag_used: !!ragContextBundle.contextText,
+    rag_context: ragContextBundle.contextText,
+    retrieved_chunks: ragContextBundle.retrievedChunks,
+    context_images: ragContextBundle.contextImages,
+  };
 
   const upstream = await fetch("https://integrate.api.nvidia.com/v1/chat/completions", {
     method: "POST",
@@ -362,12 +462,124 @@ async function handleChat(req, res) {
 
   const reader = upstream.body.getReader();
   const decoder = new TextDecoder();
+  let buffer = "";
+  let assistantText = "";
+  res.write(`data: ${JSON.stringify({ debug: debugPayload })}\n\n`);
   while (true) {
     const { done, value } = await reader.read();
     if (done) break;
-    res.write(decoder.decode(value, { stream: true }));
+    const decoded = decoder.decode(value, { stream: true });
+    res.write(decoded);
+    buffer += decoded;
+
+    let newlineIndex = buffer.indexOf("\n");
+    while (newlineIndex !== -1) {
+      let line = buffer.slice(0, newlineIndex);
+      buffer = buffer.slice(newlineIndex + 1);
+
+      if (line.endsWith("\r")) line = line.slice(0, -1);
+      if (line.startsWith(":") || line.trim() === "") {
+        newlineIndex = buffer.indexOf("\n");
+        continue;
+      }
+      if (!line.startsWith("data: ")) {
+        newlineIndex = buffer.indexOf("\n");
+        continue;
+      }
+
+      const jsonStr = line.slice(6).trim();
+      if (jsonStr === "[DONE]") {
+        newlineIndex = buffer.indexOf("\n");
+        continue;
+      }
+
+      try {
+        const parsed = JSON.parse(jsonStr);
+        const content = parsed?.choices?.[0]?.delta?.content;
+        if (typeof content === "string") {
+          assistantText += content;
+        }
+      } catch {
+        // Ignore parse issues and forward the raw line.
+      }
+      newlineIndex = buffer.indexOf("\n");
+    }
   }
+  appendDebugRecord({
+    created_at: new Date().toISOString(),
+    session_id: effectiveSessionId,
+    messages: messages || [],
+    assistant_response: assistantText,
+    debug_payload: debugPayload,
+  });
   res.end();
+}
+
+function buildDebugSessionSummaries() {
+  const records = readDebugRecords();
+  const grouped = new Map();
+
+  for (const record of records) {
+    const sessionId = String(record.session_id || "");
+    if (!sessionId) continue;
+    const existing = grouped.get(sessionId) || [];
+    existing.push(record);
+    grouped.set(sessionId, existing);
+  }
+
+  return [...grouped.entries()]
+    .map(([sessionId, sessionRecords]) => {
+      const sorted = [...sessionRecords].sort((a, b) => new Date(a.created_at || 0).getTime() - new Date(b.created_at || 0).getTime());
+      const first = sorted[0];
+      const last = sorted[sorted.length - 1];
+      return {
+        session_id: sessionId,
+        source: "local",
+        turn_count: sorted.length,
+        session_start: first?.created_at || null,
+        session_end: last?.created_at || null,
+        preview: String(first?.messages?.find((message) => message?.role === "user")?.content || "New conversation").slice(0, 160),
+        last_activity_at: last?.created_at || null,
+      };
+    })
+    .sort((a, b) => new Date(b.last_activity_at || 0).getTime() - new Date(a.last_activity_at || 0).getTime());
+}
+
+function buildDebugSessionDetail(sessionId) {
+  const records = readDebugRecords().filter((record) => String(record.session_id || "") === sessionId);
+  const sorted = [...records].sort((a, b) => new Date(a.created_at || 0).getTime() - new Date(b.created_at || 0).getTime());
+  if (sorted.length === 0) {
+    return null;
+  }
+
+  return {
+    session: {
+      id: sessionId,
+      source: "local",
+      total_messages: sorted.length * 2,
+      session_start: sorted[0].created_at || null,
+      session_end: sorted[sorted.length - 1].created_at || null,
+      is_active: false,
+      metadata: null,
+    },
+    logs: sorted.map((record, index) => ({
+      id: `${sessionId}-${index}`,
+      session_id: sessionId,
+      created_at: record.created_at,
+      user_message: String(record.messages?.find((message) => message?.role === "user")?.content || ""),
+      ai_response: String(record.assistant_response || ""),
+      provider: record.debug_payload?.provider || "nvidia",
+      model: record.debug_payload?.model || ANSWER_MODEL,
+      rag_context: record.debug_payload?.rag_context || null,
+      retrieved_chunks: record.debug_payload?.retrieved_chunks || [],
+      context_images: record.debug_payload?.context_images || [],
+      debug_payload: record.debug_payload || {},
+      user_id: null,
+      response_time_ms: null,
+      topic: null,
+      confidence_score: null,
+    })),
+  };
 }
 
 const server = http.createServer((req, res) => {
@@ -388,6 +600,26 @@ const server = http.createServer((req, res) => {
       res.writeHead(500, { "Content-Type": "application/json" });
       res.end(JSON.stringify({ error: error instanceof Error ? error.message : String(error) }));
     });
+    return;
+  }
+
+  if (req.method === "GET" && url.pathname === "/functions/v1/debug/sessions") {
+    res.writeHead(200, { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" });
+    res.end(JSON.stringify({ sessions: buildDebugSessionSummaries() }));
+    return;
+  }
+
+  const sessionMatch = url.pathname.match(/^\/functions\/v1\/debug\/sessions\/([^/]+)$/);
+  if (req.method === "GET" && sessionMatch) {
+    const payload = buildDebugSessionDetail(decodeURIComponent(sessionMatch[1]));
+    if (!payload) {
+      res.writeHead(404, { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" });
+      res.end(JSON.stringify({ error: "Session not found" }));
+      return;
+    }
+
+    res.writeHead(200, { "Content-Type": "application/json", "Access-Control-Allow-Origin": "*" });
+    res.end(JSON.stringify(payload));
     return;
   }
 

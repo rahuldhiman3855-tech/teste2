@@ -7,6 +7,7 @@ import CodeBlock from "@/components/CodeBlock";
 import { Button } from "@/components/ui/button";
 import { useSavedResponses } from "@/hooks/useSavedResponses";
 import { useAgentConfig } from "@/hooks/useAgentConfig";
+import { getRagAssetUrl } from "@/lib/chatDebug";
 import {
   Dialog,
   DialogContent,
@@ -32,6 +33,20 @@ interface ChatMessageProps {
   rating?: number;
   followUpQuestion?: string;
   relatedResources?: Array<{ title: string; url: string }>;
+  debugPayload?: {
+    rag_context?: string | null;
+    context_images?: Array<{ path: string; url?: string }>;
+    retrieved_chunks?: Array<{
+      original_filename?: string;
+      chunk_index?: number;
+      page_start?: number;
+      page_end?: number;
+      matched_terms?: string[];
+      compressed_text?: string;
+      visual_summary?: string;
+      image_paths?: string[];
+    }>;
+  };
   onRating?: (delta: number) => void;
   onFollowUpClick?: (question: string) => void;
 }
@@ -43,6 +58,7 @@ const ChatMessage = ({
   rating, 
   followUpQuestion, 
   relatedResources,
+  debugPayload,
   onRating,
   onFollowUpClick 
 }: ChatMessageProps) => {
@@ -192,6 +208,13 @@ const ChatMessage = ({
               {children}
             </a>
           ),
+          img: ({ src, alt }) => (
+            <img
+              src={src || ""}
+              alt={alt || ""}
+              className="my-3 max-w-full rounded-lg border border-border shadow-sm"
+            />
+          ),
           // Blockquotes
           blockquote: ({ children }) => (
             <blockquote className="border-l-4 border-primary/50 pl-4 my-3 italic text-muted-foreground">
@@ -264,6 +287,31 @@ const ChatMessage = ({
                 </a>
               );
             })}
+          </div>
+        )}
+        {isAssistant && debugPayload?.rag_context && (
+          <details className="mb-4 rounded-lg border border-border bg-muted/20 px-3 py-2">
+            <summary className="cursor-pointer text-xs font-medium text-muted-foreground">
+              Grounding context
+            </summary>
+            <div className="mt-2 prose prose-sm max-w-none text-foreground/90 leading-relaxed">
+              {renderContent(debugPayload.rag_context)}
+            </div>
+          </details>
+        )}
+        {isAssistant && (debugPayload?.context_images?.length || 0) > 0 && (
+          <div className="mb-4 space-y-2">
+            <p className="text-xs font-medium text-muted-foreground">Context images</p>
+            <div className="rounded-lg border border-border bg-background p-3">
+              {renderContent(
+                (debugPayload?.context_images || [])
+                  .map((image, index) => {
+                    const url = image.url || getRagAssetUrl(image.path);
+                    return `![Context image ${index + 1}](${url})\n\n${image.path}`;
+                  })
+                  .join("\n\n")
+              )}
+            </div>
           </div>
         )}
 
