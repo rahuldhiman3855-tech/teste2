@@ -1,0 +1,210 @@
+#!/usr/bin/env bash
+# capture.sh - flexible hcxdumptool driver for monitor-mode capture.
+#
+# Usage:
+#   sudo ./capture.sh [options]
+#
+# Options:
+#   -i, --iface IFACE         Wireless interface (default: wlo1)
+#   -c, --channel CHAN[,..]   Channel(s) or frequency in MHz.
+#                             Single (157), list for hopping (1,6,11),
+#                             or raw frequency (5785). Default: 157
+#   -o, --output FILE         Output pcapng path
+#                             (default: ~/Wi-Fi_capture_<timestamp>.pcapng)
+#   -t, --time SECONDS        Stop capture after N seconds (default: until Ctrl-C)
+#   -m, --rds MODE            --rds mode 0-4 (default: 1)
+#                             0=headless 1=cur-chan 2=all-APs 3=all 4=waterfall
+#   -b, --bssid AA:BB:..      Restrict capture to one AP MAC via BPF.
+#                             Reduces noise; recommended for own-AP testing.
+#   -e, --essid "NAME"        Save expected ESSID into hcxdumptool's essidlist
+#                             so PROBERESPONSES are advertised under that name.
+#   --no-workaround           Skip iwlwifi reload (use for non-Intel adapters).
+#   --keep-nm                 Do not stop NetworkManager (will likely fail; for
+#                             advanced users with dedicated capture adapter).
+#   -h, --help                Show this help and exit.
+#
+# Examples:
+#   sudo ./capture.sh -c 157 -b C2:10:07:AD:59:EF -t 300
+#   sudo ./capture.sh -c 1,6,11 -m 2
+#   sudo ./capture.sh -i wlan1 --no-workaround -c 36
+
+set -uo pipefail
+
+show_help() { sed -n '2,30p' "$0" | sed 's/^# \{0,1\}//'; }
+
+IFACE="wlo1"
+CHANNEL="157"
+OUTPUT=""
+TIMELIMIT=""
+RDS="1"
+BSSID=""
+ESSID=""
+NO_WORKAROUND=0
+KEEP_NM=0
+
+while [ $# -gt 0 ]; do
+    case "$1" in
+        -i|--iface)    IFACE="$2"; shift 2 ;;
+        -c|--channel)  CHANNEL="$2"; shift 2 ;;
+        -o|--output)   OUTPUT="$2"; shift 2 ;;
+        -t|--time)     TIMELIMIT="$2"; shift 2 ;;
+        -m|--rds)      RDS="$2"; shift 2 ;;
+        -b|--bssid)    BSSID="$2"; shift 2 ;;
+        -e|--essid)    ESSID="$2"; shift 2 ;;
+        --no-workaround) NO_WORKAROUND=1; shift ;;
+        --keep-nm)     KEEP_NM=1; shift ;;
+        -h|--help)     show_help; exit 0 ;;
+        *)             echo "[!] Unknown option: $1"; show_help; exit 1 ;;
+    esac
+done
+
+[ -z "$OUTPUT" ] && OUTPUT="$HOME/Wi-Fi_capture_$(date +%Y%m%d_%H%M%S).pcapng"
+
+if [ "$EUID" -ne 0 ]; then
+    echo "[!] Run with sudo: sudo $0 $*"
+    exit 1
+fi
+
+if ! ip link show "$IFACE" >/dev/null 2>&1; then
+    echo "[!] Interface '$IFACE' not found. Available:"
+    iw dev 2>/dev/null | awk '/Interface/{print "      "$2}'
+    exit 1
+fi
+
+# --- Build hcxdumptool channel/freq arg list ---
+HCX_CH_ARG=()
+declare -a CHAN_LIST
+IFS=',' read -ra CHAN_LIST <<< "$CHANNEL"
+FREQ_LIST=""
+CHAN_TOKENS=""
+for c in "${CHAN_LIST[@]}"; do
+    case "$c" in
+        *[!0-9]*|"") echo "[!] Bad channel value: '$c'"; exit 1 ;;
+    esac
+    if [ "$c" -ge 1000 ]; then
+        FREQ_LIST+="${c},"
+    elif [ "$c" -gt 14 ]; then
+        CHAN_TOKENS+="${c}b,"
+    else
+        CHAN_TOKENS+="${c}a,"
+    fi
+done
+[ -n "$CHAN_TOKENS" ] && HCX_CH_ARG+=( -c "${CHAN_TOKENS%,}" )
+[ -n "$FREQ_LIST" ]    && HCX_CH_ARG+=( -f "${FREQ_LIST%,}" )
+
+FIRST_CHAN="${CHAN_LIST[0]}"
+
+# --- Validate BSSID format up-front (compile happens after monitor mode is set) ---
+BPF_ARG=()
+if [ -n "$BSSID" ]; then
+    if ! [[ "$BSSID" =~ ^([0-9A-Fa-f]{2}:){5}[0-9A-Fa-f]{2}$ ]]; then
+        echo "[!] -b/--bssid must look like AA:BB:CC:DD:EE:FF"
+        exit 1
+    fi
+fi
+
+# --- Optional ESSID list ---
+ESSID_ARG=()
+if [ -n "$ESSID" ]; then
+    ESSID_FILE="/tmp/capture_essid_$$.list"
+    printf '%s\n' "$ESSID" > "$ESSID_FILE"
+    ESSID_ARG+=( --essidlist="$ESSID_FILE" )
+fi
+
+# --- Cleanup on exit ---
+cleanup() {
+    [ -n "${BPF_FILE:-}" ] && rm -f "$BPF_FILE"
+    [ -n "${ESSID_FILE:-}" ] && rm -f "$ESSID_FILE"
+}
+trap cleanup EXIT
+
+# --- Stop NM if not asked to keep it ---
+if [ "$KEEP_NM" -eq 0 ]; then
+    echo "[*] Stopping NetworkManager and wpa_supplicant..."
+    systemctl stop NetworkManager wpa_supplicant 2>/dev/null
+    pkill -9 wpa_supplicant 2>/dev/null
+    sleep 1
+fi
+
+# --- AX201 / iwlwifi monitor-mode workaround ---
+if [ "$NO_WORKAROUND" -eq 0 ]; then
+    echo "[*] Reloading iwlwifi with monitor workaround (11n_disable=1)..."
+    rmmod iwlmvm 2>/dev/null
+    rmmod iwlwifi 2>/dev/null
+    modprobe iwlwifi 11n_disable=1 power_save=0
+    sleep 3
+    if ! ip link show "$IFACE" >/dev/null 2>&1; then
+        echo "[!] $IFACE disappeared after modprobe. Aborting."
+        exit 1
+    fi
+fi
+
+# --- Put interface into monitor mode on the first channel ---
+echo "[*] Setting $IFACE -> monitor mode, starting on channel/freq $FIRST_CHAN..."
+ip link set "$IFACE" down
+iw dev "$IFACE" set type monitor
+iw dev "$IFACE" set monitor control otherbss
+ip link set "$IFACE" up
+if [ "$FIRST_CHAN" -ge 1000 ]; then
+    iw dev "$IFACE" set freq "$FIRST_CHAN"
+else
+    iw dev "$IFACE" set channel "$FIRST_CHAN"
+fi
+iw dev "$IFACE" info | grep -E "type|channel|wiphy"
+
+# --- Compile BSSID BPF filter via tcpdump (hcxdumptool 6.x lacks --bpfc) ---
+if [ -n "$BSSID" ]; then
+    if ! command -v tcpdump >/dev/null 2>&1; then
+        echo "[!] tcpdump not installed; cannot compile BPF filter."
+        echo "    Install with: sudo apt install tcpdump"
+        echo "    Continuing without BSSID filter."
+    else
+        BPF_FILE="/tmp/capture_bpf_$$.bpf"
+        BPF_ERR="/tmp/capture_bpf_$$.err"
+        BSSID_LC=$(echo "$BSSID" | tr 'A-F' 'a-f')
+        # Match any frame touching the target BSSID + keep broadcast probe-reqs
+        # (the latter is recommended by hcxdumptool docs so it can still see new clients).
+        FILTER="wlan addr1 ${BSSID_LC} or wlan addr2 ${BSSID_LC} or wlan addr3 ${BSSID_LC} or wlan addr3 ff:ff:ff:ff:ff:ff"
+        if tcpdump -y IEEE802_11_RADIO -ddd "$FILTER" > "$BPF_FILE" 2>"$BPF_ERR"; then
+            BPF_ARG+=( --bpf="$BPF_FILE" )
+            echo "[*] BPF filter compiled: only frames involving $BSSID"
+            rm -f "$BPF_ERR"
+        else
+            echo "[!] tcpdump BPF compile failed:"
+            sed 's/^/    /' "$BPF_ERR"
+            echo "    Continuing without BSSID filter."
+            rm -f "$BPF_FILE" "$BPF_ERR"
+        fi
+    fi
+fi
+
+# --- Build full hcxdumptool command ---
+HCX_CMD=( hcxdumptool -i "$IFACE"
+    "${HCX_CH_ARG[@]}"
+    -w "$OUTPUT"
+    --rds="$RDS"
+    "${BPF_ARG[@]}"
+    "${ESSID_ARG[@]}"
+)
+
+echo
+echo "[*] Command: ${HCX_CMD[*]}"
+[ -n "$TIMELIMIT" ] && echo "[*] Auto-stop after ${TIMELIMIT}s"
+echo "[*] Output:  $OUTPUT"
+echo "[*] TIP: to produce a fresh 4-way handshake on a device you own,"
+echo "    toggle Wi-Fi off and back on on that device while this runs."
+echo
+
+if [ -n "$TIMELIMIT" ]; then
+    timeout "$TIMELIMIT" "${HCX_CMD[@]}"
+else
+    "${HCX_CMD[@]}"
+fi
+
+EXIT=$?
+echo
+echo "[*] hcxdumptool exit: $EXIT"
+chown "${SUDO_USER:-root}:${SUDO_USER:-root}" "$OUTPUT" 2>/dev/null
+echo "[*] Capture saved: $OUTPUT"
+echo "[*] Run: sudo ./restore.sh   to bring networking back."
+echo "[*] Run: ./analyze.sh \"$OUTPUT\"   to inspect the capture."
